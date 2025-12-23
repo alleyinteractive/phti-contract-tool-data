@@ -10,5 +10,5 @@ jobs:
       - name: Validate JSON
         uses: docker://orrosenblatt/validate-json-action:latest
         env:
-          INPUT_JSONS: ./behvioral-health.json,./diabetes.json,./hypertension.json,./musculoskeletal.json
+          INPUT_JSONS: ./behavioral-health.json,./diabetes.json,./hypertension.json,./musculoskeletal.json
           INPUT_SCHEMA: ./schema.json
