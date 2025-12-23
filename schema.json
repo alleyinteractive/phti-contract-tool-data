@@ -1,0 +1,259 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "PHTI Contract Tool Schema",
+  "description": "JSON Schema for PHTI contract tool form data files",
+  "type": "object",
+  "required": ["heading"],
+  "properties": {
+    "heading": {
+      "type": "string",
+      "description": "The main heading or title of the form"
+    },
+    "description": {
+      "type": "string",
+      "description": "A description of the form"
+    },
+    "link": {
+      "type": "string",
+      "format": "uri",
+      "description": "A URL link associated with the form"
+    },
+    "steps": {
+      "type": "array",
+      "description": "Array of step/section objects for simple form structure",
+      "items": {
+        "$ref": "#/definitions/step"
+      }
+    },
+    "sections": {
+      "type": "array",
+      "description": "Array of section objects for complex form structure",
+      "items": {
+        "$ref": "#/definitions/section"
+      }
+    }
+  },
+  "oneOf": [
+    {
+      "required": ["steps"],
+      "not": {
+        "required": ["sections"]
+      }
+    },
+    {
+      "required": ["sections"],
+      "not": {
+        "required": ["steps"]
+      }
+    }
+  ],
+  "definitions": {
+    "step": {
+      "type": "object",
+      "required": ["id"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique identifier for the step"
+        },
+        "heading": {
+          "type": "string",
+          "description": "The heading of the step"
+        },
+        "description": {
+          "type": "string",
+          "description": "Description text for the step (may contain HTML)"
+        },
+        "link": {
+          "type": "string",
+          "format": "uri",
+          "description": "A URL link associated with the step"
+        },
+        "note": {
+          "type": "string",
+          "description": "Additional note or information for the step"
+        },
+        "fields": {
+          "type": "array",
+          "description": "Array of field objects",
+          "items": {
+            "$ref": "#/definitions/field"
+          }
+        }
+      }
+    },
+    "section": {
+      "type": "object",
+      "required": ["id", "heading"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique identifier for the section"
+        },
+        "heading": {
+          "type": "string",
+          "description": "The heading of the section"
+        },
+        "tooltipDrawer": {
+          "$ref": "#/definitions/tooltipDrawer"
+        },
+        "steps": {
+          "type": "array",
+          "description": "Array of steps within the section",
+          "items": {
+            "$ref": "#/definitions/step"
+          }
+        }
+      }
+    },
+    "field": {
+      "type": "object",
+      "required": ["id"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique identifier for the field"
+        },
+        "label": {
+          "type": "string",
+          "description": "Label text for the field"
+        },
+        "description": {
+          "type": "string",
+          "description": "Description text for the field"
+        },
+        "inputType": {
+          "type": "string",
+          "enum": ["text", "textarea", "number", "date", "email", "select", "radio", "checkbox"],
+          "description": "Type of input field (for simple structure)"
+        },
+        "type": {
+          "type": "string",
+          "enum": ["text", "textarea", "number", "date", "email", "select", "radio", "checkbox"],
+          "description": "Type of input field (for complex structure)"
+        },
+        "options": {
+          "oneOf": [
+            {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "description": "Array of string options (simple structure)"
+            },
+            {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/option"
+              },
+              "description": "Array of option objects (complex structure)"
+            }
+          ]
+        },
+        "default": {
+          "oneOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "string"
+            },
+            {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          ],
+          "description": "Default value(s) for the field"
+        },
+        "defaultFrom": {
+          "type": "string",
+          "description": "Reference to another field ID to get default value from"
+        },
+        "min": {
+          "type": "number",
+          "description": "Minimum value for number fields"
+        },
+        "max": {
+          "type": "number",
+          "description": "Maximum value for number fields"
+        },
+        "required": {
+          "type": "boolean",
+          "description": "Whether the field is required"
+        },
+        "tooltip": {
+          "$ref": "#/definitions/tooltip"
+        },
+        "note": {
+          "type": "string",
+          "description": "Additional note for the field"
+        },
+        "subfields": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/field"
+          },
+          "description": "Nested subfields for complex field structures"
+        }
+      }
+    },
+    "option": {
+      "type": "object",
+      "required": ["id", "label", "value"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique identifier for the option"
+        },
+        "label": {
+          "type": "string",
+          "description": "Label text for the option"
+        },
+        "value": {
+          "type": "string",
+          "description": "Value of the option"
+        },
+        "tooltip": {
+          "$ref": "#/definitions/tooltip"
+        },
+        "note": {
+          "type": "string",
+          "description": "Additional note for the option"
+        },
+        "subfields": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/field"
+          },
+          "description": "Nested subfields for the option"
+        }
+      }
+    },
+    "tooltip": {
+      "type": "object",
+      "required": ["text"],
+      "properties": {
+        "text": {
+          "type": "string",
+          "description": "Tooltip text (may contain HTML)"
+        }
+      }
+    },
+    "tooltipDrawer": {
+      "type": "object",
+      "required": ["label", "text"],
+      "properties": {
+        "label": {
+          "type": "string",
+          "description": "Label for the tooltip drawer"
+        },
+        "text": {
+          "type": "string",
+          "description": "Content text for the tooltip drawer (may contain HTML)"
+        }
+      }
+    }
+  }
+}
