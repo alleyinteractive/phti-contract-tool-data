@@ -3,7 +3,7 @@
   "title": "PHTI Contract Tool Schema",
   "description": "JSON Schema for PHTI contract tool form data files",
   "type": "object",
-  "required": ["heading"],
+  "required": ["heading", "fileName"],
   "properties": {
     "heading": {
       "type": "string",
