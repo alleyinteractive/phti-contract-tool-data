@@ -9,14 +9,9 @@
       "type": "string",
       "description": "The main heading or title of the form"
     },
-    "description": {
+    "fileName": {
       "type": "string",
-      "description": "A description of the form"
-    },
-    "link": {
-      "type": "string",
-      "format": "uri",
-      "description": "A URL link associated with the form"
+      "description": "The string to use in the PDF file name"
     },
     "steps": {
       "type": "array",
