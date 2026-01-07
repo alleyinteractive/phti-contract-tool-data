@@ -309,7 +309,7 @@
                   "subfields": [
                     {
                       "id": "subfield-meaningful-performance-criteria-minimum-number-of-sessions",
-                      "label": "Minium number of sessions",
+                      "label": "Minimum number of sessions",
                       "type": "number",
                       "default": 9
                     }
