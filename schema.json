@@ -124,12 +124,12 @@
         },
         "inputType": {
           "type": "string",
-          "enum": ["text", "textarea", "number", "date", "email", "select", "radio", "checkbox"],
+          "enum": ["text", "textarea", "number", "date", "email", "select", "radio", "checkbox", "percentage"],
           "description": "Type of input field (for simple structure)"
         },
         "type": {
           "type": "string",
-          "enum": ["text", "textarea", "number", "date", "email", "select", "radio", "checkbox"],
+          "enum": ["text", "textarea", "number", "date", "email", "select", "radio", "checkbox", "percentage"],
           "description": "Type of input field (for complex structure)"
         },
         "options": {
