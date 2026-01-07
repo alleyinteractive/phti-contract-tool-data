@@ -1,120 +1,934 @@
 {
-  "heading": "Form Title",
-  "description": "Form description",
-  "link": "https://phti.org/page",
-  "steps": [
+  "heading": "Digital Diabetes Contracting Toolkit",
+  "sections": [
     {
-      "id": "section-id",
-      "heading": "Section Heading",
-      "description": "Section description",
-      "link": "https://phti.org/page",
-      "fields": [
+      "id": "section-introduction",
+      "heading": "<strong>Performance-Based Contracting Toolkit: Digital Diabetes Management Solutions</strong>",
+      "steps": [
         {
-          "id": "field-id",
-          "label": "Field Label",
-          "description": "Field description",
-          "inputType": "text"
+          "id": "step-introduction-welcome",
+          "description": "<p>This toolkit focuses on digital diabetes management solutions, drawing on findings from <a href='https://phti.org/assessment/digital-diabetes-management-tools/' target='_blank' rel='noopener noreferrer'>PHTI's Digital Diabetes Management Solutions Health Technology Assessment</a> and <a href='' target='_blank' rel='noopener noreferrer'>PHTI's Performance-Based Contracting Playbook</a>.</p><p><strong>What this toolkit does:</strong></p><p>Helps purchasers and vendors establish clear, evidence-based contract terms that align payment with improvements in glycemic control and related outcomes.</p><p>First, you will select the type of <strong><em>payment model</em></strong>. Next, you will determine the <em>inputs for <strong>outcome measures</strong></em>, which include eligibility criteria, meaningful engagement criteria, and performance metrics. Finally, you will select <strong><em>operational components</em></strong>, which include engagement approach, data sharing commitments, and administrative terms, to include in your contracts.</p><p><strong>A few notes before you continue:</strong></p><ul><li>This toolkit helps you navigate key contracting decisions for performance-based contracts. It does not create a binding legal contract.</li><li>These contracts do not address pricing—a critical lever for driving impact in performance-based contracts. Purchasers and vendors are encouraged to consult <a href='https://phti.org/assessments/' target='_blank' rel='noopener noreferrer'>PHTI’s assessment reports</a> and budget impact models as resources to guide pricing conversations.</li><li>Toolkit responses are anonymous. We do not gather or store any data about you, your organization, or your selections.</li></ul><p><strong>Prefer to skip the interactive toolkit? Download the digital diabetes management solutions toolkit with PHTI's recommended selections.</strong></p><p><em>The content of this playbook/report and its associated toolkits has been prepared by PHTI for informational purposes and does not constitute legal, medical, clinical or other professional advice. PHTI cannot make any guarantees or warranties regarding results from the use of such content. The content is not intended to replace thoughtful customization and drafting addressing an organization’s specific objectives and circumstances. All companies, specific products or case studies mentioned are for explanatory purposes only.</em></p>",
+          "descriptionPdf": "<p>PHTI’s performance-based contracting toolkits help purchasers and vendors negotiate contracts that link payment to verified outcomes, based on PHTI's independent evaluation and research.</p><p>This toolkit focuses on digital diabetes management solutions, drawing on findings from <a href='https://phti.org/assessment/digital-diabetes-management-tools/' target='_blank' rel='noopener noreferrer'>PHTI's Digital Diabetes Management Solutions Health Technology Assessment</a> and <a href='' target='_blank' rel='noopener noreferrer'>PHTI's Performance-Based Contracting Playbook</a>. It is meant to help purchasers and vendors establish clear, evidence-based contract terms that align payment with improvements in glycemic control and related outcomes.</p><p><em>The content of this playbook/report and its associated toolkits has been prepared by PHTI for informational purposes and does not constitute legal, medical, clinical or other professional advice. PHTI cannot make any guarantees or warranties regarding results from the use of such content. The content is not intended to replace thoughtful customization and drafting addressing an organization’s specific objectives and circumstances. All companies, specific products or case studies mentioned are for explanatory purposes only.</em></p>"
         }
       ]
     },
     {
-      "id": "section-id",
-      "heading": "Section Heading",
-      "description": "Section description",
-      "link": "https://phti.org/page",
-      "fields": [
+      "id": "section-section-payment-model",
+      "heading": "Payment Model",
+      "tooltipDrawer": {
+        "label": "Learn more about payment models.",
+        "text": "<p><strong>About Payment Models</strong></p><p>A performance-based contract structures your payments to reward outcomes while minimizing administrative burden, avoiding perverse incentives and balancing accountability with budget predictability.</p><p><strong>Contracting tips:</strong></p><p><strong>Per engaged member per month (PEMPM)</strong></p><ul><li>Consider adding a time limit for PEMPM payments for a given individual (e.g., until 3 quarters of stable HbA1C control).</li><li>Consider structuring PEMPM payments as a fixed, upfront fee that is tiered by the number of eligible members to simplify administration.</li></ul><p><strong>Performance payment</strong></p><ul><li>To define the maximum possible performance payment, utilize the anticipated total PEMPM payment for members who exceed agreed-upon program tenure.</li></ul><p><strong>Pharmacy shared savings</strong></p><ul><li>Define the time frame for calculating shared savings. This will typically be longer than the annual reconciliation for the performance payment (e.g., 3 years).</li><li>Subtract the payments made for PEMPM and performance payments during the shared savings measurement period to calculate the total savings as this reflects savings already shared with the vendor.</li></ul>"
+      },
+      "steps": [
         {
-          "id": "field-id",
-          "label": "Field Label",
-          "description": "Field description",
-          "inputType": "textarea"
+          "id": "step-payment-model-selection",
+          "heading": "Select the payment model(s) for the contract.",
+          "description": "<p>There are multiple ways to structure your payment. Many performance-based contracts today use a clawback model, in which vendors are paid up front, with the understanding that funds will be returned if previously agreed-upon performance guarantees are missed. In practice, though, clawbacks are rarely enforced as written. Purchasers report that this undermines accountability and creates friction with vendors, particularly at the end of a contract.</p><p>A stronger alternative is a two-stream payment model that separates fees for engaged members from performance payments—vendors receive a lower base fee tied to meaningful engagement, with the performance component withheld until outcomes are achieved. This approach maintains some vendor cash flow while withholding part of the fees for demonstrated results.</p><p><strong>PHTI recommends tying a majority of contract value to performance payment.</strong></p>",
+          "note": "PHTI recognizes that performance-based contracts include maintenance or follow-on periods to support sustained clinical outcomes when the evidence base supports it and at an appropriate cost. These periods should be contracted at a lower price point, with performance expectations tailored to member status at the maintenance period baseline. For members that remain above clinical thresholds at the beginning of the maintenance period, performance payment should be tied to improvement and achievement of control. For members already in control, performance payment should be tied to sustaining status and preventing regression.",
+          "instructions": "<p><strong><em>Recommended values are pre-filled. Percentages must sum to 100%.</em></strong></p>",
+          "fields": [
+            {
+              "id": "field-payment-model-selection",
+              "label": "",
+              "type": "checkbox",
+              "options": [
+                {
+                  "id": "option-payment-model-selection-pempm",
+                  "label": "Per-engaged-member-per-month (PEMPM)",
+                  "value": "pempm",
+                  "tooltip": {
+                    "text": "PEMPM: Monthly payment for each member meeting meaningful engagement criteria <em>(see section 3)</em>"
+                  },
+                  "subfields": [
+                    {
+                      "id": "subfield-payment-model-selection-pempm-percentage",
+                      "type": "percentage",
+                      "default": 30,
+                      "min": 0,
+                      "max": 100
+                    }
+                  ]
+                },
+                {
+                  "id": "option-payment-model-selection-performance-payment",
+                  "label": "Performance payment",
+                  "value": "performance-payment",
+                  "tooltip": {
+                    "text": "Additional payment based on achievement of selected performance measure(s) <em>(see section 4)</em>"
+                  },
+                  "subfields": [
+                    {
+                      "id": "subfield-payment-model-selection-performance-payment-percentage",
+                      "type": "percentage",
+                      "default": 70,
+                      "min": 0,
+                      "max": 100
+                    }
+                  ]
+                },
+                {
+                  "id": "option-payment-model-selection-shared-savings",
+                  "label": "Pharmacy shared savings",
+                  "value": "shared-savings",
+                  "tooltip": {
+                    "text": "Shared savings represent a portion of avoided pharmacy spending on diabetes medications for the engaged population, as expected to be incurred if the solution were not implemented."
+                  },
+                  "note": "Should only be pursued by purchasers who are able to analyze and validate statistically valid cost savings results, either in-house or through a third-party vendor."
+                }
+              ],
+              "default": ["pempm", "performance-payment"]
+            }
+          ]
         }
       ]
     },
     {
-      "id": "section-id",
-      "heading": "Section Heading",
-      "description": "Section description",
-      "link": "https://phti.org/page",
-      "fields": [
+      "id": "section-eligibility-criteria",
+      "heading": "Eligibility Criteria",
+      "tooltipDrawer": {
+        "label": "Understand more about eligibility criteria.",
+        "text": "<p><strong>About Eligibility Criteria</strong></p><p>Eligibility criteria determine which plan members may engage with the solution and have their outcomes measured. Eligibility typically includes clinical criteria, demographics, or utilization history.</p><p>The <strong>inclusion and exclusion criteria</strong> define the total population of eligible members who may engage with the solution. Narrowing the eligibility will limit the number of individuals who may be included in the denominator and the numerator.</p></p><p><strong>Contracting tip:</strong></p><ul><li>Include clause allowing digital health solution vendor to update the exclusion criteria based on medical contraindications.</li><li>Specify timing for when exclusion criteria adjustments can be made to the contract.</li></ul>"
+      },
+      "steps": [
         {
-          "id": "field-id",
-          "label": "Field Label",
-          "description": "Field description",
-          "inputType": "number"
+          "id": "step-introduction",
+          "description": "<p>The following section details the inputs required to define the eligible population and calculate outcomes measures. The selections for each of these components will impact the threshold for PEMPM payments as well as the equation for calculating performance withholds.</p><p><strong>Performance Payment Calculation:</strong></p><ul><li><strong><u>Numerator:</u></strong> For cohort in the denominator, number of <strong>eligible members</strong> who meet <strong>the performance threshold for the measure of interest.</strong></li><li><strong><u>Denominator:</u></strong> Total <strong>eligible members</strong> who meet the <strong>meaningful engagement definition</strong> for duration of <strong>program tenure requirement.</strong></li></ul><p><strong>Definitions:</strong></p><ul><li><strong>The inclusion and exclusion criteria (question 2)</strong> define the total population of eligible members who may engage with the solution. Narrowing the eligibility will limit the number of individuals who may be included in the denominator and the numerator.</li><li><strong>The performance threshold for the measure of interest (question 4a)</strong> defines the target clinical improvement. Raising the target will shrink the number of individuals in the numerator, decreasing the overall performance payment.</li><li><strong>The meaningful engagement definition (question 3)</strong> defines what level of engagement is required for an individual to be included in the calculations. Increasing the requirements will shrink the number of individuals in the denominator and the numerator.</li><li><strong>The program tenure requirement (question 4b)</strong> defines the minimum amount of time an individual must engage with the solution to be included in the calculations. Increasing the tenure requirement will shrink the number of individuals in the denominator and the numerator.</li></ul>",
+          "imgSrc": "eligibility-criteria-intro.png",
+          "imgAlt": "PBC Outcome Measure Calculation Graphic"
+        },
+        {
+          "id": "step-eligibility-criteria",
+          "heading": "Select the plan members eligible to use the solution.",
+          "description": "<strong><em>Recommended values are pre-filled.</em></strong>",
+          "fields": [
+            {
+              "id": "field-eligibility-criteria-inclusion-criteria",
+              "label": "Inclusion Criteria",
+              "type": "radio",
+              "options": [
+                {
+                  "id": "option-eligibility-criteria-all-members",
+                  "label": "All members",
+                  "value": "all-members"
+                },
+                {
+                  "id": "option-eligibility-criteria-clinically-appropriate-diagnosis-diabetes",
+                  "label": "Only patients with a clinically appropriate diagnosis of diabetes",
+                  "value": "clinically-appropriate-diagnosis-diabetes",
+                  "subfields": [
+                    {
+                      "id": "subfield-eligibility-criteria-clinically-appropriate-diagnosis-diabetes",
+                      "label": "",
+                      "type": "radio",
+                      "options": [
+                        {
+                          "id": "option-eligibility-criteria-laboratory-findings-and-or-documented-diagnosis",
+                          "label": "Laboratory findings of type 2 diabetes and/or documented diagnosis of type 2 diabetes",
+                          "value": "laboratory-findings-and-or-documented-diagnosis"
+                        },
+                        {
+                          "id": "option-eligibility-criteria-on-diabetes-prescription-with-diagnosis",
+                          "label": "On diabetes prescription medicine with accompanying diagnosis of type 2 diabetes",
+                          "value": "on-diabetes-prescription-with-diagnosis",
+                          "tooltip": {
+                            "text": "Consider clinical review clause for members eligible only due to Rx use to avoid inclusion due to off-label medication use"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "option-eligibility-criteria-subset-patients",
+                  "label": "Limit offering to subset of people with diabetes most likely to benefit",
+                  "description": "Select one or more.",
+                  "value": "subset-patients",
+                  "subfields": [
+                    {
+                      "id": "subfield-eligibility-criteria-subset-patients",
+                      "label": "",
+                      "type": "checkbox",
+                      "options": [
+                        {
+                          "id": "option-eligibility-criteria-hba1c-greater-than-7",
+                          "label": "Those with A1C > 9",
+                          "value": "hba1c-greater-than-9"
+                        },
+                        {
+                          "id": "option-eligibility-criteria-newly-starting-insulin",
+                          "label": "Those newly starting insulin",
+                          "value": "newly-starting-insulin"
+                        },
+                        {
+                          "id": "option-eligibility-criteria-ed-visit-or-inpatient-discharge",
+                          "label": "Those with recent emergency department visit or inpatient discharge",
+                          "value": "ed-visit-or-inpatient-discharge"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "default": ["all-members"]
+            },
+            {
+              "id": "field-eligibility-criteria-exclusion-criteria",
+              "label": "Exclusion Criteria",
+              "description": "Select all that apply.",
+              "type": "checkbox",
+              "options": [
+                {
+                  "id": "option-eligibility-criteria-exclusion-criteria-advanced-chronic-kidney-disease",
+                  "label": "Advanced chronic kidney disease",
+                  "value": "advanced-chronic-kidney-disease"
+                },
+                {
+                  "id": "option-eligibility-criteria-exclusion-criteria-advanced-heart-failure",
+                  "label": "Advanced heart failure",
+                  "value": "advanced-heart-failure"
+                },
+                {
+                  "id": "option-eligibility-criteria-exclusion-criteria-advanced-neurologic-disease",
+                  "label": "Advanced neurologic disease",
+                  "value": "advanced-neurologic-disease"
+                },
+                {
+                  "id": "option-eligibility-criteria-exclusion-criteria-pregnant-or-breast-feeding-women",
+                  "label": "Pregnant or breast-feeding women",
+                  "value": "pregnant-or-breast-feeding-women"
+                },
+                {
+                  "id": "option-eligibility-criteria-exclusion-criteria-serious-mental-illness",
+                  "label": "Serious mental illness",
+                  "value": "serious-mental-illness"
+                },
+                {
+                  "id": "option-eligibility-criteria-exclusion-criteria-type-1-diabetes",
+                  "label": "Type 1 diabetes",
+                  "value": "type-1-diabetes"
+                },
+                {
+                  "id": "option-eligibility-criteria-exclusion-criteria-other",
+                  "label": "Other",
+                  "value": "other",
+                  "subfields": [
+                    {
+                      "id": "subfield-eligibility-criteria-exclusion-criteria-other-text",
+                      "label": "",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ],
+              "default": [
+                "advanced-chronic-kidney-disease",
+                "advanced-heart-failure",
+                "advanced-neurologic-disease",
+                "pregnant-or-breast-feeding-women",
+                "serious-mental-illness",
+                "type-1-diabetes",
+                "older-than-85-years"
+              ]
+            }
+          ]
         }
       ]
     },
     {
-      "id": "section-id",
-      "heading": "Section Heading",
-      "description": "Section description",
-      "link": "https://phti.org/page",
-      "fields": [
+      "id": "section-meaningful-engagement-criteria",
+      "heading": "Meaningful Engagement Criteria",
+      "tooltipDrawer": {
+        "label": "About Meaningful Engagement Criteria",
+        "text": "<p>Clear, meaningful engagement thresholds help limit payment to members who are meaningfully engaged with the solution and most likely to experience a clinical impact. While there are many common engagement metrics, not all are considered <em>meaningful</em>.</p><p>In the two-payment stream model, the definition of meaningful engagement directly impacts the size of the payments made to the vendor. A looser definition of engagement will create a larger PEMPM payment and will increase the number of individuals whose clinical outcomes are considered for the performance payment.</p><p><strong>Contracting tip:</strong></p><ul><li>Explicitly define ‘transaction’ (e.g., HbA1C measurement) and prioritize member-initiated and clinically significant interactions.</li><li>Define the maximum days (e.g., 15) for capturing baseline HbA1C reading, considering operational workflows.</li></ul>"
+      },
+      "steps": [
         {
-          "id": "field-id",
-          "label": "Field Label",
-          "description": "Field description",
-          "inputType": "date"
+          "id": "step-meaningful-engagement",
+          "heading": "Define engagement criteria for the contract.",
+          "description": "<p>There are other definitions of engagement in use today, including: app logins, email opens, and an engagement index. Purchasers increasingly indicate that they prefer more meaningful engagement metrics, especially as these metrics serve as the basis for PEMPM payments and performance payment calculations. PHTI’s recommended definitions focus on engagement milestones that are correlated with clinical impact.</p><p><strong>PHTI recommends members meet 3 criteria to be considered meaningfully engaged. Criteria 1 and 2 are required.</strong></p><ul><li>(Criteria 1) Program start: Member executed engagement agreement</li><li>Clinical utilization (Engagement tied to clinician interaction, including sessions, coaching calls, messages):<ul><li>(Criteria 2) Baseline A1C captured within X days before or after program start, as defined above</li><li>(Criteria 3) At least X member-initiated transactions with program per X months</li></ul></li></ul><p><strong><em>Recommended values are pre-filled.</em></strong></p>",
+          "fields": [
+            {
+              "id": "field-meaningful-engagement-2-num-days",
+              "label": "<strong>Clinical utilization criteria 2:</strong> Baseline A1C captured within X days before or after program start, as defined above",
+              "description": "Number of days",
+              "type": "number",
+              "default": 15,
+              "min": 1
+            },
+            {
+              "id": "field-meaningful-engagement-3-num-transactions",
+              "label": "<strong>Clinical utilization criteria 3:</strong> At least X member-initiated transactions with program per month for X months",
+              "description": "Number of transactions",
+              "type": "number",
+              "default": 3,
+              "tooltip": {
+                "text": "Clearly define “transaction” in contract, prioritizing member-initiated and clinically meaningful interactions."
+              }
+            },
+            {
+              "id": "field-meaningful-engagement-3-num-months",
+              "label": "",
+              "description": "Number of months",
+              "type": "number",
+              "default": 3
+            }
+          ]
         }
       ]
     },
     {
-      "id": "section-id",
-      "heading": "Section Heading",
-      "description": "Section description",
-      "link": "https://phti.org/page",
-      "fields": [
+      "id": "section-performance-metrics",
+      "heading": "Performance Metrics",
+      "tooltipDrawer": {
+        "label": "About Performance Metrics",
+        "text": "<p>Select validated, feasible measures—favoring biomarker-based outcomes and clinically accepted instruments—and determine the time horizon for impact.</p><p><strong>Contracting tip:</strong></p><ul><li>HbA1C<ul><li>Specify the allowable time frame for collecting a member’s final measurement that is used to calculate the change as compared to baseline, in order to be included in the performance payment calculation.</li></ul></li><li>Weight Loss Percent<ul><li>Measure average % body weight reduction relative to weight reduction target. Readings based on connected smart scale reading, not self-reported.</li></ul></li></ul>"
+      },
+      "steps": [
         {
-          "id": "field-id",
-          "label": "Field Label",
-          "description": "Field description",
-          "inputType": "email"
+          "id": "step-performance-metrics-performance-payment",
+          "heading": "Select which performance metric(s) should be tied to the performance payment.",
+          "description": "<p>In clinical practice, there are many ways to measure glycemic control. They include directly measuring the quantity of glucose in the blood at a single point in time, which can fluctuate depending on what a patient ate, the time of day, or the equipment used. Given these variations, HbA1c is the most widely used measurement for both clinicians and patients because it serves as a superior measurement of glycemic control over time.</p><p><strong><em>Recommended values are pre-filled. Percentages must sum to 100%.</em></strong></p><p>If focusing on glycemic control as measured by HbA1c, set to 100%. If incorporating weight loss, select the percentage of the total performance payment that will be tied to each.</p>",
+          "fields": [
+            {
+              "id": "field-performance-metrics-performance-payment",
+              "label": "",
+              "type": "checkbox",
+              "options": [
+                {
+                  "id": "option-performance-metrics-hba1c",
+                  "label": "Laboratory reported HbA1C",
+                  "value": "hba1c",
+                  "subfields": [
+                    {
+                      "id": "subfield-performance-metrics-hba1c-percentage",
+                      "type": "percentage",
+                      "default": 100,
+                      "min": 0,
+                      "max": 100
+                    }
+                  ]
+                },
+                {
+                  "id": "option-performance-metrics-weight-loss",
+                  "label": "Weight Loss Percent",
+                  "tooltip": {
+                    "text": "Clinical guidelines identify weight management as a core component of type 2 diabetes care, given its role in improving insulin sensitivity and cardiometabolic risk. <a href='https://phti.org/assessment/digital-diabetes-management-tools/' target='_blank' rel='noopener noreferrer'>PHTI’s Digital Diabetes Management Solutions Assessment</a> found that interventions show more consistent and durable improvements in secondary outcomes including weight loss alongside large HbA1c reductions."
+                  },
+                  "value": "weight-loss",
+                  "subfields": [
+                    {
+                      "id": "subfield-performance-metrics-weight-loss-percentage",
+                      "type": "percentage",
+                      "min": 0,
+                      "max": 100
+                    }
+                  ]
+                }
+              ],
+              "default": ["hba1c"]
+            }
+          ]
+        },
+        {
+          "id": "step-performance-metrics-program-tenure",
+          "heading": "Confirm desired program tenure for inclusion in the performance payment.",
+          "description": "<strong><em>Recommended values are pre-filled.</em></strong>",
+          "fields": [
+            {
+              "id": "field-performance-metrics-program-tenure",
+              "label": "",
+              "type": "checkbox",
+              "options": [
+                {
+                  "id": "option-performance-metrics-program-tenure-options",
+                  "label": "Members enrolled for X consecutive months",
+                  "value": "program-tenure-options",
+                  "note": "Usual care of diabetes including prescription medications can be expected to yield results within 4 months, as reported in <a href='https://phti.org/assessment/digital-diabetes-management-tools/' target='_blank' rel='noopener noreferrer'>PHTI’s Digital Diabetes Management Solutions Assessment</a>.",
+                  "subfields": [
+                    {
+                      "id": "subfield-performance-metrics-program-tenure-num-months",
+                      "label": "Number of months",
+                      "type": "number",
+                      "default": 4
+                    }
+                  ]
+                }
+              ],
+              "default": ["program-tenure-options"]
+            }
+          ]
         }
       ]
     },
     {
-      "id": "section-id",
-      "heading": "Section Heading",
-      "description": "Section description",
-      "link": "https://phti.org/page",
-      "fields": [
+      "id": "section-engagement-approach",
+      "heading": "Engagement Approach",
+      "tooltipDrawer": {
+        "label": "About Engagement Approaches",
+        "text": "<p>Engagement approaches establish clear parameters for how vendors may contact and interact with members to promote engagement with the solution.</p><p>Purchasers may seek to limit outreach frequency, require member consent or opt-in, and specify permissible channels (e.g., text, phone, mailer) to protect member trust and prevent over communication. Vendors value flexibility to reach members through multiple touch points and may need to tailor outreach strategies to different populations. This repeated, multimodal contact can be important to drive engagement and outcomes for some solutions.</p>"
+      },
+      "steps": [
         {
-          "id": "field-id",
-          "label": "Field Label",
-          "description": "Field description",
-          "inputType": "select",
-          "options": ["Option 1", "Option 2", "Option 3"]
+          "id": "step-engagement-approach",
+          "heading": "Select allowable engagement approaches to include.",
+          "description": "<p>This section details the operational components of the contract that are critical to successful implementation of performance-based contracts.</p><p><strong><em>Recommended values are pre-filled.</em></strong></p>",
+          "fields": [
+            {
+              "id": "field-engagement-approach",
+              "label": "",
+              "type": "checkbox",
+              "options": [
+                {
+                  "id": "option-engagement-approach-governance-alignment",
+                  "label": "<strong>Governance Alignment:</strong> Vendor will adhere to the purchaser’s existing governance processes for member communications (e.g., prior review committees, compliance protocols) and will not initiate outreach outside of those processes without written approval.",
+                  "value": "governance-alignment"
+                },
+                {
+                  "id": "option-engagement-approach-material-review-approval",
+                  "label": "<strong>Material Review & Approval:</strong> Vendor will submit all co-branded and company-branded outreach and education materials for purchaser approval prior to use. (Co-branded materials are generally preferred and shown to improve engagement.) Purchaser will approve or propose modifications within X days of submission.",
+                  "value": "material-review-approval"
+                },
+                {
+                  "id": "option-engagement-approach-revisions-updates",
+                  "label": "<strong>Revisions & Updates:</strong> Any revisions to previously approved materials (including templates, scripts, and digital content) must be resubmitted for purchaser review and approval within X days before deployment.",
+                  "value": "revisions-updates"
+                },
+                {
+                  "id": "option-engagement-approach-outreach-parameters",
+                  "label": "<strong>Outreach Parameters:</strong> Purchaser and vendor will agree in advance on the minimum or maximum number, frequency, and type of outreach attempts (e.g., SMS, email, phone) to optimize engagement while minimizing member abrasion. Any deviation requires prior purchaser approval.",
+                  "value": "outreach-parameters"
+                },
+                {
+                  "id": "option-engagement-approach-compliance-reporting",
+                  "label": "<strong>Compliance & Reporting:</strong> Vendor will track all member outreach against agreed guidelines and share reporting (frequency, channel, response rates, opt-outs) with the purchaser at agreed intervals.",
+                  "value": "compliance-reporting"
+                },
+                {
+                  "id": "option-engagement-approach-member-experience-protections",
+                  "label": "<strong>Member Experience Protections:</strong> Outreach must comply with applicable laws and regulations (e.g., TCPA, HIPAA) and avoid high-frequency or intrusive tactics. Vendor will promptly address purchaser concerns about member complaints or abrasion.",
+                  "value": "member-experience-protections"
+                },
+                {
+                  "id": "option-engagement-approach-other",
+                  "label": "Other",
+                  "value": "other",
+                  "subfields": [
+                    {
+                      "id": "subfield-engagement-approach-other-text",
+                      "label": "",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ],
+              "default": [
+                "governance-alignment",
+                "material-review-approval",
+                "revisions-updates",
+                "outreach-parameters",
+                "compliance-reporting",
+                "member-experience-protections"
+              ]
+            }
+          ]
         }
       ]
     },
     {
-      "id": "section-id",
-      "heading": "Section Heading",
-      "description": "Section description",
-      "link": "https://phti.org/page",
-      "fields": [
+      "id": "section-data-sharing-commitments",
+      "heading": "Data Sharing Commitments",
+      "tooltipDrawer": {
+        "label": "About Data Sharing Commitments",
+        "text": "<p>Reliable performance measurement is foundational to performance-based contracting. To assess whether a solution is driving clinical or financial impact, purchasers and vendors need access to timely, high-quality data and the analytic capacity to interpret them in a timely manner.</p><p><strong>Contracting tip:</strong></p><ul><li>For all data file sharing, determine cadence and format for sharing prior to contracting. Consider including template reports in the contract to ensure file readability.</li><li>Purchasers commit to active list management, including monthly deletions, corrections, and additions.</li><li>Purchaser submits monthly list in machine readable format with members that meet eligibility criteria. Eligibility file should include full population to avoid claims lag post-diagnosis. Pre-determine select data fields to include in the file (e.g., plan ID, name, address, demographics).</li><li>Include purchaser audit rights for vendor data in contract.</li><li>For pharmacy shared savings payments, pharmacy claims file may be required to determine performance metrics. Detail necessary data from pharmacy benefit managers (PBMs) and incorporate any data sharing agreements prior to contracting.</li></ul>"
+      },
+      "steps": [
         {
-          "id": "field-id",
-          "label": "Field Label",
-          "description": "Field description",
-          "inputType": "radio",
-          "options": ["Option 1", "Option 2", "Option 3"]
+          "id": "step-data-sharing-commitments-purchaser-to-vendor",
+          "heading": "Select which data sharing commitments should be included in the contract.",
+          "description": "<strong><em>Recommended values are pre-filled.</em></strong>",
+          "fields": [
+            {
+              "id": "field-data-sharing-commitments-purchaser-to-vendor-format",
+              "label": "<strong>From Purchaser to Vendor:</strong> Data sharing format",
+              "description": "Required.",
+              "required": true,
+              "type": "radio",
+              "options": [
+                {
+                  "id": "option-data-sharing-commitments-purchaser-to-vendor-identified-data-file",
+                  "label": "Identified data file",
+                  "value": "identified-data-file"
+                }
+              ],
+              "default": ["identified-data-file"]
+            },
+            {
+              "id": "field-data-sharing-commitments-purchaser-to-vendor-files",
+              "label": "<strong>From Purchaser to Vendor:</strong> Data files",
+              "description": "Required.",
+              "required": true,
+              "type": "radio",
+              "options": [
+                {
+                  "id": "option-data-sharing-commitments-eligibility-file",
+                  "label": "Eligibility file",
+                  "value": "eligibility-file",
+                  "subfields": [
+                    {
+                      "id": "subfield-data-sharing-commitments-eligibility-file",
+                      "label": "",
+                      "type": "checkbox",
+                      "options": [
+                        {
+                          "id": "option-data-sharing-commitments-eligibility-file-claims",
+                          "label": "Medical and/or pharmacy claims files",
+                          "value": "claims",
+                          "tooltip": {
+                            "text": "<p>Supports identification of eligible population, and attribution. Purchasers may consider summary data in lieu of raw claims files.</p><p>May be pre-selected based on previous field.</p>"
+                          },
+                          "subfields": [
+                            {
+                              "id": "subfield-data-sharing-commitments-eligibility-file-claims",
+                              "label": "",
+                              "type": "checkbox",
+                              "options": [
+                                {
+                                  "id": "option-data-sharing-commitments-eligibility-file-claims-new-insulin-starts",
+                                  "label": "New insulin starts",
+                                  "value": "new-insulin-starts",
+                                  "tooltip": {
+                                    "text": "Consider a dedicated report on new insulin starts to aid with member targeting"
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": "option-data-sharing-commitments-eligibility-file-feeds",
+                          "label": "Inpatient admission and/or ED visit data from Admission, Discharge, Transfer (ADT) data feeds",
+                          "value": "feeds",
+                          "tooltip": {
+                            "text": "Individuals may be more primed for behavior change after an acute event, supporting the need for real-time data for risk stratification and high-risk member identification"
+                          }
+                        },
+                        {
+                          "id": "option-data-sharing-commitments-eligibility-file-lab-results",
+                          "label": "Lab results",
+                          "value": "lab-results",
+                          "tooltip": {
+                            "text": "Supports clinical baselines and ending measures"
+                          }
+                        },
+                        {
+                          "id": "option-data-sharing-commitments-eligibility-file-other",
+                          "label": "Other",
+                          "value": "other",
+                          "subfields": [
+                            {
+                              "id": "subfield-data-sharing-commitments-eligibility-file-other-text",
+                              "label": "",
+                              "type": "text"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "default": ["eligibility-file"]
+            },
+            {
+              "id": "field-data-sharing-commitments-vendor-to-purchaser-format",
+              "label": "<strong>From Vendor to Purchaser:</strong> Data sharing format",
+              "description": "Required. Select an option.",
+              "required": true,
+              "type": "radio",
+              "options": [
+                {
+                  "id": "option-data-sharing-commitments-vendor-to-purchaser-identified-data-file",
+                  "label": "Identified data file",
+                  "value": "identified-data-file"
+                },
+                {
+                  "id": "option-data-sharing-commitments-de-identified-data-file",
+                  "label": "De-identified data file",
+                  "value": "de-identified-data-file"
+                }
+              ]
+            },
+            {
+              "id": "field-data-sharing-commitments-vendor-to-purchaser-files",
+              "label": "<strong>From Vendor to Purchaser:</strong> Data files",
+              "type": "checkbox",
+              "options": [
+                {
+                  "id": "option-data-sharing-commitments-enrollment-file",
+                  "label": "Enrollment file",
+                  "value": "enrollment-file",
+                  "subfields": [
+                    {
+                      "id": "subfield-data-sharing-commitments-enrollment-file",
+                      "label": "",
+                      "type": "checkbox",
+                      "options": [
+                        {
+                          "id": "option-data-sharing-commitments-enrollment-file-date-of-click-consent",
+                          "label": "Date of click consent",
+                          "value": "date-of-click-consent"
+                        },
+                        {
+                          "id": "option-data-sharing-commitments-enrollment-file-months-of-meaningful-engagement",
+                          "label": "Months of meaningful engagement",
+                          "value": "months-of-meaningful-engagement"
+                        },
+                        {
+                          "id": "option-data-sharing-commitments-enrollment-file-baseline-a1c-for-each-member",
+                          "label": "Baseline A1C for each member",
+                          "value": "baseline-a1c-for-each-member"
+                        },
+                        {
+                          "id": "option-data-sharing-commitments-enrollment-file-baseline-weight-for-each-member",
+                          "label": "Baseline weight for each member",
+                          "value": "baseline-weight-for-each-member"
+                        },
+                        {
+                          "id": "option-data-sharing-commitments-enrollment-file-other",
+                          "label": "Other",
+                          "value": "other",
+                          "subfields": [
+                            {
+                              "id": "subfield-data-sharing-commitments-enrollment-file-other-text",
+                              "label": "",
+                              "type": "text"
+                            }
+                          ]
+                        }
+                      ],
+                      "default": ["date-of-click-consent", "months-of-meaningful-engagement", "baseline-a1c-for-each-member", "baseline-weight-for-each-member"]
+                    }
+                  ]
+                },
+                {
+                  "id": "option-data-sharing-commitments-summary-statistics",
+                  "label": "Summary statistics (enrolled and engaged members)",
+                  "value": "summary-statistics",
+                  "subfields": [
+                    {
+                      "id": "subfield-data-sharing-commitments-summary-statistics",
+                      "label": "",
+                      "type": "checkbox",
+                      "options": [
+                        {
+                          "id": "option-data-sharing-commitments-summary-statistics-population-average-a1c-change",
+                          "label": "Population average A1C change",
+                          "value": "population-average-a1c-change"
+                        },
+                        {
+                          "id": "option-data-sharing-commitments-summary-statistics-population-average-weight-change",
+                          "label": "Population average weight change",
+                          "value": "population-average-weight-change"
+                        },
+                        {
+                          "id": "option-data-sharing-commitments-summary-statistics-average-member-initiated-interactions",
+                          "label": "Average and mean member-initiated interactions with solution",
+                          "value": "average-member-initiated-interactions"
+                        },
+                        {
+                          "id": "option-data-sharing-commitments-summary-statistics-other",
+                          "label": "Other",
+                          "value": "other",
+                          "subfields": [
+                            {
+                              "id": "subfield-data-sharing-commitments-summary-statistics-other-text",
+                              "label": "",
+                              "type": "text"
+                            }
+                          ]
+                        }
+                      ],
+                      "default": ["population-average-a1c-change", "population-average-weight-change", "average-member-initiated-interactions"]
+                    }
+                  ]
+                },
+                {
+                  "id": "option-data-sharing-commitments-clinical-measurements",
+                  "label": "Final clinical measurements",
+                  "value": "clinical-measurements",
+                  "tooltip": {
+                    "text": "e.g., measures proximate to enrollment and last measurement of the performance period"
+                  },
+                  "subfields": [
+                    {
+                      "id": "subfield-data-sharing-commitments-clinical-measurements",
+                      "label": "",
+                      "type": "checkbox",
+                      "options": [
+                        {
+                          "id": "option-data-sharing-commitments-clinical-measurements-a1c",
+                          "label": "A1C measurement for each member",
+                          "value": "a1c"
+                        },
+                        {
+                          "id": "option-data-sharing-commitments-clinical-measurements-weight",
+                          "label": "Weight measurement for each member",
+                          "value": "weight"
+                        },
+                        {
+                          "id": "option-data-sharing-commitments-clinical-measurements-other",
+                          "label": "Other",
+                          "value": "other",
+                          "subfields": [
+                            {
+                              "id": "subfield-data-sharing-commitments-clinical-measurements-other-text",
+                              "label": "",
+                              "type": "text"
+                            }
+                          ]
+                        }
+                      ],
+                      "default": ["a1c", "weight"]
+                    }
+                  ]
+                },
+                {
+                  "id": "option-data-sharing-commitments-exclusion-report",
+                  "label": "Exclusion report",
+                  "value": "exclusion-report",
+                  "tooltip": {
+                    "text": "For members excluded for clinical reasons, share report of documented reasons"
+                  }
+                },
+                {
+                  "id": "option-data-sharing-commitments-data",
+                  "label": "Data required to feed into data warehouse/3rd party data management resource",
+                  "value": "data"
+                },
+                {
+                  "id": "option-data-sharing-commitments-other",
+                  "label": "Other",
+                  "value": "other",
+                  "subfields": [
+                    {
+                      "id": "subfield-data-sharing-commitments-other-text",
+                      "label": "",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ],
+              "default": ["enrollment-file", "summary-statistics", "clinical-measurements", "exclusion-report"]
+            }
+          ]
         }
       ]
     },
     {
-      "id": "section-id",
-      "heading": "Section Heading",
-      "description": "Section description",
-      "link": "https://phti.org/page",
-      "fields": [
+      "id": "section-administrative-terms",
+      "heading": "Administrative Terms",
+      "tooltipDrawer": {
+        "label": "About Administrative Terms",
+        "text": "<p><strong>Contracting tip:</strong></p><ul><li>Require a minimum number of meaningfully engaged patients to trigger performance payment. If minimum is not met, suggest no performance payment.</li><li>Incorporate terms around pro-rating bonuses if contract is terminated early or not renewed.</li></ul>"
+      },
+      "steps": [
         {
-          "id": "field-id",
-          "label": "Field Label",
-          "description": "Field description",
-          "inputType": "checkbox",
-          "options": ["Option 1", "Option 2", "Option 3"]
+          "id": "step-administrative-terms-reconciliation",
+          "heading": "Reconciliation",
+          "description": "<p>The timeline required to observe meaningful improvements in clinical outcomes or reductions in total cost of care frequently exceeds the duration of most purchaser-vendor contracts.</p><p>Purchasers should consider availability of resources required to calculate performance payments prior to establishing bonus determination deadline.</p><p><strong><em>Recommended values are pre-filled.</em></strong></p>",
+          "fields": [
+            {
+              "id": "field-administrative-terms-reconciliation",
+              "label": "",
+              "type": "checkbox",
+              "options": [
+                {
+                  "id": "option-administrative-terms-reconciliation-one-year",
+                  "label": "One year measurement period, beginning when minimum enrollment is achieved for X months",
+                  "value": "one-year-measurement-period",
+                  "tooltip": {
+                    "text": "Usual care of diabetes including prescription medications can be expected to yield results within 4 months, as reported in <a href='https://phti.org/assessment/digital-diabetes-management-tools/' target='_blank' rel='noopener noreferrer'>PHTI’s Digital Diabetes Management Solutions Assessment</a>"
+                  },
+                  "subfields": [
+                    {
+                      "id": "subfield-administrative-terms-reconciliation-one-year-post-measurement-num-months",
+                      "label": "Number of months",
+                      "type": "number",
+                      "default": 6,
+                      "defaultFrom": "subfield-performance-metrics-program-tenure-num-months",
+                      "tooltip": {
+                        "text": "Populated based on previous field."
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "option-administrative-terms-reconciliation-bonuses",
+                  "label": "Bonuses determined within a X-month period following X months post-measurement period for claims run-out",
+                  "value": "bonuses",
+                  "tooltip": {
+                    "text": "3 months is recommended for claims data lag"
+                  },
+                  "subfields": [
+                    {
+                      "id": "subfield-administrative-terms-reconciliation-bonuses-measurement-num-months",
+                      "label": "Measurement period (months)",
+                      "type": "number",
+                      "default": 1
+                    },
+                    {
+                      "id": "subfield-administrative-terms-reconciliation-bonuses-post-measurement-num-months",
+                      "label": "Post-measurement period (months)",
+                      "type": "number",
+                      "default": 3
+                    }
+                  ]
+                },
+                {
+                  "id": "option-administrative-terms-reconciliation-prorating-bonuses",
+                  "label": "Incorporate terms around pro-rating bonuses if contract is terminated early or not-renewed.",
+                  "value": "prorating-bonuses"
+                },
+                {
+                  "id": "option-administrative-terms-reconciliation-other",
+                  "label": "Other",
+                  "value": "other",
+                  "subfields": [
+                    {
+                      "id": "subfield-administrative-terms-reconciliation-other-text",
+                      "label": "",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ],
+              "default": ["one-year-measurement-period", "bonuses", "prorating-bonuses"]
+            }
+          ]
+        },
+        {
+          "id": "step-administrative-terms-term-and-renewal",
+          "heading": "Term and Renewal",
+          "description": "<p>Most purchasers will elect quarterly PEMPM payments and annual performance payments. In cases where high churn exists among members, purchasers may prefer to reconcile performance payments on a quarterly basis.</p><p><strong><em>Recommended values are pre-filled.</em></strong></p>",
+          "fields": [
+            {
+              "id": "field-administrative-terms-term-and-renewal",
+              "label": "",
+              "type": "checkbox",
+              "options": [
+                {
+                  "id": "option-administrative-terms-term-and-renewal-3-year-initial-term",
+                  "label": "X-year initial term, with fixed price throughout term",
+                  "value": "initial-term",
+                  "subfields": [
+                    {
+                      "id": "subfield-administrative-terms-term-and-renewal-term-years",
+                      "label": "Initial term (years)",
+                      "type": "number",
+                      "default": 3
+                    }
+                  ]
+                },
+                {
+                  "id": "option-administrative-terms-term-and-renewal-annual-renewal-120-day-notice",
+                  "label": "Annual renewal with X-day notice",
+                  "value": "annual-renewal",
+                  "subfields": [
+                    {
+                      "id": "subfield-administrative-terms-term-and-renewal-renewal-notice-days",
+                      "label": "Renewal notice (days)",
+                      "type": "number",
+                      "default": 120
+                    }
+                  ]
+                },
+                {
+                  "id": "option-administrative-terms-term-and-renewal-termination-for-cause-provisions",
+                  "label": "Termination for cause provisions",
+                  "value": "termination-for-cause-provisions",
+                  "tooltip": {
+                    "text": "<p>Cause for termination may include:</p><ul><li>Lack of critical mass of members meeting meaningful engagement criteria</li><li>Lack of critical mass of members meeting program tenure for performance payment eligibility</li></ul>"
+                  }
+                },
+                {
+                  "id": "option-administrative-terms-term-and-renewal-billing-frequency",
+                  "label": "Billing Frequency",
+                  "value": "billing-frequency",
+                  "subfields": [
+                    {
+                      "id": "subfield-administrative-terms-term-and-renewal-billing-frequency-options",
+                      "label": "",
+                      "type": "checkbox",
+                      "options": [
+                        {
+                          "id": "option-administrative-terms-term-and-renewal-billing-frequency-pempm",
+                          "label": "Per engaged member per month (PEMPM) payments billing frequency",
+                          "value": "pempm",
+                          "subfields": [
+                            {
+                              "id": "subfield-administrative-terms-term-and-renewal-billing-frequency-pempm-frequency",
+                              "label": "Billing frequency",
+                              "type": "select",
+                              "options": [
+                                {
+                                  "id": "option-administrative-terms-billing-pempm-quarterly",
+                                  "label": "Quarterly",
+                                  "value": "quarterly"
+                                },
+                                {
+                                  "id": "option-administrative-terms-billing-pempm-biannually",
+                                  "label": "Biannually",
+                                  "value": "biannually"
+                                },
+                                {
+                                  "id": "option-administrative-terms-billing-pempm-annually",
+                                  "label": "Annually",
+                                  "value": "annually"
+                                }
+                              ],
+                              "default": ["quarterly"]
+                            }
+                          ]
+                        },
+                        {
+                          "id": "option-administrative-terms-term-and-renewal-billing-frequency-performance-payments",
+                          "label": "Performance payments billing frequency",
+                          "value": "performance-payments",
+                          "subfields": [
+                            {
+                              "id": "subfield-administrative-terms-term-and-renewal-billing-frequency-performance-payments-frequency",
+                              "label": "Billing frequency",
+                              "type": "select",
+                              "options": [
+                                {
+                                  "id": "option-administrative-terms-billing-performance-quarterly",
+                                  "label": "Quarterly",
+                                  "value": "quarterly"
+                                },
+                                {
+                                  "id": "option-administrative-terms-billing-performance-biannually",
+                                  "label": "Biannually",
+                                  "value": "biannually"
+                                },
+                                {
+                                  "id": "option-administrative-terms-billing-performance-annually",
+                                  "label": "Annually",
+                                  "value": "annually"
+                                }
+                              ],
+                              "default": ["annually"]
+                            }
+                          ]
+                        }
+                      ],
+                      "default": ["pempm", "performance-payments"]
+                    }
+                  ]
+                }
+              ],
+              "default": ["initial-term", "annual-renewal", "billing-frequency"]
+            }
+          ]
         }
       ]
     }
