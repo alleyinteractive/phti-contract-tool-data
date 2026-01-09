@@ -193,36 +193,136 @@
         {
           "id": "step-meaningful-engagement",
           "heading": "Define engagement criteria for the contract.",
-          "description": "<p>There are other definitions of engagement in use today, including: app logins, email opens, and an engagement index. Purchasers increasingly indicate that they prefer more meaningful engagement metrics, especially as these metrics serve as the basis for PEMPM payments and performance payment calculations. PHTI’s recommended definitions focus on engagement milestones that are correlated with clinical impact.</p><p><strong>PHTI recommends members meet 3 criteria to be considered meaningfully engaged. Criteria 1 and 2 are required.</strong></p><ul><li>(Criteria 1) Program start: member completes onboarding, initial assessment, or first visit</li><li>Clinical utilization (Engagement tied to clinician interaction, including sessions, coaching calls, messages):<ul><li>(Criteria 2) Baseline clinical assessment <em>(first month only)</em><ul><li>Must complete a validated screening tool within X days of enrollment</li></ul></li><li>(Criteria 3) Member must meet at least one of the following interaction thresholds each month (Meaningful Engagement Criteria informed by <a href='https://phti.org/assessment/virtual-solutions-anxiety-depression/' target='_blank' rel='noopener noreferrer'>PHTI 2024 Virtual Solutions for Depression and Anxiety Health Technology Assessment</a> based on the various care models studied)<ul><li>Live therapy or coaching session: ≥ X sessions completed</li><li>Digital CBT module: ≥ X modules completed</li><li>Two-way asynchronous messaging with care team: ≥ X exchanges</li></ul></li></ul></li></ul><p><strong><em>Recommended values are pre-filled.</em></strong></p>",
+          "description": "<p>There are other definitions of engagement in use today, including: app logins, email opens, and an engagement index. Purchasers increasingly indicate that they prefer more meaningful engagement metrics, especially as these metrics serve as the basis for PEMPM payments and performance payment calculations. PHTI’s recommended definitions focus on engagement milestones that are correlated with clinical impact.</p><p><strong>PHTI recommends members meet 3 criteria to be considered meaningfully engaged. Criteria 1 and 2 are required.</strong></p><p><strong><em>Recommended values are pre-filled.</em></strong></p>",
           "fields": [
             {
-              "id": "field-meaningful-engagement-2-num-days",
-              "label": "<strong>Clinical utilization criteria 2:</strong> Baseline clinical assessment <em>(first month only)</em>: Must complete a validated screening tool within X days of enrollment",
-              "description": "Number of days",
-              "type": "number",
-              "default": 15,
-              "min": 1
+              "id": "field-meaningful-engagement-criteria-1",
+              "label": "",
+              "type": "checkbox",
+              "options": [
+                {
+                  "id": "option-meaningful-engagement-criteria-1",
+                  "label": "(Criteria 1) Program start: member completes onboarding, initial assessment, or first visit",
+                  "description": "Required.",
+                  "required": true,
+                  "value": "criteria-1"
+                }
+              ],
+              "default": ["criteria-1"]
             },
             {
-              "id": "field-meaningful-engagement-3-num-sessions",
-              "label": "<strong>Clinical utilization criteria 3:</strong> Live therapy or coaching session: ≥ X sessions completed",
-              "description": "Number of sessions",
-              "type": "number",
-              "default": 1
-            },
-            {
-              "id": "field-meaningful-engagement-3-num-modules",
-              "label": "<strong>Clinical utilization criteria 3:</strong> Digital CBT module: ≥ X modules completed",
-              "description": "Number of modules",
-              "type": "number",
-              "default": 2
-            },
-            {
-              "id": "field-meaningful-engagement-3-num-exchanges",
-              "label": "<strong>Clinical utilization criteria 3:</strong> Two-way asynchronous messaging with care team: ≥ X exchanges",
-              "description": "Number of exchanges",
-              "type": "number",
-              "default": 2
+              "id": "field-meaningful-engagement-clinical-utilization",
+              "label": "Clinical utilization",
+              "tooltip": {
+                "text": "Engagement tied to clinician interaction, including sessions, coaching calls, messages"
+              },
+              "subfields": [
+                {
+                  "id": "subfield-meaningful-engagement-criteria-2",
+                  "label": "",
+                  "type": "checkbox",
+                  "options": [
+                    {
+                      "id": "option-meaningful-engagement-criteria-2",
+                      "label": "(Criteria 2) Baseline clinical assessment <em>(first month only)</em>",
+                      "description": "Required.",
+                      "required": true,
+                      "value": "criteria-2",
+                      "subfields": [
+                        {
+                          "id": "subfield-meaningful-engagement-criteria-2-screening-tool",
+                          "label": "",
+                          "type": "checkbox",
+                          "options": [
+                            {
+                              "id": "option-meaningful-engagement-criteria-2-screening-tool",
+                              "label": "Must complete a validated screening tool within X days of enrollment",
+                              "value": "validated-screening-tool",
+                              "subfields": [
+                                {
+                                  "id": "field-meaningful-engagement-2-num-days",
+                                  "label": "Number of days",
+                                  "type": "number",
+                                  "default": 15,
+                                  "min": 1
+                                }
+                              ]
+                            }
+                          ],
+                          "default": ["validated-screening-tool"]
+                        }
+
+                      ]
+                    }
+                  ],
+                  "default": ["criteria-2"]
+                },
+                {
+                  "id": "subfield-meaningful-engagement-criteria-3",
+                  "label": "",
+                  "type": "checkbox",
+                  "options": [
+                    {
+                      "id": "option-meaningful-engagement-criteria-3",
+                      "label": "(Criteria 3) Member must meet at least <u>one</u> of the following interaction thresholds each month",
+                      "value": "criteria-3",
+                      "tooltip": {
+                        "text": "Meaningful Engagement Criteria informed by <a href='https://phti.org/assessment/virtual-solutions-anxiety-depression/' target='_blank' rel='noopener noreferrer'>PHTI 2024 Virtual Solutions for Depression and Anxiety Health Technology Assessment</a> based on the various care models studied"
+                      },
+                      "subfields": [
+                        {
+                          "id": "subfield-meaningful-engagement-criteria-3-interaction-thresholds",
+                          "label": "",
+                          "type": "checkbox",
+                          "options": [
+                            {
+                              "id": "option-meaningful-engagement-criteria-3-live-therapy-sessions",
+                              "label": "Live therapy or coaching session: ≥ X session completed",
+                              "value": "live-therapy-sessions",
+                              "subfields": [
+                                {
+                                  "id": "field-meaningful-engagement-3-num-sessions",
+                                  "label": "Number of sessions",
+                                  "type": "number",
+                                  "default": 1
+                                }
+                              ]
+                            },
+                            {
+                              "id": "option-meaningful-engagement-criteria-3-digital-cbt-modules",
+                              "label": "Digital CBT module: ≥ X modules completed",
+                              "value": "digital-cbt-modules",
+                              "subfields": [
+                                {
+                                  "id": "field-meaningful-engagement-3-num-modules",
+                                  "label": "Number of modules",
+                                  "type": "number",
+                                  "default": 2
+                                }
+                              ]
+                            },
+                            {
+                              "id": "option-meaningful-engagement-criteria-3-asynchronous-messaging",
+                              "label": "Two-way asynchronous messaging with care team: ≥ X exchanges",
+                              "value": "asynchronous-messaging",
+                              "subfields": [
+                                {
+                                  "id": "field-meaningful-engagement-3-num-exchanges",
+                                  "label": "Number of exchanges",
+                                  "type": "number",
+                                  "default": 2
+                                }
+                              ]
+                            }
+                          ],
+                          "default": ["live-therapy-sessions", "digital-cbt-modules", "asynchronous-messaging"]
+                        }
+                      ]
+                    }
+                  ],
+                  "default": ["criteria-3"]
+                }
+              ]
             }
           ]
         }

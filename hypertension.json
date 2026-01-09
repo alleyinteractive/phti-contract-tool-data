@@ -257,32 +257,85 @@
         {
           "id": "step-meaningful-engagement",
           "heading": "Define engagement criteria for the contract.",
-          "description": "<p>There are other definitions of engagement in use today, including: app logins, email opens, and an engagement index. Purchasers increasingly indicate that they prefer more meaningful engagement metrics, especially as these metrics serve as the basis for PEMPM payments and performance payment calculations. PHTI’s recommended definitions focus on engagement milestones that are correlated with clinical impact.</p><p><strong>PHTI recommends members meet 3 criteria to be considered meaningfully engaged. Criteria 1 and 2 are required.</strong></p><ul><li>(Criteria 1) Program start: Member completes onboarding, initial assessment, or first visit and</li><li>Clinical utilization (Engagement tied to clinician interaction, including sessions, coaching calls, messages):<ul><li>(Criteria 2) Baseline physician or member blood pressure readings captured within X days before or after program start, as defined above</li><li>(Criteria 3) At least X member-initiated transactions with program per month for X months</li></ul></li></ul><p><strong><em>Recommended values are pre-filled.</em></strong></p>",
+          "description": "<p>There are other definitions of engagement in use today, including: app logins, email opens, and an engagement index. Purchasers increasingly indicate that they prefer more meaningful engagement metrics, especially as these metrics serve as the basis for PEMPM payments and performance payment calculations. PHTI’s recommended definitions focus on engagement milestones that are correlated with clinical impact.</p><p><strong>PHTI recommends members meet 3 criteria to be considered meaningfully engaged. Criteria 1 and 2 are required.</strong></p><p><strong><em>Recommended values are pre-filled.</em></strong></p>",
           "fields": [
             {
-              "id": "field-meaningful-engagement-2-num-days",
-              "label": "<strong>Clinical utilization criteria 2:</strong> Baseline physician or member blood pressure readings captured within X days before or after program start, as defined above",
-              "description": "Number of days",
-              "type": "number",
-              "default": 15,
-              "min": 1
-            },
-            {
-              "id": "field-meaningful-engagement-3-num-transactions",
-              "label": "<strong>Clinical utilization criteria 3:</strong> At least X member-initiated transactions with program per month for X months",
-              "description": "Number of transactions",
-              "type": "number",
-              "default": 3,
-              "tooltip": {
-                "text": "Improvement in blood pressure can typically be expected within 3 months."
-              }
-            },
-            {
-              "id": "field-meaningful-engagement-3-num-months",
+              "id": "field-meaningful-engagement-criteria-1",
               "label": "",
-              "description": "Number of months",
-              "type": "number",
-              "default": 3
+              "type": "checkbox",
+              "options": [
+                {
+                  "id": "option-meaningful-engagement-criteria-1",
+                  "label": "(Criteria 1) Program start: Member completes onboarding, initial assessment, or first visit and",
+                  "description": "Required.",
+                  "required": true,
+                  "value": "criteria-1"
+                }
+              ],
+              "default": ["criteria-1"]
+            },
+            {
+              "id": "field-meaningful-engagement-clinical-utilization",
+              "label": "Clinical utilization",
+              "tooltip": {
+                "text": "Engagement tied to clinician interaction, including sessions, coaching calls, messages"
+              },
+              "subfields": [
+                {
+                  "id": "subfield-meaningful-engagement-criteria-2",
+                  "label": "",
+                  "type": "checkbox",
+                  "options": [
+                    {
+                      "id": "option-meaningful-engagement-criteria-2",
+                      "label": "(Criteria 2) Baseline physician or member blood pressure readings captured within X days before or after program start, as defined above",
+                      "description": "Required.",
+                      "required": true,
+                      "value": "criteria-2",
+                      "subfields": [
+                        {
+                          "id": "field-meaningful-engagement-2-num-days",
+                          "label": "Number of days",
+                          "type": "number",
+                          "default": 15,
+                          "min": 1
+                        }
+                      ]
+                    }
+                  ],
+                  "default": ["criteria-2"]
+                },
+                {
+                  "id": "subfield-meaningful-engagement-criteria-3",
+                  "label": "",
+                  "type": "checkbox",
+                  "options": [
+                    {
+                      "id": "option-meaningful-engagement-criteria-3",
+                      "label": "(Criteria 3) At least X member-initiated transactions with program per month for X months",
+                      "value": "criteria-3",
+                      "tooltip": {
+                        "text": "Improvement in blood pressure can typically be expected within 3 months"
+                      },
+                      "subfields": [
+                        {
+                          "id": "field-meaningful-engagement-3-num-transactions",
+                          "label": "Number of transactions",
+                          "type": "number",
+                          "default": 3
+                        },
+                        {
+                          "id": "field-meaningful-engagement-3-num-months",
+                          "label": "Number of months",
+                          "type": "number",
+                          "default": 3
+                        }
+                      ]
+                    }
+                  ],
+                  "default": ["criteria-3"]
+                }
+              ]
             }
           ]
         }
