@@ -199,6 +199,7 @@
               "id": "field-meaningful-engagement-criteria-1",
               "label": "",
               "type": "checkbox",
+              "disabled": true,
               "options": [
                 {
                   "id": "option-meaningful-engagement-criteria-1",
@@ -214,13 +215,14 @@
               "id": "field-meaningful-engagement-clinical-utilization",
               "label": "Clinical utilization",
               "tooltip": {
-                "text": "Engagement tied to clinician interaction, including sessions, coaching calls, messages"
+                "text": "Engagement tied to clinician interaction, including sessions, coaching calls, messages."
               },
               "subfields": [
                 {
                   "id": "subfield-meaningful-engagement-criteria-2",
                   "label": "",
                   "type": "checkbox",
+                  "disabled": true,
                   "options": [
                     {
                       "id": "option-meaningful-engagement-criteria-2",
@@ -236,7 +238,7 @@
                           "options": [
                             {
                               "id": "option-meaningful-engagement-criteria-2-screening-tool",
-                              "label": "Must complete a validated screening tool within X days of enrollment",
+                              "label": "Must complete a validated screening tool within __ days of enrollment",
                               "value": "validated-screening-tool",
                               "subfields": [
                                 {
@@ -251,7 +253,6 @@
                           ],
                           "default": ["validated-screening-tool"]
                         }
-
                       ]
                     }
                   ],
@@ -277,7 +278,7 @@
                           "options": [
                             {
                               "id": "option-meaningful-engagement-criteria-3-live-therapy-sessions",
-                              "label": "Live therapy or coaching session: ≥ X session completed",
+                              "label": "Live therapy or coaching session: ≥ __ sessions completed",
                               "value": "live-therapy-sessions",
                               "subfields": [
                                 {
@@ -290,7 +291,7 @@
                             },
                             {
                               "id": "option-meaningful-engagement-criteria-3-digital-cbt-modules",
-                              "label": "Digital CBT module: ≥ X modules completed",
+                              "label": "Digital CBT module: ≥ __ modules completed",
                               "value": "digital-cbt-modules",
                               "subfields": [
                                 {
@@ -303,7 +304,7 @@
                             },
                             {
                               "id": "option-meaningful-engagement-criteria-3-asynchronous-messaging",
-                              "label": "Two-way asynchronous messaging with care team: ≥ X exchanges",
+                              "label": "Two-way asynchronous messaging with care team: ≥ __ exchanges",
                               "value": "asynchronous-messaging",
                               "subfields": [
                                 {
@@ -373,7 +374,7 @@
               "options": [
                 {
                   "id": "option-performance-metrics-program-tenure-options",
-                  "label": "Members enrolled for X consecutive months",
+                  "label": "Members enrolled for __ consecutive months",
                   "value": "program-tenure-options",
                   "subfields": [
                     {
@@ -417,12 +418,12 @@
                 },
                 {
                   "id": "option-engagement-approach-material-review-approval",
-                  "label": "<strong>Material Review & Approval:</strong> Vendor will submit all co-branded and company-branded outreach and education materials for purchaser approval prior to use (co-branded materials are generally preferred and shown to improve engagement). Purchaser will approve or propose modifications within X days of submission.",
+                  "label": "<strong>Material Review & Approval:</strong> Vendor will submit all co-branded and company-branded outreach and education materials for purchaser approval prior to use (co-branded materials are generally preferred and shown to improve engagement). Purchaser will approve or propose modifications within __ days of submission.",
                   "value": "material-review-approval"
                 },
                 {
                   "id": "option-engagement-approach-revisions-updates",
-                  "label": "<strong>Revisions & Updates:</strong> Any revisions to previously approved materials (including templates, scripts, and digital content) must be resubmitted for purchaser review and approval within X days before deployment.",
+                  "label": "<strong>Revisions & Updates:</strong> Any revisions to previously approved materials (including templates, scripts, and digital content) must be resubmitted for purchaser review and approval within __ days before deployment.",
                   "value": "revisions-updates"
                 },
                 {
@@ -673,7 +674,7 @@
               "options": [
                 {
                   "id": "option-administrative-terms-reconciliation-one-year",
-                  "label": "One year measurement period, beginning when minimum enrollment is achieved for X months",
+                  "label": "One year measurement period, beginning when minimum enrollment is achieved for __ months",
                   "value": "one-year-measurement-period",
                   "tooltip": {
                     "text": "Improvement in PHQ-9 and GAD-7, including use of prescription medications, can be expected to yield results within 3 months. Cite PHTI Anxiety and Depression Assessment."
@@ -692,7 +693,7 @@
                 },
                 {
                   "id": "option-administrative-terms-reconciliation-bonuses",
-                  "label": "Bonuses determined within a X month period following X months post-measurement period",
+                  "label": "Bonuses determined within a __ month period following __ months post-measurement period",
                   "value": "bonuses",
                   "tooltip": {
                     "text": "Suggest 3 months to ensure time for claims run-out."
@@ -746,7 +747,7 @@
               "options": [
                 {
                   "id": "option-administrative-terms-term-and-renewal-3-year-initial-term",
-                  "label": "X-year initial term, with fixed price throughout term",
+                  "label": "__-year initial term, with fixed price throughout term",
                   "value": "initial-term",
                   "subfields": [
                     {
@@ -759,7 +760,7 @@
                 },
                 {
                   "id": "option-administrative-terms-term-and-renewal-annual-renewal-120-day-notice",
-                  "label": "Annual renewal with X-day notice",
+                  "label": "Annual renewal with __-day notice",
                   "value": "annual-renewal",
                   "subfields": [
                     {

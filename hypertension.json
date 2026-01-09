@@ -263,6 +263,7 @@
               "id": "field-meaningful-engagement-criteria-1",
               "label": "",
               "type": "checkbox",
+              "disabled": true,
               "options": [
                 {
                   "id": "option-meaningful-engagement-criteria-1",
@@ -278,17 +279,18 @@
               "id": "field-meaningful-engagement-clinical-utilization",
               "label": "Clinical utilization",
               "tooltip": {
-                "text": "Engagement tied to clinician interaction, including sessions, coaching calls, messages"
+                "text": "Engagement tied to clinician interaction, including sessions, coaching calls, messages."
               },
               "subfields": [
                 {
                   "id": "subfield-meaningful-engagement-criteria-2",
                   "label": "",
                   "type": "checkbox",
+                  "disabled": true,
                   "options": [
                     {
                       "id": "option-meaningful-engagement-criteria-2",
-                      "label": "(Criteria 2) Baseline physician or member blood pressure readings captured within X days before or after program start, as defined above",
+                      "label": "(Criteria 2) Baseline physician or member blood pressure readings captured within __ days before or after program start, as defined above",
                       "description": "Required.",
                       "required": true,
                       "value": "criteria-2",
@@ -312,10 +314,10 @@
                   "options": [
                     {
                       "id": "option-meaningful-engagement-criteria-3",
-                      "label": "(Criteria 3) At least X member-initiated transactions with program per month for X months",
+                      "label": "(Criteria 3) At least __ member-initiated transactions with program per month for __ months",
                       "value": "criteria-3",
                       "tooltip": {
-                        "text": "Improvement in blood pressure can typically be expected within 3 months"
+                        "text": "Improvement in blood pressure can typically be expected within 3 months."
                       },
                       "subfields": [
                         {
@@ -444,7 +446,7 @@
               "options": [
                 {
                   "id": "option-performance-metrics-program-tenure-options",
-                  "label": "Members enrolled for X consecutive months",
+                  "label": "Members enrolled for __ consecutive months",
                   "value": "program-tenure-options",
                   "subfields": [
                     {
@@ -487,12 +489,12 @@
                 },
                 {
                   "id": "option-engagement-approach-material-review-approval",
-                  "label": "<strong>Material Review & Approval:</strong> Vendor will submit all co-branded and company-branded outreach and education materials for purchaser approval prior to use (co-branded materials are generally preferred and shown to improve engagement). Purchaser will approve or propose modifications within X days of submission.",
+                  "label": "<strong>Material Review & Approval:</strong> Vendor will submit all co-branded and company-branded outreach and education materials for purchaser approval prior to use (co-branded materials are generally preferred and shown to improve engagement). Purchaser will approve or propose modifications within __ days of submission.",
                   "value": "material-review-approval"
                 },
                 {
                   "id": "option-engagement-approach-revisions-updates",
-                  "label": "<strong>Revisions & Updates:</strong> Any revisions to previously approved materials (including templates, scripts, and digital content) must be resubmitted for purchaser review and approval within X days before deployment.",
+                  "label": "<strong>Revisions & Updates:</strong> Any revisions to previously approved materials (including templates, scripts, and digital content) must be resubmitted for purchaser review and approval within __ days before deployment.",
                   "value": "revisions-updates"
                 },
                 {
@@ -821,7 +823,7 @@
               "options": [
                 {
                   "id": "option-administrative-terms-reconciliation-one-year",
-                  "label": "One year measurement period, beginning when minimum enrollment is achieved for X months",
+                  "label": "One year measurement period, beginning when minimum enrollment is achieved for __ months",
                   "value": "one-year-measurement-period",
                   "tooltip": {
                     "text": "Improvement in hypertension, including prescription medications, can be expected to yield results within 6 months: From PHTI’s 2024 Digital Hypertension Management Solutions Health Technology Assessment"
@@ -840,7 +842,7 @@
                 },
                 {
                   "id": "option-administrative-terms-reconciliation-bonuses",
-                  "label": "Bonuses determined within a X-month period following X months post-measurement period",
+                  "label": "Bonuses determined within a __-month period following __ months post-measurement period",
                   "value": "bonuses",
                   "tooltip": {
                     "text": "Suggest 3 months to ensure time for claims run-out"
@@ -894,7 +896,7 @@
               "options": [
                 {
                   "id": "option-administrative-terms-term-and-renewal-3-year-initial-term",
-                  "label": "X-year initial term, with fixed price throughout term",
+                  "label": "__-year initial term, with fixed price throughout term",
                   "value": "initial-term",
                   "subfields": [
                     {
@@ -907,7 +909,7 @@
                 },
                 {
                   "id": "option-administrative-terms-term-and-renewal-annual-renewal-120-day-notice",
-                  "label": "Annual renewal with X-day notice",
+                  "label": "Annual renewal with __-day notice",
                   "value": "annual-renewal",
                   "subfields": [
                     {
