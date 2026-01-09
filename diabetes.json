@@ -245,32 +245,87 @@
         {
           "id": "step-meaningful-engagement",
           "heading": "Define engagement criteria for the contract.",
-          "description": "<p>There are other definitions of engagement in use today, including: app logins, email opens, and an engagement index. Purchasers increasingly indicate that they prefer more meaningful engagement metrics, especially as these metrics serve as the basis for PEMPM payments and performance payment calculations. PHTI’s recommended definitions focus on engagement milestones that are correlated with clinical impact.</p><p><strong>PHTI recommends members meet 3 criteria to be considered meaningfully engaged. Criteria 1 and 2 are required.</strong></p><ul><li>(Criteria 1) Program start: Member executed engagement agreement</li><li>Clinical utilization (Engagement tied to clinician interaction, including sessions, coaching calls, messages):<ul><li>(Criteria 2) Baseline A1C captured within X days before or after program start, as defined above</li><li>(Criteria 3) At least X member-initiated transactions with program per X months</li></ul></li></ul><p><strong><em>Recommended values are pre-filled.</em></strong></p>",
+          "description": "<p>There are other definitions of engagement in use today, including: app logins, email opens, and an engagement index. Purchasers increasingly indicate that they prefer more meaningful engagement metrics, especially as these metrics serve as the basis for PEMPM payments and performance payment calculations. PHTI’s recommended definitions focus on engagement milestones that are correlated with clinical impact.</p><p><strong>PHTI recommends members meet 3 criteria to be considered meaningfully engaged. Criteria 1 and 2 are required.</strong></p><p><strong><em>Recommended values are pre-filled.</em></strong></p>",
           "fields": [
             {
-              "id": "field-meaningful-engagement-2-num-days",
-              "label": "<strong>Clinical utilization criteria 2:</strong> Baseline A1C captured within X days before or after program start, as defined above",
-              "description": "Number of days",
-              "type": "number",
-              "default": 15,
-              "min": 1
-            },
-            {
-              "id": "field-meaningful-engagement-3-num-transactions",
-              "label": "<strong>Clinical utilization criteria 3:</strong> At least X member-initiated transactions with program per month for X months",
-              "description": "Number of transactions",
-              "type": "number",
-              "default": 3,
-              "tooltip": {
-                "text": "Clearly define “transaction” in contract, prioritizing member-initiated and clinically meaningful interactions."
-              }
-            },
-            {
-              "id": "field-meaningful-engagement-3-num-months",
+              "id": "field-meaningful-engagement-criteria-1",
               "label": "",
-              "description": "Number of months",
-              "type": "number",
-              "default": 3
+              "type": "checkbox",
+              "disabled": true,
+              "options": [
+                {
+                  "id": "option-meaningful-engagement-criteria-1",
+                  "label": "(Criteria 1) Program start: Member executed engagement agreement",
+                  "description": "Required.",
+                  "required": true,
+                  "value": "criteria-1"
+                }
+              ],
+              "default": ["criteria-1"]
+            },
+            {
+              "id": "field-meaningful-engagement-clinical-utilization",
+              "label": "Clinical utilization",
+              "tooltip": {
+                "text": "Engagement tied to clinician interaction, including sessions, coaching calls, messages."
+              },
+              "subfields": [
+                {
+                  "id": "subfield-meaningful-engagement-criteria-2",
+                  "label": "",
+                  "type": "checkbox",
+                  "disabled": true,
+                  "options": [
+                    {
+                      "id": "option-meaningful-engagement-criteria-2",
+                      "label": "(Criteria 2) Baseline A1C captured within __ days before or after program start, as defined above",
+                      "description": "Required.",
+                      "required": true,
+                      "value": "criteria-2",
+                      "subfields": [
+                        {
+                          "id": "field-meaningful-engagement-2-num-days",
+                          "label": "Number of days",
+                          "type": "number",
+                          "default": 15,
+                          "min": 1
+                        }
+                      ]
+                    }
+                  ],
+                  "default": ["criteria-2"]
+                },
+                {
+                  "id": "subfield-meaningful-engagement-criteria-3",
+                  "label": "",
+                  "type": "checkbox",
+                  "options": [
+                    {
+                      "id": "option-meaningful-engagement-criteria-3",
+                      "label": "(Criteria 3) At least __ member-initiated transactions with program per __ months",
+                      "value": "criteria-3",
+                      "tooltip": {
+                        "text": "Clearly define “transaction” in contract, prioritizing member-initiated and clinically meaningful interactions."
+                      },
+                      "subfields": [
+                        {
+                          "id": "field-meaningful-engagement-3-num-transactions",
+                          "label": "Number of transactions",
+                          "type": "number",
+                          "default": 3
+                        },
+                        {
+                          "id": "field-meaningful-engagement-3-num-months",
+                          "label": "Number of months",
+                          "type": "number",
+                          "default": 3
+                        }
+                      ]
+                    }
+                  ],
+                  "default": ["criteria-3"]
+                }
+              ]
             }
           ]
         }
@@ -341,7 +396,7 @@
               "options": [
                 {
                   "id": "option-performance-metrics-program-tenure-options",
-                  "label": "Members enrolled for X consecutive months",
+                  "label": "Members enrolled for __ consecutive months",
                   "value": "program-tenure-options",
                   "note": "Usual care of diabetes including prescription medications can be expected to yield results within 4 months, as reported in <a href='https://phti.org/assessment/digital-diabetes-management-tools/' target='_blank' rel='noopener noreferrer'>PHTI’s Digital Diabetes Management Solutions Assessment</a>.",
                   "subfields": [
@@ -385,12 +440,12 @@
                 },
                 {
                   "id": "option-engagement-approach-material-review-approval",
-                  "label": "<strong>Material Review & Approval:</strong> Vendor will submit all co-branded and company-branded outreach and education materials for purchaser approval prior to use. (Co-branded materials are generally preferred and shown to improve engagement.) Purchaser will approve or propose modifications within X days of submission.",
+                  "label": "<strong>Material Review & Approval:</strong> Vendor will submit all co-branded and company-branded outreach and education materials for purchaser approval prior to use. (Co-branded materials are generally preferred and shown to improve engagement.) Purchaser will approve or propose modifications within __ days of submission.",
                   "value": "material-review-approval"
                 },
                 {
                   "id": "option-engagement-approach-revisions-updates",
-                  "label": "<strong>Revisions & Updates:</strong> Any revisions to previously approved materials (including templates, scripts, and digital content) must be resubmitted for purchaser review and approval within X days before deployment.",
+                  "label": "<strong>Revisions & Updates:</strong> Any revisions to previously approved materials (including templates, scripts, and digital content) must be resubmitted for purchaser review and approval within __ days before deployment.",
                   "value": "revisions-updates"
                 },
                 {
@@ -744,7 +799,7 @@
               "options": [
                 {
                   "id": "option-administrative-terms-reconciliation-one-year",
-                  "label": "One year measurement period, beginning when minimum enrollment is achieved for X months",
+                  "label": "One year measurement period, beginning when minimum enrollment is achieved for __ months",
                   "value": "one-year-measurement-period",
                   "tooltip": {
                     "text": "Usual care of diabetes including prescription medications can be expected to yield results within 4 months, as reported in <a href='https://phti.org/assessment/digital-diabetes-management-tools/' target='_blank' rel='noopener noreferrer'>PHTI’s Digital Diabetes Management Solutions Assessment</a>"
@@ -764,7 +819,7 @@
                 },
                 {
                   "id": "option-administrative-terms-reconciliation-bonuses",
-                  "label": "Bonuses determined within a X-month period following X months post-measurement period for claims run-out",
+                  "label": "Bonuses determined within a __-month period following __ months post-measurement period for claims run-out",
                   "value": "bonuses",
                   "tooltip": {
                     "text": "3 months is recommended for claims data lag"
@@ -818,7 +873,7 @@
               "options": [
                 {
                   "id": "option-administrative-terms-term-and-renewal-3-year-initial-term",
-                  "label": "X-year initial term, with fixed price throughout term",
+                  "label": "__-year initial term, with fixed price throughout term",
                   "value": "initial-term",
                   "subfields": [
                     {
@@ -831,7 +886,7 @@
                 },
                 {
                   "id": "option-administrative-terms-term-and-renewal-annual-renewal-120-day-notice",
-                  "label": "Annual renewal with X-day notice",
+                  "label": "Annual renewal with __-day notice",
                   "value": "annual-renewal",
                   "subfields": [
                     {

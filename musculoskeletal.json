@@ -134,7 +134,7 @@
               "options": [
                 {
                   "id": "option-eligible-population-exclusion-criteria-prior-musculoskeletal-surgery",
-                  "label": "Prior musculoskeletal surgery within X months",
+                  "label": "Prior musculoskeletal surgery within __ months",
                   "value": "prior-musculoskeletal-surgery",
                   "subfields": [
                     {
@@ -240,7 +240,7 @@
                 },
                 {
                   "id": "option-meaningful-engagement-based-milestones-2",
-                  "label": "Payment Milestone 2: After X visits",
+                  "label": "Payment Milestone 2: After __ visits",
                   "value": "milestone-2",
                   "subfields": [
                     {
@@ -253,7 +253,7 @@
                 },
                 {
                   "id": "option-meaningful-engagement-based-milestones-3",
-                  "label": "Payment Milestone 3: After X visits",
+                  "label": "Payment Milestone 3: After __ visits",
                   "value": "milestone-3",
                   "subfields": [
                     {
@@ -266,7 +266,7 @@
                 },
                 {
                   "id": "option-meaningful-engagement-based-milestones-additional",
-                  "label": "Additional Payment Milestone: After X visits",
+                  "label": "Additional Payment Milestone: After __ visits",
                   "value": "additional",
                   "subfields": [
                     {
@@ -292,7 +292,7 @@
               "options": [
                 {
                   "id": "option-meaningful-performance-criteria-complete-valid-screening-tool",
-                  "label": "Must complete a validated screening tool within X days of enrollment",
+                  "label": "Must complete a validated screening tool within __ days of enrollment",
                   "value": "within-x-days",
                   "subfields": [
                     {
@@ -305,7 +305,7 @@
                 },
                 {
                   "id": "option-meaningful-performance-criteria-complete-min-sessions",
-                  "label": "Minimum X sessions to be considered for performance component",
+                  "label": "Minimum __ sessions to be considered for performance component",
                   "value": "minimum-sessions",
                   "subfields": [
                     {
@@ -368,7 +368,7 @@
               "options": [
                 {
                   "id": "option-performance-metrics-program-tenure",
-                  "label": "X sessions within X months",
+                  "label": "__ sessions within __ months",
                   "value": "program-tenure",
                   "subfields": [
                     {
@@ -417,12 +417,12 @@
                 },
                 {
                   "id": "option-engagement-approach-material-review-approval",
-                  "label": "<strong>Material Review & Approval:</strong> Vendor will submit all co-branded and company-branded outreach and education materials for purchaser approval prior to use (co-branded materials are generally preferred and shown to improve engagement). Purchaser will approve or propose modifications within X days of submission.",
+                  "label": "<strong>Material Review & Approval:</strong> Vendor will submit all co-branded and company-branded outreach and education materials for purchaser approval prior to use (co-branded materials are generally preferred and shown to improve engagement). Purchaser will approve or propose modifications within __ days of submission.",
                   "value": "material-review-approval"
                 },
                 {
                   "id": "option-engagement-approach-revisions-updates",
-                  "label": "<strong>Revisions & Updates:</strong> Any revisions to previously approved materials (including templates, scripts, and digital content) must be resubmitted for purchaser review and approval within X days before deployment.",
+                  "label": "<strong>Revisions & Updates:</strong> Any revisions to previously approved materials (including templates, scripts, and digital content) must be resubmitted for purchaser review and approval within __ days before deployment.",
                   "value": "revisions-updates"
                 },
                 {
@@ -862,7 +862,7 @@
               "options": [
                 {
                   "id": "option-administrative-terms-reconciliation-one-year",
-                  "label": "One year measurement period, beginning when minimum members reach X visits",
+                  "label": "One year measurement period, beginning when minimum members reach __ visits",
                   "value": "one-year-measurement-period",
                   "subfields": [
                     {
@@ -876,7 +876,7 @@
                 },
                 {
                   "id": "option-administrative-terms-reconciliation-bonuses",
-                  "label": "Bonuses determined within a X month period following X months post-measurement period",
+                  "label": "Bonuses determined within a __ month period following __ months post-measurement period",
                   "value": "bonuses",
                   "tooltip": {
                     "text": "Suggest 3 months to ensure time for claims run-out"
@@ -929,7 +929,7 @@
               "options": [
                 {
                   "id": "option-administrative-terms-term-and-renewal-3-year-initial-term",
-                  "label": "X-year initial term, with fixed price throughout term",
+                  "label": "__-year initial term, with fixed price throughout term",
                   "value": "initial-term",
                   "subfields": [
                     {
@@ -942,7 +942,7 @@
                 },
                 {
                   "id": "option-administrative-terms-term-and-renewal-annual-renewal-120-day-notice",
-                  "label": "Annual renewal with X-day notice",
+                  "label": "Annual renewal with __-day notice",
                   "value": "annual-renewal",
                   "subfields": [
                     {
