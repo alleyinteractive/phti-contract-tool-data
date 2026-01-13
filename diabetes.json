@@ -392,25 +392,10 @@
           "fields": [
             {
               "id": "field-performance-metrics-program-tenure",
-              "label": "",
-              "type": "checkbox",
-              "options": [
-                {
-                  "id": "option-performance-metrics-program-tenure-options",
-                  "label": "Members enrolled for __ consecutive months",
-                  "value": "program-tenure-options",
-                  "note": "Usual care of diabetes including prescription medications can be expected to yield results within 4 months, as reported in <a href='https://phti.org/assessment/digital-diabetes-management-tools/' target='_blank' rel='noopener noreferrer'>PHTI’s Digital Diabetes Management Solutions Assessment</a>.",
-                  "subfields": [
-                    {
-                      "id": "subfield-performance-metrics-program-tenure-num-months",
-                      "label": "Number of months",
-                      "type": "number",
-                      "default": 4
-                    }
-                  ]
-                }
-              ],
-              "default": ["program-tenure-options"]
+              "label": "Members enrolled for __ consecutive months",
+              "description": "Number of months",
+              "type": "number",
+              "default": 4
             }
           ]
         }

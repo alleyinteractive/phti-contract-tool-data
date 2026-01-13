@@ -365,29 +365,19 @@
           "fields": [
             {
               "id": "field-performance-metrics-performance-payment-program-tenure",
-              "type": "checkbox",
-              "options": [
-                {
-                  "id": "option-performance-metrics-program-tenure",
-                  "label": "__ sessions within __ months",
-                  "value": "program-tenure",
-                  "subfields": [
-                    {
-                      "id": "subfield-performance-metrics-program-tenure-num-sessions",
-                      "label": "Number of sessions",
-                      "type": "number",
-                      "default": 9
-                    },
-                    {
-                      "id": "subfield-performance-metrics-program-tenure-num-months",
-                      "label": "Number of months",
-                      "type": "number",
-                      "default": 12
-                    }
-                  ]
-                }
-              ],
-              "default": ["program-tenure"]
+              "label": "__ sessions within __ months"
+            },
+            {
+              "id": "subfield-performance-metrics-program-tenure-num-sessions",
+              "description": "Number of sessions",
+              "type": "number",
+              "default": 9
+            },
+            {
+              "id": "subfield-performance-metrics-program-tenure-num-months",
+              "description": "Number of months",
+              "type": "number",
+              "default": 12
             }
           ]
         }

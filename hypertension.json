@@ -442,24 +442,10 @@
           "fields": [
             {
               "id": "field-performance-metrics-program-tenure",
-              "label": "",
-              "type": "checkbox",
-              "options": [
-                {
-                  "id": "option-performance-metrics-program-tenure-options",
-                  "label": "Members enrolled for __ consecutive months",
-                  "value": "program-tenure-options",
-                  "subfields": [
-                    {
-                      "id": "subfield-performance-metrics-program-tenure-num-months",
-                      "label": "Number of months",
-                      "type": "number",
-                      "default": 6
-                    }
-                  ]
-                }
-              ],
-              "default": ["program-tenure-options"]
+              "label": "Members enrolled for __ consecutive months",
+              "description": "Number of months",
+              "type": "number",
+              "default": 6
             }
           ]
         }
