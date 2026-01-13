@@ -811,6 +811,9 @@
                 {
                   "id": "option-administrative-terms-reconciliation-one-year",
                   "label": "One year measurement period, beginning when minimum enrollment is achieved for __ months",
+                  "description": "Required.",
+                  "required": true,
+                  "disabled": true,
                   "value": "one-year-measurement-period",
                   "tooltip": {
                     "text": "Improvement in hypertension, including prescription medications, can be expected to yield results within 6 months: From PHTI’s 2024 Digital Hypertension Management Solutions Health Technology Assessment"
@@ -830,6 +833,9 @@
                 {
                   "id": "option-administrative-terms-reconciliation-bonuses",
                   "label": "Bonuses determined within a __-month period following __ months post-measurement period",
+                  "description": "Required.",
+                  "required": true,
+                  "disabled": true,
                   "value": "bonuses",
                   "tooltip": {
                     "text": "Suggest 3 months to ensure time for claims run-out"
@@ -884,6 +890,9 @@
                 {
                   "id": "option-administrative-terms-term-and-renewal-3-year-initial-term",
                   "label": "__-year initial term, with fixed price throughout term",
+                  "description": "Required.",
+                  "required": true,
+                  "disabled": true,
                   "value": "initial-term",
                   "subfields": [
                     {
@@ -897,6 +906,9 @@
                 {
                   "id": "option-administrative-terms-term-and-renewal-annual-renewal-120-day-notice",
                   "label": "Annual renewal with __-day notice",
+                  "description": "Required.",
+                  "required": true,
+                  "disabled": true,
                   "value": "annual-renewal",
                   "subfields": [
                     {
@@ -918,6 +930,9 @@
                 {
                   "id": "option-administrative-terms-term-and-renewal-billing-frequency",
                   "label": "Billing Frequency",
+                  "description": "Required.",
+                  "required": true,
+                  "disabled": true,
                   "value": "billing-frequency",
                   "subfields": [
                     {
@@ -928,6 +943,9 @@
                         {
                           "id": "option-administrative-terms-term-and-renewal-billing-frequency-pempm",
                           "label": "Per engaged member per month (PEMPM) payments billing frequency",
+                          "description": "Required.",
+                          "required": true,
+                          "disabled": true,
                           "value": "pempm",
                           "subfields": [
                             {
@@ -958,6 +976,9 @@
                         {
                           "id": "option-administrative-terms-term-and-renewal-billing-frequency-performance-payments",
                           "label": "Performance payments billing frequency",
+                          "description": "Required.",
+                          "required": true,
+                          "disabled": true,
                           "value": "performance-payments",
                           "subfields": [
                             {
