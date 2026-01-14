@@ -26,7 +26,7 @@
           "heading": "Select the payment model(s) for the contract.",
           "description": "<p>There are multiple ways to structure your payment. Many performance-based contracts today use a clawback model, in which vendors are paid up front, with the understanding that funds will be returned if previously agreed-upon performance guarantees are missed. In practice, though, clawbacks are rarely enforced as written. Purchasers report that this undermines accountability and creates friction with vendors, particularly at the end of a contract.</p><p>A stronger alternative is a two-stream payment model that separates fees for engaged members from performance payments—vendors receive a lower base fee tied to meaningful engagement, with the performance component withheld until outcomes are achieved. This approach maintains some vendor cash flow while withholding part of the fees for demonstrated results.</p><p><strong>PHTI recommends tying a majority of contract value to performance payment.</strong></p>",
           "note": "PHTI recognizes that performance-based contracts include maintenance or follow-on periods to support sustained clinical outcomes when the evidence base supports it and at an appropriate cost. These periods should be contracted at a lower price point, with performance expectations tailored to member status at the maintenance period baseline. For members that remain above clinical thresholds at the beginning of the maintenance period, performance payment should be tied to improvement and achievement of control. For members already in control, performance payment should be tied to sustaining status and preventing regression.",
-          "instructions": "<p><strong><em>Percentages must sum to 100%.</em></strong></p>",
+          "instructions": "<p><strong><em>Recommended values are pre-filled. Percentages must sum to 100%.</em></strong></p>",
           "fields": [
             {
               "id": "field-payment-model-selection",
@@ -99,6 +99,7 @@
         {
           "id": "step-eligibility-criteria",
           "heading": "Select the plan members eligible to use the solution.",
+          "description": "<strong><em>Recommended values are pre-filled.</em></strong>",
           "fields": [
             {
               "id": "field-eligibility-criteria-inclusion-criteria",
@@ -255,7 +256,7 @@
         {
           "id": "step-meaningful-engagement",
           "heading": "Define engagement criteria for the contract.",
-          "description": "<p>Currently the main definitions of engagement in use today include metrics such as app logins, email opens, and an engagement index. Purchasers increasingly indicate that they prefer more meaningful engagement metrics, especially as these metrics serve as the basis for PEMPM payments and performance payment calculations. PHTI’s recommended definitions focus on engagement milestones that are correlated with clinical impact.</p><p><strong>PHTI recommends members meet 3 criteria to be considered meaningfully engaged. Criteria 1 and 2 are required.</strong></p>",
+          "description": "<p>Currently the main definitions of engagement in use today include metrics such as app logins, email opens, and an engagement index. Purchasers increasingly indicate that they prefer more meaningful engagement metrics, especially as these metrics serve as the basis for PEMPM payments and performance payment calculations. PHTI’s recommended definitions focus on engagement milestones that are correlated with clinical impact.</p><p><strong>PHTI recommends members meet 3 criteria to be considered meaningfully engaged. Criteria 1 and 2 are required.</strong></p><p><strong><em>Recommended values are pre-filled.</em></strong></p>",
           "fields": [
             {
               "id": "field-meaningful-engagement-criteria-1",
@@ -352,7 +353,7 @@
         {
           "id": "step-performance-metrics-performance-payment",
           "heading": "Select which performance metric(s) should be tied to the performance payment.",
-          "description": "<p>NCQA’s HEDIS measure BPC-E (Blood Pressure Control for Patients with Hypertension) is widely accepted and calculated for quality improvement programs. This measure assesses the percent of individuals in a defined population whose blood pressure is controlled below a universal threshold (<140/90). PHTI recommends it as the preferred option for performance measure targets.</p><p>Some purchasers and vendors may elect to measure absolute change in systolic blood pressure (SBP) to capture clinical improvement across the full risk spectrum. Using the SBP measure allows contracts to reward meaningful improvements among patients with more severe baseline hypertension who do not fall below the threshold at the end of the measurement period, while also recognizing improvements among patients who begin below the threshold but experience further blood pressure reductions. This approach limits rewards for small changes concentrated around the control cutoff (e.g., just above to just below <140/90) and instead ties payment to improvement in average SBP across the cohort.</p><p><strong><em>Percentages must sum to 100%.</em></strong></p><p>If focusing on blood pressure control, set to 100%. If incorporating medication adherence, select the percentage of the total performance payment that will be tied to each.</p>",
+          "description": "<p>NCQA’s HEDIS measure BPC-E (Blood Pressure Control for Patients with Hypertension) is widely accepted and calculated for quality improvement programs. This measure assesses the percent of individuals in a defined population whose blood pressure is controlled below a universal threshold (<140/90). PHTI recommends it as the preferred option for performance measure targets.</p><p>Some purchasers and vendors may elect to measure absolute change in systolic blood pressure (SBP) to capture clinical improvement across the full risk spectrum. Using the SBP measure allows contracts to reward meaningful improvements among patients with more severe baseline hypertension who do not fall below the threshold at the end of the measurement period, while also recognizing improvements among patients who begin below the threshold but experience further blood pressure reductions. This approach limits rewards for small changes concentrated around the control cutoff (e.g., just above to just below <140/90) and instead ties payment to improvement in average SBP across the cohort.</p><p><strong><em>Recommended values are pre-filled. Percentages must sum to 100%.</em></strong></p><p>If focusing on blood pressure control, set to 100%. If incorporating medication adherence, select the percentage of the total performance payment that will be tied to each.</p>",
           "fields": [
             {
               "id": "field-performance-metrics-performance-payment",
@@ -424,7 +425,7 @@
         {
           "id": "step-performance-metrics-program-tenure",
           "heading": "Confirm desired program tenure for inclusion in the performance payment.",
-          "description": "<p>Improvement in hypertension, including prescription medications, can be expected to yield results within 6 months: From <a href='https://phti.org/wp-content/uploads/sites/3/2024/11/PHTI-Digital-Hypertension-Mgmt-Assessment-Report-v1.1.pdf' target='_blank' rel='noopener noreferrer'>PHTI’s 2024 Digital Hypertension Management Solutions Health Technology Assessment</a>, studies show large reductions in systolic blood pressure as early as three months, with most reductions accruing by six months. At six months, digital solution users had a statistically significant improvement in self-reported medication adherence, whereas patients receiving usual care did not.</p>",
+          "description": "<p>Improvement in hypertension, including prescription medications, can be expected to yield results within 6 months: From <a href='https://phti.org/wp-content/uploads/sites/3/2024/11/PHTI-Digital-Hypertension-Mgmt-Assessment-Report-v1.1.pdf' target='_blank' rel='noopener noreferrer'>PHTI’s 2024 Digital Hypertension Management Solutions Health Technology Assessment</a>, studies show large reductions in systolic blood pressure as early as three months, with most reductions accruing by six months. At six months, digital solution users had a statistically significant improvement in self-reported medication adherence, whereas patients receiving usual care did not.</p><p><strong><em>Recommended values are pre-filled.</em></strong></p>",
           "fields": [
             {
               "id": "field-performance-metrics-program-tenure",
@@ -462,7 +463,7 @@
         {
           "id": "step-engagement-approach",
           "heading": "Select Your Engagement Approach.",
-          "description": "<p>This section details the operational components of the contract that are critical to successful implementation of performance-based contracts.</p>",
+          "description": "<p>This section details the operational components of the contract that are critical to successful implementation of performance-based contracts.</p><p><strong><em>Recommended values are pre-filled.</em></strong></p>",
           "fields": [
             {
               "id": "field-engagement-approach",
@@ -536,6 +537,7 @@
         {
           "id": "step-data-sharing-commitments-purchaser-to-vendor",
           "heading": "Select which data sharing commitments should be included in the contract.",
+          "description": "<strong><em>Recommended values are pre-filled.</em></strong>",
           "fields": [
             {
               "id": "field-data-sharing-commitments-purchaser-to-vendor-format",
@@ -799,7 +801,7 @@
         {
           "id": "step-administrative-terms-reconciliation",
           "heading": "Select Administrative Terms: Reconciliation",
-          "description": "<p>The timeline required to observe meaningful improvements in clinical outcomes or reductions in total cost of care frequently exceeds the duration of most purchaser-vendor contracts.</p><p>Purchasers should consider availability of resources required to calculate performance payments prior to establishing bonus determination deadline.</p>",
+          "description": "<p>The timeline required to observe meaningful improvements in clinical outcomes or reductions in total cost of care frequently exceeds the duration of most purchaser-vendor contracts.</p><p>Purchasers should consider availability of resources required to calculate performance payments prior to establishing bonus determination deadline.</p><p><strong><em>Recommended values are pre-filled.</em></strong></p>",
           "fields": [
             {
               "id": "field-administrative-terms-reconciliation",
@@ -872,6 +874,7 @@
         {
           "id": "step-administrative-terms-term-and-renewal",
           "heading": "Select Administrative Terms: Duration and Renewal",
+          "description": "<strong><em>Recommended values are pre-filled.</em></strong>",
           "fields": [
             {
               "id": "field-administrative-terms-term-and-renewal",
