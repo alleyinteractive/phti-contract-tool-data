@@ -814,7 +814,7 @@
                   "label": "One year measurement period, beginning when minimum enrollment is achieved for __ months",
                   "value": "one-year-measurement-period",
                   "tooltip": {
-                    "text": "Improvement in hypertension, including prescription medications, can be expected to yield results within 6 months: From PHTI’s 2024 Digital Hypertension Management Solutions Health Technology Assessment"
+                    "text": "Improvement in hypertension, including prescription medications, can be expected to yield results within 6 months, per <a target=\"_blank\" href=\"https://phti.org/assessment/digital-hypertension-management-solutions/\">PHTI’s 2024 Digital Hypertension Management Solutions Health Technology Assessment</a>."
                   },
                   "subfields": [
                     {
@@ -823,7 +823,7 @@
                       "type": "number",
                       "defaultFrom": "subfield-performance-metrics-program-tenure-num-months",
                       "tooltip": {
-                        "text": "Populated based on previous field."
+                        "text": "Populated based on minimum program tenure selection in Decision 4: Performance Metrics."
                       }
                     }
                   ]
