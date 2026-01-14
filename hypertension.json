@@ -72,9 +72,8 @@
                   "label": "Shared savings",
                   "value": "shared-savings",
                   "tooltip": {
-                    "text": "Shared savings calculate the difference between actual healthcare spending for the engaged population compared to their expected spending and split those avoided costs between the purchaser and vendor"
-                  },
-                  "note": "Should only be pursued by purchasers who are able to analyze and validate statistically valid cost savings results, either in-house or through a third-party vendor."
+                    "text": "Shared savings is the calculation of  the difference between actual healthcare spending for the engaged population compared to their expected spending. The savings of the avoided costs are then split between the purchaser and vendor. Should only be pursued by purchasers who are able to analyze and validate statistically valid cost savings results, either in-house or through a third-party vendor."
+                  }
                 }
               ],
               "default": ["pempm", "performance-payment"]
@@ -149,12 +148,12 @@
                         },
                         {
                           "id": "option-eligibility-criteria-over-130-systolic",
-                          "label": "Those with >130 systolic",
+                          "label": "Those with >130 systolic blood pressure",
                           "value": "over-130-systolic"
                         },
                         {
                           "id": "option-eligibility-criteria-over-80-diastolic",
-                          "label": "Those with >80 diastolic",
+                          "label": "Those with >80 diastolic blood pressure",
                           "value": "over-80-diastolic"
                         },
                         {
@@ -212,8 +211,8 @@
                 },
                 {
                   "id": "option-eligibility-criteria-exclusion-criteria-older-than-85-years",
-                  "label": "Older than 85 years",
-                  "value": "older-than-85-years",
+                  "label": "Older than 85 years of age",
+                  "value": "older-than-85-years of age",
                   "tooltip": {
                     "text": "HEDIS metrics typically exclude those older than 85 years and younger than 18 years."
                   }
@@ -387,18 +386,7 @@
                           "tooltip": {
                             "text": "The percentage of members 18–85 years of age who had a diagnosis of hypertension (HTN) and whose most recent blood pressure (BP) was <140/90 mm Hg. Source: <a href='https://wpcdn.ncqa.org/www-prod/wp-content/uploads/HEDIS-MY-2025-Measure-Description.pdf' target='_blank' rel='noopener noreferrer'>HEDIS MY 2025</a>"
                           },
-                          "value": "hedis",
-                          "subfields": [
-                            {
-                              "id": "subfield-performance-metrics-hedis-percentage",
-                              "label": "Percentage of eligible members in control",
-                              "type": "percentage",
-                              "default": 70,
-                              "min": 0,
-                              "max": 100
-                            }
-                          ]
-                        },
+                          "value": "hedis"                        },
                         {
                           "id": "option-performance-metrics-systolic-bp-improvement",
                           "label": "Systolic BP (SBP) improvement",
@@ -590,7 +578,7 @@
                           "defaultFrom": "field-performance-metrics-performance-payment",
                           "defaultFromValue": "medication-adherence",
                           "tooltip": {
-                            "text": "<p>Supports identification of eligible population, and attribution. Purchasers may consider summary data in lieu of raw claims files.</p><p>May be pre-selected based on previous field.</p>"
+                            "text": "<p>Supports identification of eligible population, and attribution. Purchasers may consider summary data in lieu of raw claims files.</p>"
                           }
                         },
                         {
@@ -674,7 +662,7 @@
                         },
                         {
                           "id": "option-data-sharing-commitments-enrollment-file-baseline-bp-for-each-member",
-                          "label": "Baseline BP for each member",
+                          "label": "Baseline blood pressure for each member",
                           "value": "baseline-bp-for-each-member"
                         },
                         {
@@ -751,7 +739,7 @@
                       "options": [
                         {
                           "id": "option-data-sharing-commitments-clinical-measurements-bp",
-                          "label": "BP measurement",
+                          "label": "Blood pressure measurement",
                           "value": "bp"
                         },
                         {
