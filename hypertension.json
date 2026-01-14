@@ -608,7 +608,8 @@
                             }
                           ]
                         }
-                      ]
+                      ],
+                      "default": ["claims", "feeds", "lab-results"]
                     }
                   ]
                 }
