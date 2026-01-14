@@ -83,8 +83,8 @@
       ]
     },
     {
-      "id": "section-eligible-population",
-      "heading": "Eligible Population",
+      "id": "section-eligibility-criteria",
+      "heading": "Eligiblity Criteria",
       "tooltipDrawer": {
         "label": "Understand more about eligibility criteria.",
         "text": "<p><strong>About Eligibility Criteria</strong></p><p>Eligibility criteria determine which plan members may engage with the solution and have their outcomes measured. Eligibility typically includes clinical criteria, demographics, or utilization history.</p><p>The <strong>inclusion and exclusion criteria</strong> define the total population of eligible members who may engage with the solution. Narrowing the eligibility will limit the number of individuals who may be included in the denominator and the numerator.</p><p><strong>Contracting tip:</strong></p><ul><li>Include clause allowing digital health solution vendor to update the exclusion criteria based on medical contraindications.</li><li>Specify timing for when exclusion criteria adjustments can be made to the contract.</li><li>Consider tiered pricing for lower acuity patients being treated with lower intensity intervention. Add data sharing commitments to ensure transparency of triage process.</li></ul>"
@@ -98,27 +98,27 @@
           "imgAlt": "PBC Outcome Measure Calculation Graphic" 
         },
         {
-          "id": "step-eligible-population",
+          "id": "step-eligibility-criteria",
           "heading": "Select the plan members eligible to use the solution.",
           "description": "<strong><em>Recommended values are pre-filled.</em></strong>",
           "fields": [
             {
-              "id": "field-eligible-population-inclusion-criteria",
+              "id": "field-eligibility-criteria-inclusion-criteria",
               "label": "Inclusion Criteria",
               "type": "radio",
               "options": [
                 {
-                  "id": "option-eligible-population-all-patients",
+                  "id": "option-eligibility-criteria-all-patients",
                   "label": "All members",
                   "value": "all-patients"
                 },
                 {
-                  "id": "option-eligible-population-exclusion-criteria-other",
+                  "id": "option-eligibility-criteria-exclusion-criteria-other",
                   "label": "Other",
                   "value": "other",
                   "subfields": [
                     {
-                      "id": "subfield-eligible-population-exclusion-criteria-other-text",
+                      "id": "subfield-eligibility-criteria-exclusion-criteria-other-text",
                       "label": "",
                       "type": "text"
                     }
@@ -128,70 +128,70 @@
               "default": ["all-patients"]
             },
             {
-              "id": "field-eligible-population-exclusion-criteria",
+              "id": "field-eligibility-criteria-exclusion-criteria",
               "label": "Exclusion Criteria",
               "description": "Select all that apply.",
               "type": "checkbox",
               "options": [
                 {
-                  "id": "option-eligible-population-exclusion-criteria-prior-musculoskeletal-surgery",
+                  "id": "option-eligibility-criteria-exclusion-criteria-prior-musculoskeletal-surgery",
                   "label": "Prior musculoskeletal surgery within __ months",
                   "value": "prior-musculoskeletal-surgery",
                   "subfields": [
                     {
-                      "id": "subfield-eligible-population-exclusion-criteria-prior-msk-surgery-num-months",
+                      "id": "subfield-eligibility-criteria-exclusion-criteria-prior-msk-surgery-num-months",
                       "label": "Number of months",
                       "type": "number"
                     }
                   ]
                 },
                 {
-                    "id": "option-eligible-population-exclusion-criteria-active-and-malignant-cancer",
+                    "id": "option-eligibility-criteria-exclusion-criteria-active-and-malignant-cancer",
                     "label": "Active and malignant cancer",
                     "value": "active-and-malignant-cancer"
                 },
                 {
-                    "id": "option-eligible-population-exclusion-criteria-blood-clotting-disorders",
+                    "id": "option-eligibility-criteria-exclusion-criteria-blood-clotting-disorders",
                     "label": "Blood clotting disorders",
                     "value": "blood-clotting-disorders"
                 },
                 {
-                    "id": "option-eligible-population-exclusion-criteria-transplants",
+                    "id": "option-eligibility-criteria-exclusion-criteria-transplants",
                     "label": "Transplants",
                     "value": "transplants"
                 },
                 {
-                    "id": "option-eligible-population-exclusion-criteria-hiv-diagnosis",
+                    "id": "option-eligibility-criteria-exclusion-criteria-hiv-diagnosis",
                     "label": "HIV diagnosis",
                     "value": "hiv-diagnosis"
                 },
                 {
-                    "id": "option-eligible-population-exclusion-criteria-trauma",
+                    "id": "option-eligibility-criteria-exclusion-criteria-trauma",
                     "label": "Trauma",
                     "value": "trauma"
                 },
                 {
-                    "id": "option-eligible-population-exclusion-criteria-multiple-sclerosis",
+                    "id": "option-eligibility-criteria-exclusion-criteria-multiple-sclerosis",
                     "label": "Multiple sclerosis",
                     "value": "multiple-sclerosis"
                 },
                 {
-                    "id": "option-eligible-population-exclusion-criteria-advanced-heart-failure",
+                    "id": "option-eligibility-criteria-exclusion-criteria-advanced-heart-failure",
                     "label": "Advanced heart failure",
                     "value": "advanced-heart-failure"
                 },
                 {
-                    "id": "option-eligible-population-exclusion-criteria-advanced-neurologic-disease",
+                    "id": "option-eligibility-criteria-exclusion-criteria-advanced-neurologic-disease",
                     "label": "Advanced neurologic disease",
                     "value": "advanced-neurologic-disease"
                 },
                 {
-                  "id": "option-eligible-population-exclusion-criteria-other",
+                  "id": "option-eligibility-criteria-exclusion-criteria-other",
                   "label": "Other",
                   "value": "other",
                   "subfields": [
                     {
-                      "id": "subfield-eligible-population-exclusion-criteria-other-text",
+                      "id": "subfield-eligibility-criteria-exclusion-criteria-other-text",
                       "label": "",
                       "type": "text"
                     }
