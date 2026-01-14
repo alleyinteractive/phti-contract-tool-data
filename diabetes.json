@@ -116,34 +116,12 @@
                 {
                   "id": "option-eligibility-criteria-clinically-appropriate-diagnosis-diabetes",
                   "label": "Only patients with a clinically appropriate diagnosis of diabetes",
-                  "value": "clinically-appropriate-diagnosis-diabetes",
-                  "subfields": [
-                    {
-                      "id": "subfield-eligibility-criteria-clinically-appropriate-diagnosis-diabetes",
-                      "label": "",
-                      "type": "radio",
-                      "options": [
-                        {
-                          "id": "option-eligibility-criteria-laboratory-findings-and-or-documented-diagnosis",
-                          "label": "Laboratory findings of type 2 diabetes and/or documented diagnosis of type 2 diabetes",
-                          "value": "laboratory-findings-and-or-documented-diagnosis"
-                        },
-                        {
-                          "id": "option-eligibility-criteria-on-diabetes-prescription-with-diagnosis",
-                          "label": "On diabetes prescription medicine with accompanying diagnosis of type 2 diabetes",
-                          "value": "on-diabetes-prescription-with-diagnosis",
-                          "tooltip": {
-                            "text": "Consider clinical review clause for members eligible only due to Rx use to avoid inclusion due to off-label medication use"
-                          }
-                        }
-                      ]
-                    }
-                  ]
+                  "description": "<ul><li>Laboratory findings of type 2 diabetes and/or documented diagnosis of type 2 diabetes, or</li><li>On diabetes prescription medicine with accompanying diagnosis of type 2 diabetes</li></ul>",
+                  "value": "clinically-appropriate-diagnosis-diabetes"
                 },
                 {
                   "id": "option-eligibility-criteria-subset-patients",
                   "label": "Limit offering to subset of people with diabetes most likely to benefit",
-                  "description": "Select one or more.",
                   "value": "subset-patients",
                   "subfields": [
                     {

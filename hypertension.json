@@ -111,27 +111,8 @@
                 {
                   "id": "option-eligibility-criteria-all-patients",
                   "label": "All members with a diagnosis of hypertension",
-                  "value": "all-patients",
-                  "subfields": [
-                    {
-                      "id": "subfield-eligibility-criteria-all-patients",
-                      "label": "",
-                      "type": "radio",
-                      "options": [
-                        {
-                          "id": "option-eligibility-criteria-documented-hypertension",
-                          "label": "Those with a documented diagnosis or history of stage 1 hypertension or stage 2 hypertension",
-                          "value": "documented-hypertension"
-                        },
-                        {
-                          "id": "option-eligibility-criteria-hypertension-medication",
-                          "label": "Those on hypertension prescription medication with a physician-conducted blood pressure reading that resulted in measurement equal to stage 1 or stage 2 hypertension",
-                          "value": "hypertension-medication"
-                        }
-                      ],
-                      "default": ["hypertension-medication"]
-                    }
-                  ]
+                  "description": "<ul><li>Those with a documented diagnosis or history of stage 1 hypertension or stage 2 hypertension, or</li><li>Those on hypertension prescription medication with a physician-conducted blood pressure reading that resulted in measurement equal to stage 1 or stage 2 hypertension</li></ul>",
+                  "value": "all-patients"
                 },
                 {
                   "id": "option-eligibility-criteria-subset-patients",
