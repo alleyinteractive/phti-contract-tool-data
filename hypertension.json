@@ -874,7 +874,7 @@
         {
           "id": "step-administrative-terms-term-and-renewal",
           "heading": "Select Administrative Terms: Duration and Renewal",
-          "description": "<strong><em>Recommended values are pre-filled.</em></strong>",
+          "description": "<p><strong><em>Recommended values are pre-filled.</em></strong></p>",
           "fields": [
             {
               "id": "field-administrative-terms-term-and-renewal",
