@@ -8,7 +8,7 @@
       "steps": [
         {
           "id": "step-introduction-welcome",
-          "description": "<p>This toolkit focuses on digital hypertension management solutions, drawing on findings from <a href='https://phti.org/assessment/digital-hypertension-management-solutions/' target='_blank' rel='noopener noreferrer'>PHTI's Digital Hypertension Management Solutions Health Technology Assessment</a> and <a href='' target='_blank' rel='noopener noreferrer'>PHTI's Performance-Based Contracting Playbook</a>.</p><p><strong>What this toolkit does:</strong></p><p>Helps purchasers and vendors establish clear, evidence-based contract terms that align payment with improvements in blood pressure control and related outcomes.</p><p>First, you will select the type of <strong><em>payment model</em></strong>. Next, you will determine the <em>inputs for <strong>outcome measures</strong></em>, which include eligibility criteria, meaningful engagement criteria, and performance metrics. Finally, you will select <strong><em>operational components</em></strong>, which include engagement approach, data sharing commitments, and administrative terms, to include in your contracts.</p><p><strong>A few notes before you continue:</strong></p><ul><li>This toolkit helps you navigate key contracting decisions for performance-based contracts. It does not create a binding legal contract.</li><li>These contracts do not address pricing—a critical lever for driving impact in performance-based contracts. Purchasers and vendors are encouraged to consult <a href='https://phti.org/assessments/' target='_blank' rel='noopener noreferrer'>PHTI’s assessment reports</a> and budget impact models as resources to guide pricing conversations.</li><li>Toolkit responses are anonymous. We do not gather or store any data about you, your organization, or your selections.</li></ul><p><strong>Prefer to skip the interactive toolkit? Download the digital hypertension management solutions toolkit with PHTI's recommended selections.</strong></p><p><em>The content of this playbook/report and its associated toolkits has been prepared by PHTI for informational purposes and does not constitute legal, medical, clinical or other professional advice. PHTI cannot make any guarantees or warranties regarding results from the use of such content. The content is not intended to replace thoughtful customization and drafting addressing an organization’s specific objectives and circumstances. All companies, specific products or case studies mentioned are for explanatory purposes only.</em></p>",
+          "description": "<p>This toolkit focuses on digital hypertension management solutions, drawing on findings from <a href='https://phti.org/assessment/digital-hypertension-management-solutions/' target='_blank' rel='noopener noreferrer'>PHTI's Digital Hypertension Management Solutions Health Technology Assessment</a> and <a href='' target='_blank' rel='noopener noreferrer'>PHTI's Performance-Based Contracting Playbook</a>.</p><p><strong>What this toolkit does:</strong></p><p>Helps purchasers and digital health vendors establish clear, evidence-based contract terms that align payment with improvements in blood pressure control and related outcomes.</p><p>First, you will determine the design of the <strong>payment model</strong>. Next, you will determine the inputs for <strong>outcome measures</strong>, which include eligibility criteria, meaningful engagement criteria, and performance metrics. Finally, you will select <strong>operational components</strong>, which include engagement approach, data sharing commitments, and administrative terms, to include in your contracts.</p><p><strong>A few notes before you continue:</strong></p><ul><li>This toolkit helps you navigate key contracting decisions for performance-based contracts. It does not create a binding legal contract.</li><li>These contracts do not address pricing—a critical lever for driving impact in performance-based contracts. Purchasers and vendors are encouraged to consult <a href='https://phti.org/assessments/' target='_blank' rel='noopener noreferrer'>PHTI’s assessment reports</a> and budget impact models as resources to guide pricing conversations.</li><li>Toolkit responses are anonymous. We do not gather or store any data about you, your organization, or your selections.</li></ul><p><em>The content of this playbook/report and its associated toolkits has been prepared by PHTI for informational purposes and does not constitute legal, medical, clinical or other professional advice. PHTI cannot make any guarantees or warranties regarding results from the use of such content. The content is not intended to replace thoughtful customization and drafting addressing an organization’s specific objectives and circumstances. All companies, specific products or case studies mentioned are for explanatory purposes only.</em></p><p><strong>Prefer to skip the interactive toolkit? Download the digital hypertension management solutions toolkit with PHTI's recommended selections.</strong></p>",
           "descriptionPdf": "<p>PHTI’s performance-based contracting toolkits help purchasers and vendors negotiate contracts that link payment to verified outcomes, based on PHTI's independent evaluation and research.</p><p>This toolkit focuses on digital hypertension management solutions, drawing on findings from <a href='https://phti.org/assessment/digital-hypertension-management-solutions/' target='_blank' rel='noopener noreferrer'>PHTI's Digital Hypertension Management Solutions Health Technology Assessment</a> and <a href='' target='_blank' rel='noopener noreferrer'>PHTI's Performance-Based Contracting Playbook</a>. It is meant to help purchasers and vendors establish clear, evidence-based contract terms that align payment with improvements in blood pressure control and related outcomes.</p><p><em>The content of this playbook/report and its associated toolkits has been prepared by PHTI for informational purposes and does not constitute legal, medical, clinical or other professional advice. PHTI cannot make any guarantees or warranties regarding results from the use of such content. The content is not intended to replace thoughtful customization and drafting addressing an organization’s specific objectives and circumstances. All companies, specific products or case studies mentioned are for explanatory purposes only.</em></p>"
         }
       ]
@@ -26,7 +26,7 @@
           "heading": "Select the payment model(s) for the contract.",
           "description": "<p>There are multiple ways to structure your payment. Many performance-based contracts today use a clawback model, in which vendors are paid up front, with the understanding that funds will be returned if previously agreed-upon performance guarantees are missed. In practice, though, clawbacks are rarely enforced as written. Purchasers report that this undermines accountability and creates friction with vendors, particularly at the end of a contract.</p><p>A stronger alternative is a two-stream payment model that separates fees for engaged members from performance payments—vendors receive a lower base fee tied to meaningful engagement, with the performance component withheld until outcomes are achieved. This approach maintains some vendor cash flow while withholding part of the fees for demonstrated results.</p><p><strong>PHTI recommends tying a majority of contract value to performance payment.</strong></p>",
           "note": "PHTI recognizes that performance-based contracts include maintenance or follow-on periods to support sustained clinical outcomes when the evidence base supports it and at an appropriate cost. These periods should be contracted at a lower price point, with performance expectations tailored to member status at the maintenance period baseline. For members that remain above clinical thresholds at the beginning of the maintenance period, performance payment should be tied to improvement and achievement of control. For members already in control, performance payment should be tied to sustaining status and preventing regression.",
-          "instructions": "<p><strong><em>Recommended values are pre-filled. Percentages must sum to 100%.</em></strong></p>",
+          "instructions": "<p><strong><em>Percentages must sum to 100%.</em></strong></p>",
           "fields": [
             {
               "id": "field-payment-model-selection",
@@ -38,7 +38,7 @@
                   "label": "Per-engaged-member-per-month (PEMPM)",
                   "value": "pempm",
                   "tooltip": {
-                    "text": "PEMPM: Monthly payment for each member meeting meaningful engagement criteria <em>(see section 3)</em>"
+                    "text": "PEMPM: Monthly payment for each member meeting meaningful engagement criteria <em>(see section 3 - Meaningful Engagement Criteria)</em>"
                   },
                   "subfields": [
                     {
@@ -55,7 +55,7 @@
                   "label": "Performance payment",
                   "value": "performance-payment",
                   "tooltip": {
-                    "text": "Additional payment based on achievement of selected performance measure(s) <em>(see section 4)</em>"
+                    "text": "Additional payment based on achievement of selected performance measure(s) <em>(see section 4 - Performance metrics)</em>"
                   },
                   "subfields": [
                     {
@@ -92,14 +92,13 @@
       "steps": [
         {
           "id": "step-introduction",
-          "description": "<p>The following section details the inputs required to define the eligible population and calculate outcomes measures. The selections for each of these components will impact the threshold for PEMPM payments as well as the equation for calculating performance withholds.</p><p><strong>Performance Payment Calculation:</strong></p><ul><li><strong><u>Numerator:</u></strong> For cohort in the denominator, number of <strong>eligible members</strong> who meet <strong>the performance threshold for the measure of interest.</strong></li><li><strong><u>Denominator:</u></strong> Total <strong>eligible members</strong> who meet the <strong>meaningful engagement definition</strong> for duration of <strong>program tenure requirement.</strong></li></ul><p><strong>Definitions:</strong></p><ul><li><strong>The inclusion and exclusion criteria (question 2)</strong> define the total population of eligible members who may engage with the solution. Narrowing the eligibility will limit the number of individuals who may be included in the denominator and the numerator.</li><li><strong>The performance threshold for the measure of interest (question 4a)</strong> defines the target clinical improvement. Raising the target will shrink the number of individuals in the numerator, decreasing the overall performance payment.</li><li><strong>The meaningful engagement definition (question 3)</strong> defines what level of engagement is required for an individual to be included in the calculations. Increasing the requirements will shrink the number of individuals in the denominator and the numerator.</li><li><strong>The program tenure requirement (question 4b)</strong> defines the minimum amount of time an individual must engage with the solution to be included in the calculations. Increasing the tenure requirement will shrink the number of individuals in the denominator and the numerator.</li></ul>",
+          "description": "<p>The following section details the inputs required to define the eligible population and calculate outcomes measures. The selections for each of these components will impact the threshold for PEMPM payments as well as the equation for calculating performance withholds.</p><p><strong>Performance Payment Calculation:</strong></p><ul><li><strong>Numerator:</strong> For cohort in the denominator, number of <strong>eligible members</strong> who meet <strong>the performance threshold for the measure of interest.</strong></li><li><strong>Denominator:</strong> Total <strong>eligible members</strong> who meet the <strong>meaningful engagement definition</strong> for duration of <strong>program tenure requirement.</strong></li></ul>",
           "imgSrc": "eligibility-criteria-intro.png",
           "imgAlt": "PBC Outcome Measure Calculation Graphic"
         },
         {
           "id": "step-eligibility-criteria",
           "heading": "Select the plan members eligible to use the solution.",
-          "description": "<strong><em>Recommended values are pre-filled.</em></strong>",
           "fields": [
             {
               "id": "field-eligibility-criteria-inclusion-criteria",
@@ -249,14 +248,14 @@
       "id": "section-meaningful-engagement-criteria",
       "heading": "Meaningful Engagement Criteria",
       "tooltipDrawer": {
-        "label": "About Meaningful Engagement Criteria",
+        "label": "About meaningful engagement criteria",
         "text": "<p>Clear, meaningful engagement thresholds help limit payment to members who are meaningfully engaged with the solution and most likely to experience a clinical impact. While there are many common engagement metrics, not all are considered <em>meaningful</em>.</p><p>In the two-payment stream model, the definition of meaningful engagement directly impacts the size of the payments made to the vendor. A looser definition of engagement will create a larger PEMPM payment and will increase the number of individuals whose clinical outcomes are considered for the performance payment.</p><p><strong>Contracting tip:</strong></p><ul><li>Explicitly define ‘transaction’ (e.g., blood pressure recording) and prioritize member-initiated and clinically significant interactions.</li><li>Define the maximum days (e.g., 15) for capturing baseline blood pressure reading, considering operational workflows.</li></ul>"
       },
       "steps": [
         {
           "id": "step-meaningful-engagement",
           "heading": "Define engagement criteria for the contract.",
-          "description": "<p>There are other definitions of engagement in use today, including: app logins, email opens, and an engagement index. Purchasers increasingly indicate that they prefer more meaningful engagement metrics, especially as these metrics serve as the basis for PEMPM payments and performance payment calculations. PHTI’s recommended definitions focus on engagement milestones that are correlated with clinical impact.</p><p><strong>PHTI recommends members meet 3 criteria to be considered meaningfully engaged. Criteria 1 and 2 are required.</strong></p><p><strong><em>Recommended values are pre-filled.</em></strong></p>",
+          "description": "<p>Currently the main definitions of engagement in use today include metrics such as app logins, email opens, and an engagement index. Purchasers increasingly indicate that they prefer more meaningful engagement metrics, especially as these metrics serve as the basis for PEMPM payments and performance payment calculations. PHTI’s recommended definitions focus on engagement milestones that are correlated with clinical impact.</p><p><strong>PHTI recommends members meet 3 criteria to be considered meaningfully engaged. Criteria 1 and 2 are required.</strong></p>",
           "fields": [
             {
               "id": "field-meaningful-engagement-criteria-1",
@@ -346,14 +345,14 @@
       "id": "section-performance-metrics",
       "heading": "Performance Metrics",
       "tooltipDrawer": {
-        "label": "About Performance Metrics",
+        "label": "About performance metrics",
         "text": "<p>Select validated, feasible measures–favoring biomarker-based outcomes and clinically accepted instruments–and determine the time horizon for impact.</p><p>PHTI recommends tying all or the majority of the performance payment to attainment of blood pressure control.</p><p><strong>Contracting tip:</strong></p><ul><li>Blood Pressure Control<ul><li>Specify the allowable time frame for collecting a member’s final measurement that is used to calculate the change as compared to baseline, in order to be included in the performance payment calculation.</li><li>Use <a href='https://qpp.cms.gov/docs/QPP_quality_measure_specifications/Claims-Registry-Measures/2025_Measure_236_MedicarePartBClaims.pdf' target='_blank' rel='noopener noreferrer'>HEDIS guidelines</a> for acceptable and not acceptable blood pressure readings. Vendors may need to educate patients.</li></ul></li><li>Medication Adherence<ul><li>Define minimum member months required for valid sample size (e.g., at least 50 participants in program for 60 days)</li><li>Exclude members not prescribed medication within 60 days of enrollment</li></ul></li></ul>"
       },
       "steps": [
         {
           "id": "step-performance-metrics-performance-payment",
           "heading": "Select which performance metric(s) should be tied to the performance payment.",
-          "description": "<p>NCQA’s HEDIS measure BPC-E (Blood Pressure Control for Patients with Hypertension) is widely accepted and calculated for quality improvement programs. This measure assesses the percent of individuals in a defined population whose blood pressure is controlled below a universal threshold (<140/90). PHTI recommends it as the preferred option for performance measure targets.</p><p>Some purchasers and vendors may elect to measure absolute change in systolic blood pressure (SBP) to capture clinical improvement across the full risk spectrum. Using the SBP measure allows contracts to reward meaningful improvements among patients with more severe baseline hypertension who do not fall below the threshold at the end of the measurement period, while also recognizing improvements among patients who begin below the threshold but experience further blood pressure reductions. This approach limits rewards for small changes concentrated around the control cutoff (e.g., just above to just below <140/90) and instead ties payment to improvement in average SBP across the cohort.</p><p><strong><em>Recommended values are pre-filled. Percentages must sum to 100%.</em></strong></p><p>If focusing on blood pressure control, set to 100%. If incorporating medication adherence, select the percentage of the total performance payment that will be tied to each.</p>",
+          "description": "<p>NCQA’s HEDIS measure BPC-E (Blood Pressure Control for Patients with Hypertension) is widely accepted and calculated for quality improvement programs. This measure assesses the percent of individuals in a defined population whose blood pressure is controlled below a universal threshold (<140/90). PHTI recommends it as the preferred option for performance measure targets.</p><p>Some purchasers and vendors may elect to measure absolute change in systolic blood pressure (SBP) to capture clinical improvement across the full risk spectrum. Using the SBP measure allows contracts to reward meaningful improvements among patients with more severe baseline hypertension who do not fall below the threshold at the end of the measurement period, while also recognizing improvements among patients who begin below the threshold but experience further blood pressure reductions. This approach limits rewards for small changes concentrated around the control cutoff (e.g., just above to just below <140/90) and instead ties payment to improvement in average SBP across the cohort.</p><p><strong><em>Percentages must sum to 100%.</em></strong></p><p>If focusing on blood pressure control, set to 100%. If incorporating medication adherence, select the percentage of the total performance payment that will be tied to each.</p>",
           "fields": [
             {
               "id": "field-performance-metrics-performance-payment",
@@ -425,7 +424,7 @@
         {
           "id": "step-performance-metrics-program-tenure",
           "heading": "Confirm desired program tenure for inclusion in the performance payment.",
-          "description": "<p>Improvement in hypertension, including prescription medications, can be expected to yield results within 6 months: From <a href='https://phti.org/wp-content/uploads/sites/3/2024/11/PHTI-Digital-Hypertension-Mgmt-Assessment-Report-v1.1.pdf' target='_blank' rel='noopener noreferrer'>PHTI’s 2024 Digital Hypertension Management Solutions Health Technology Assessment</a>, studies show large reductions in systolic blood pressure as early as three months, with most reductions accruing by six months. At six months, digital solution users had a statistically significant improvement in self-reported medication adherence, whereas patients receiving usual care did not.</p><p><strong><em>Recommended values are pre-filled.</em></strong></p>",
+          "description": "<p>Improvement in hypertension, including prescription medications, can be expected to yield results within 6 months: From <a href='https://phti.org/wp-content/uploads/sites/3/2024/11/PHTI-Digital-Hypertension-Mgmt-Assessment-Report-v1.1.pdf' target='_blank' rel='noopener noreferrer'>PHTI’s 2024 Digital Hypertension Management Solutions Health Technology Assessment</a>, studies show large reductions in systolic blood pressure as early as three months, with most reductions accruing by six months. At six months, digital solution users had a statistically significant improvement in self-reported medication adherence, whereas patients receiving usual care did not.</p>",
           "fields": [
             {
               "id": "field-performance-metrics-program-tenure",
@@ -456,14 +455,14 @@
       "id": "section-engagement-approach",
       "heading": "Engagement Approach",
       "tooltipDrawer": {
-        "label": "About Engagement Approaches",
+        "label": "About engagement approaches",
         "text": "<p>Engagement approaches establish clear parameters for how vendors may contact and interact with members to promote engagement with the solution.</p><p>Purchasers may seek to limit outreach frequency, require member consent or opt-in, and specify permissible channels (e.g., text, phone, mailer) to protect member trust and prevent over communication. Vendors value flexibility to reach members through multiple touch points and may need to tailor outreach strategies to different populations. This repeated, multimodal contact can be important to drive engagement and outcomes for some solutions.</p>"
       },
       "steps": [
         {
           "id": "step-engagement-approach",
-          "heading": "Select allowable engagement approaches to include.",
-          "description": "<p>This section details the operational components of the contract that are critical to successful implementation of performance-based contracts.</p><p><strong><em>Recommended values are pre-filled.</em></strong></p>",
+          "heading": "Select Your Engagement Approach.",
+          "description": "<p>This section details the operational components of the contract that are critical to successful implementation of performance-based contracts.</p>",
           "fields": [
             {
               "id": "field-engagement-approach",
@@ -537,12 +536,10 @@
         {
           "id": "step-data-sharing-commitments-purchaser-to-vendor",
           "heading": "Select which data sharing commitments should be included in the contract.",
-          "description": "<strong><em>Recommended values are pre-filled.</em></strong>",
           "fields": [
             {
               "id": "field-data-sharing-commitments-purchaser-to-vendor-format",
               "label": "Data sharing format (from purchaser to vendor)",
-              "description": "Required.",
               "required": true,
               "type": "radio",
               "options": [
@@ -619,7 +616,7 @@
             {
               "id": "field-data-sharing-commitments-vendor-to-purchaser-format",
               "label": "Data sharing format (from vendor to purchaser)",
-              "description": "Required. Select an option.",
+              "description": "Required.",
               "required": true,
               "type": "radio",
               "options": [
@@ -769,7 +766,7 @@
                 },
                 {
                   "id": "option-data-sharing-commitments-data",
-                  "label": "Data required to feed into data warehouse/3rd party data management resource",
+                  "label": "Data required to feed into data warehouse/third party data management resource",
                   "value": "data"
                 },
                 {
@@ -795,14 +792,14 @@
       "id": "section-administrative-terms",
       "heading": "Administrative Terms",
       "tooltipDrawer": {
-        "label": "About Administrative Terms",
-        "text": "<p><strong>Contracting tip:</strong></p><ul><li>Require a minimum number of meaningfully engaged patients to trigger performance payment. If minimum is not met, suggest no performance payment.</li><li>Incorporate terms around pro-rating bonuses if contract is terminated early or not-renewed.</li></ul>"
+        "label": "About administrative terms",
+        "text": "<p><strong>Contracting tip:</strong></p><ul><li>Require a minimum number of meaningfully engaged patients to trigger performance payment. If minimum is not met, suggest no performance payment.</li><li>Incorporate terms around pro-rating bonuses if contract is terminated early or not renewed.</li></ul>"
       },
       "steps": [
         {
           "id": "step-administrative-terms-reconciliation",
           "heading": "Reconciliation",
-          "description": "<p>The timeline required to observe meaningful improvements in clinical outcomes or reductions in total cost of care frequently exceeds the duration of most purchaser-vendor contracts.</p><p>Purchasers should consider availability of resources required to calculate performance payments prior to establishing bonus determination deadline.</p><p><strong><em>Recommended values are pre-filled.</em></strong></p>",
+          "description": "<p>The timeline required to observe meaningful improvements in clinical outcomes or reductions in total cost of care frequently exceeds the duration of most purchaser-vendor contracts.</p><p>Purchasers should consider availability of resources required to calculate performance payments prior to establishing bonus determination deadline.</p>",
           "fields": [
             {
               "id": "field-administrative-terms-reconciliation",
@@ -814,7 +811,7 @@
                   "label": "One year measurement period, beginning when minimum enrollment is achieved for __ months",
                   "value": "one-year-measurement-period",
                   "tooltip": {
-                    "text": "Improvement in hypertension, including prescription medications, can be expected to yield results within 6 months, per <a target=\"_blank\" href=\"https://phti.org/assessment/digital-hypertension-management-solutions/\">PHTI’s 2024 Digital Hypertension Management Solutions Health Technology Assessment</a>."
+                    "text": "Improvement in hypertension, including prescription medications, can be expected to yield results within 6 months, per <a href='https://phti.org/assessment/digital-hypertension-management-solutions/' target='_blank'>PHTI’s 2024 Digital Hypertension Management Solutions Health Technology Assessment</a>."
                   },
                   "subfields": [
                     {
@@ -852,7 +849,7 @@
                 },
                 {
                   "id": "option-administrative-terms-reconciliation-prorating-bonuses",
-                  "label": "Incorporate terms around pro-rating bonuses if contract is terminated early or not-renewed.",
+                  "label": "Incorporate terms around pro-rating bonuses if contract is terminated early or not renewed.",
                   "value": "prorating-bonuses"
                 },
                 {
@@ -875,7 +872,6 @@
         {
           "id": "step-administrative-terms-term-and-renewal",
           "heading": "Term and Renewal",
-          "description": "<p>Most purchasers will elect quarterly PEMPM payments and annual performance payments. In cases where high churn exists among members, purchasers may prefer to reconcile performance payments on a quarterly basis.</p><p><strong><em>Recommended values are pre-filled.</em></strong></p>",
           "fields": [
             {
               "id": "field-administrative-terms-term-and-renewal",
@@ -920,6 +916,7 @@
                   "id": "option-administrative-terms-term-and-renewal-billing-frequency",
                   "label": "Billing Frequency",
                   "value": "billing-frequency",
+                  "note": "<p>Most purchasers will elect quarterly PEMPM payments and annual performance payments. In cases where high churn exists among members, purchasers may prefer to reconcile performance payments on a quarterly basis.</p>",
                   "subfields": [
                     {
                       "id": "subfield-administrative-terms-term-and-renewal-billing-frequency-options",
