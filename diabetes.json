@@ -72,9 +72,8 @@
                   "label": "Pharmacy shared savings",
                   "value": "shared-savings",
                   "tooltip": {
-                    "text": "Shared savings represent a portion of avoided pharmacy spending on diabetes medications for the engaged population, as expected to be incurred if the solution were not implemented."
-                  },
-                  "note": "Should only be pursued by purchasers who are able to analyze and validate statistically valid cost savings results, either in-house or through a third-party vendor."
+                    "text": "<p>Shared savings represent a portion of avoided pharmacy spending on diabetes medications for the engaged population, as expected to be incurred if the solution were not implemented.</p><p>Should only be pursued by purchasers who are able to analyze and validate statistically valid cost savings results, either in-house or through a third-party vendor.</p>"
+                  }
                 }
               ],
               "default": ["pempm", "performance-payment"]
