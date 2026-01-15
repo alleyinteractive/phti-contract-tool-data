@@ -8,7 +8,7 @@
       "steps": [
         {
           "id": "step-introduction-welcome",
-          "description": "<p>This toolkit focuses on virtual musculoskeletal (MSK) solutions, drawing on findings from <a href='https://phti.org/assessment/virtual-msk-solutions/'>PHTI's Virtual Musculoskeletal Solutions Health Technology Assessment</a> and <a href='' target='_blank' rel='noopener noreferrer'>PHTI's Performance-Based Contracting Playbook</a>.</p><p><strong>What this toolkit does:</strong></p><p>Helps purchasers and vendors establish clear, evidence-based contract terms that align payment with improvements in pain and function and related outcomes.</p><p>First, you will select the type of <strong><em>payment model</em></strong>. Next, you will determine the <em>inputs for <strong>outcome measures</strong></em>, which include eligibility criteria, meaningful engagement criteria, and performance metrics. Finally, you will select <strong><em>operational components</em></strong>, which include engagement approach, data sharing commitments, and administrative terms, to include in your contracts.</p><p><strong>A few notes before you continue:</strong></p><ul><li>This toolkit helps you navigate key contracting decisions for performance-based contracts. It does not create a binding legal contract.</li><li>These contracts do not address pricing—a critical lever for driving impact in performance-based contracts. Purchasers and vendors are encouraged to consult <a href='https://phti.org/assessments/' target='_blank' rel='noopener noreferrer'>PHTI’s assessment reports</a> and budget impact models as resources to guide pricing conversations.</li><li>Toolkit responses are anonymous. We do not gather or store any data about you, your organization, or your selections. </li></ul><p><strong>Prefer to skip the interactive toolkit? <a href='#' id='generatePdfLink'>Download the virtual MSK solutions toolkit</a> with PHTI's recommended selections.</strong></p><p><em>The content of this playbook/report and its associated toolkits has been prepared by PHTI for informational purposes and does not constitute legal, medical, clinical or other professional advice. PHTI cannot make any guarantees or warranties regarding results from the use of such content. The content is not intended to replace thoughtful customization and drafting addressing an organization’s specific objectives and circumstances. All companies, specific products or case studies mentioned are for explanatory purposes only.</em></p>",
+          "description": "<p>This toolkit focuses on virtual musculoskeletal (MSK) solutions, drawing on findings from <a href='https://phti.org/assessment/virtual-msk-solutions/'>PHTI's Virtual Musculoskeletal Solutions Health Technology Assessment</a> and <a href='' target='_blank' rel='noopener noreferrer'>PHTI's Performance-Based Contracting Playbook</a>.</p><p><strong>What this toolkit does:</strong></p><p>Helps purchasers and vendors establish clear, evidence-based contract terms that align payment with improvements in pain and function and related outcomes.</p><p>First, you will select the type of <strong><em>payment model</em></strong>. Next, you will determine the <em>inputs for <strong>outcome measures</strong></em>, which include eligibility criteria, meaningful engagement criteria, and performance metrics. Finally, you will select <strong><em>operational components</em></strong>, which include engagement approach, data sharing commitments, and administrative terms, to include in your contracts.</p><p><strong>A few notes before you continue:</strong></p><ul><li>This toolkit helps you navigate key contracting decisions for performance-based contracts. It does not create a binding legal contract.</li><li>These contracts do not address pricing—a critical lever for driving impact in performance-based contracts. Purchasers and vendors are encouraged to consult <a href='https://phti.org/assessments/' target='_blank' rel='noopener noreferrer'>PHTI’s assessment reports</a> and budget impact models as resources to guide pricing conversations.</li><li>Toolkit responses are anonymous. We do not gather or store any data about you, your organization, or your selections. </li></ul><p><strong>Prefer to skip the interactive toolkit? Download the virtual MSK solutions toolkit with PHTI's recommended selections.</strong></p><p><em>The content of this playbook/report and its associated toolkits has been prepared by PHTI for informational purposes and does not constitute legal, medical, clinical or other professional advice. PHTI cannot make any guarantees or warranties regarding results from the use of such content. The content is not intended to replace thoughtful customization and drafting addressing an organization’s specific objectives and circumstances. All companies, specific products or case studies mentioned are for explanatory purposes only.</em></p>",
           "descriptionPdf": "<p>PHTI’s performance-based contracting toolkits help purchasers and vendors negotiate contracts that link payment to verified outcomes, based on PHTI's independent evaluation and research.</p><p>This toolkit focuses on virtual musculoskeletal (MSK) solutions, drawing on findings from <a href='https://phti.org/assessment/virtual-msk-solutions/'>PHTI's Virtual Musculoskeletal Solutions Health Technology Assessment</a> and <a href='' target='_blank' rel='noopener noreferrer'>PHTI's Performance-Based Contracting Playbook</a>. It is meant to help purchasers and vendors establish clear, evidence-based contract terms that align payment with improvements in pain and function and related outcomes.</p><p><em>The content of this playbook/report and its associated toolkits has been prepared by PHTI for informational purposes and does not constitute legal, medical, clinical or other professional advice. PHTI cannot make any guarantees or warranties regarding results from the use of such content. The content is not intended to replace thoughtful customization and drafting addressing an organization’s specific objectives and circumstances. All companies, specific products or case studies mentioned are for explanatory purposes only.</em></p>"
         }
       ]
@@ -83,8 +83,8 @@
       ]
     },
     {
-      "id": "section-eligibility-criteria",
-      "heading": "Eligibility Criteria",
+      "id": "section-eligible-population",
+      "heading": "Eligible Population",
       "tooltipDrawer": {
         "label": "Understand more about eligibility criteria.",
         "text": "<p><strong>About Eligibility Criteria</strong></p><p>Eligibility criteria determine which plan members may engage with the solution and have their outcomes measured. Eligibility typically includes clinical criteria, demographics, or utilization history.</p><p>The <strong>inclusion and exclusion criteria</strong> define the total population of eligible members who may engage with the solution. Narrowing the eligibility will limit the number of individuals who may be included in the denominator and the numerator.</p><p><strong>Contracting tip:</strong></p><ul><li>Include clause allowing digital health solution vendor to update the exclusion criteria based on medical contraindications.</li><li>Specify timing for when exclusion criteria adjustments can be made to the contract.</li><li>Consider tiered pricing for lower acuity patients being treated with lower intensity intervention. Add data sharing commitments to ensure transparency of triage process.</li></ul>"
@@ -92,33 +92,32 @@
       "steps": [
         {
           "id": "step-introduction",
-          "heading": "Eligibility Criteria",
-          "description": "<p>The following section details the inputs required to define the eligible population and calculate outcomes measures. The selections for each of these components will impact the threshold for PEMPM payments as well as the equation for calculating performance withholds.</p><p><strong>Performance Payment Calculation:</strong></p><ul><li><strong><u>Numerator:</u></strong> For cohort in the denominator, number of <strong>eligible members</strong> who meet <strong>the performance threshold for the measure of interest.</strong></li><li><strong><u>Denominator:</u></strong> Total <strong>eligible members</strong> who meet the <strong>meaningful engagement definition</strong> for duration of <strong>program tenure requirement.</strong></li></ul><p><strong>Definitions:</strong></p><ul><li><strong>The inclusion and exclusion criteria (question 2)</strong> define the total population of eligible members who may engage with the solution. Narrowing the eligibility will limit the number of individuals who may be included in the denominator and the numerator.</li><li><strong>The performance threshold for the measure of interest (question 4a)</strong> defines the target clinical improvement. Raising the target will shrink the number of individuals in the numerator, decreasing the overall performance payment.</li><li><strong>The meaningful engagement definition (question 3)</strong> defines what level of engagement is required for an individual to be included in the calculations. Increasing the requirements will shrink the number of individuals in the denominator and the numerator.</li><li><strong>The program tenure requirement (question 4b)</strong> defines the minimum amount of time an individual must engage with the solution to be included in the calculations. Increasing the tenure requirement will shrink the number of individuals in the denominator and the numerator.</li></ul>",
+          "description": "<p>The following section details the inputs required to define the eligible population and calculate outcomes measures. The selections for each of these components will impact the threshold for PEMPM payments as well as the equation for calculating performance withholds.</p><p><strong>Performance Payment Calculation:</strong></p><ul><li><strong>Numerator:</strong> For cohort in the denominator, number of <strong>eligible members</strong> who meet <strong>the performance threshold for the measure of interest.</strong></li><li><strong>Denominator:</strong> Total <strong>eligible members</strong> who meet the <strong>meaningful engagement definition</strong> for duration of <strong>program tenure requirement.</strong></li></ul><p><strong>Definitions:</strong></p><ul><li><strong>The inclusion and exclusion criteria (question 2)</strong> define the total population of eligible members who may engage with the solution. Narrowing the eligibility will limit the number of individuals who may be included in the denominator and the numerator.</li><li><strong>The performance threshold for the measure of interest (question 4a)</strong> defines the target clinical improvement. Raising the target will shrink the number of individuals in the numerator, decreasing the overall performance payment.</li><li><strong>The meaningful engagement definition (question 3)</strong> defines what level of engagement is required for an individual to be included in the calculations. Increasing the requirements will shrink the number of individuals in the denominator and the numerator.</li><li><strong>The program tenure requirement (question 4b)</strong> defines the minimum amount of time an individual must engage with the solution to be included in the calculations. Increasing the tenure requirement will shrink the number of individuals in the denominator and the numerator.</li></ul>",
           "imgSrc": "eligibility-criteria-intro.png",
           "imgAlt": "PBC Outcome Measure Calculation Graphic" 
         },
         {
-          "id": "step-eligibility-criteria",
+          "id": "step-eligible-population",
           "heading": "Select the plan members eligible to use the solution.",
           "description": "<strong><em>Recommended values are pre-filled.</em></strong>",
           "fields": [
             {
-              "id": "field-eligibility-criteria-inclusion-criteria",
+              "id": "field-eligible-population-inclusion-criteria",
               "label": "Inclusion Criteria",
               "type": "radio",
               "options": [
                 {
-                  "id": "option-eligibility-criteria-all-patients",
+                  "id": "option-eligible-population-all-patients",
                   "label": "All members",
                   "value": "all-patients"
                 },
                 {
-                  "id": "option-eligibility-criteria-exclusion-criteria-other",
+                  "id": "option-eligible-population-exclusion-criteria-other",
                   "label": "Other",
                   "value": "other",
                   "subfields": [
                     {
-                      "id": "subfield-eligibility-criteria-exclusion-criteria-other-text",
+                      "id": "subfield-eligible-population-exclusion-criteria-other-text",
                       "label": "",
                       "type": "text"
                     }
@@ -128,70 +127,70 @@
               "default": ["all-patients"]
             },
             {
-              "id": "field-eligibility-criteria-exclusion-criteria",
+              "id": "field-eligible-population-exclusion-criteria",
               "label": "Exclusion Criteria",
               "description": "Select all that apply.",
               "type": "checkbox",
               "options": [
                 {
-                  "id": "option-eligibility-criteria-exclusion-criteria-prior-musculoskeletal-surgery",
+                  "id": "option-eligible-population-exclusion-criteria-prior-musculoskeletal-surgery",
                   "label": "Prior musculoskeletal surgery within __ months",
                   "value": "prior-musculoskeletal-surgery",
                   "subfields": [
                     {
-                      "id": "subfield-eligibility-criteria-exclusion-criteria-prior-msk-surgery-num-months",
+                      "id": "subfield-eligible-population-exclusion-criteria-prior-msk-surgery-num-months",
                       "label": "Number of months",
                       "type": "number"
                     }
                   ]
                 },
                 {
-                    "id": "option-eligibility-criteria-exclusion-criteria-active-and-malignant-cancer",
+                    "id": "option-eligible-population-exclusion-criteria-active-and-malignant-cancer",
                     "label": "Active and malignant cancer",
                     "value": "active-and-malignant-cancer"
                 },
                 {
-                    "id": "option-eligibility-criteria-exclusion-criteria-blood-clotting-disorders",
+                    "id": "option-eligible-population-exclusion-criteria-blood-clotting-disorders",
                     "label": "Blood clotting disorders",
                     "value": "blood-clotting-disorders"
                 },
                 {
-                    "id": "option-eligibility-criteria-exclusion-criteria-transplants",
+                    "id": "option-eligible-population-exclusion-criteria-transplants",
                     "label": "Transplants",
                     "value": "transplants"
                 },
                 {
-                    "id": "option-eligibility-criteria-exclusion-criteria-hiv-diagnosis",
+                    "id": "option-eligible-population-exclusion-criteria-hiv-diagnosis",
                     "label": "HIV diagnosis",
                     "value": "hiv-diagnosis"
                 },
                 {
-                    "id": "option-eligibility-criteria-exclusion-criteria-trauma",
+                    "id": "option-eligible-population-exclusion-criteria-trauma",
                     "label": "Trauma",
                     "value": "trauma"
                 },
                 {
-                    "id": "option-eligibility-criteria-exclusion-criteria-multiple-sclerosis",
+                    "id": "option-eligible-population-exclusion-criteria-multiple-sclerosis",
                     "label": "Multiple sclerosis",
                     "value": "multiple-sclerosis"
                 },
                 {
-                    "id": "option-eligibility-criteria-exclusion-criteria-advanced-heart-failure",
+                    "id": "option-eligible-population-exclusion-criteria-advanced-heart-failure",
                     "label": "Advanced heart failure",
                     "value": "advanced-heart-failure"
                 },
                 {
-                    "id": "option-eligibility-criteria-exclusion-criteria-advanced-neurologic-disease",
+                    "id": "option-eligible-population-exclusion-criteria-advanced-neurologic-disease",
                     "label": "Advanced neurologic disease",
                     "value": "advanced-neurologic-disease"
                 },
                 {
-                  "id": "option-eligibility-criteria-exclusion-criteria-other",
+                  "id": "option-eligible-population-exclusion-criteria-other",
                   "label": "Other",
                   "value": "other",
                   "subfields": [
                     {
-                      "id": "subfield-eligibility-criteria-exclusion-criteria-other-text",
+                      "id": "subfield-eligible-population-exclusion-criteria-other-text",
                       "label": "",
                       "type": "text"
                     }
@@ -365,19 +364,29 @@
           "fields": [
             {
               "id": "field-performance-metrics-performance-payment-program-tenure",
-              "label": "__ sessions within __ months"
-            },
-            {
-              "id": "subfield-performance-metrics-program-tenure-num-sessions",
-              "description": "Number of sessions",
-              "type": "number",
-              "default": 9
-            },
-            {
-              "id": "subfield-performance-metrics-program-tenure-num-months",
-              "description": "Number of months",
-              "type": "number",
-              "default": 12
+              "type": "checkbox",
+              "options": [
+                {
+                  "id": "option-performance-metrics-program-tenure",
+                  "label": "__ sessions within __ months",
+                  "value": "program-tenure",
+                  "subfields": [
+                    {
+                      "id": "subfield-performance-metrics-program-tenure-num-sessions",
+                      "label": "Number of sessions",
+                      "type": "number",
+                      "default": 9
+                    },
+                    {
+                      "id": "subfield-performance-metrics-program-tenure-num-months",
+                      "label": "Number of months",
+                      "type": "number",
+                      "default": 12
+                    }
+                  ]
+                }
+              ],
+              "default": ["program-tenure"]
             }
           ]
         }
@@ -569,8 +578,7 @@
                             }
                           ]
                         }
-                      ],
-                      "default": ["claims", "feeds", "lab-results"]
+                      ]
                     }
                   ]
                 }
@@ -855,9 +863,6 @@
                 {
                   "id": "option-administrative-terms-reconciliation-one-year",
                   "label": "One year measurement period, beginning when minimum members reach __ visits",
-                  "description": "Required.",
-                  "required": true,
-                  "disabled": true,
                   "value": "one-year-measurement-period",
                   "subfields": [
                     {
@@ -872,9 +877,6 @@
                 {
                   "id": "option-administrative-terms-reconciliation-bonuses",
                   "label": "Bonuses determined within a __ month period following __ months post-measurement period",
-                  "description": "Required.",
-                  "required": true,
-                  "disabled": true,
                   "value": "bonuses",
                   "tooltip": {
                     "text": "Suggest 3 months to ensure time for claims run-out"
@@ -928,9 +930,6 @@
                 {
                   "id": "option-administrative-terms-term-and-renewal-3-year-initial-term",
                   "label": "__-year initial term, with fixed price throughout term",
-                  "description": "Required.",
-                  "required": true,
-                  "disabled": true,
                   "value": "initial-term",
                   "subfields": [
                     {
@@ -944,9 +943,6 @@
                 {
                   "id": "option-administrative-terms-term-and-renewal-annual-renewal-120-day-notice",
                   "label": "Annual renewal with __-day notice",
-                  "description": "Required.",
-                  "required": true,
-                  "disabled": true,
                   "value": "annual-renewal",
                   "subfields": [
                     {
@@ -968,9 +964,6 @@
                 {
                   "id": "option-administrative-terms-term-and-renewal-billing-frequency",
                   "label": "Billing Frequency",
-                  "description": "Required.",
-                  "required": true,
-                  "disabled": true,
                   "value": "billing-frequency",
                   "subfields": [
                     {
@@ -981,9 +974,6 @@
                         {
                           "id": "option-administrative-terms-term-and-renewal-billing-frequency-pempm",
                           "label": "Per engaged member per month (PEMPM) payments billing frequency",
-                          "description": "Required.",
-                          "required": true,
-                          "disabled": true,
                           "value": "pempm",
                           "subfields": [
                             {
@@ -1016,9 +1006,6 @@
                         {
                           "id": "option-administrative-terms-term-and-renewal-billing-frequency-performance-payments",
                           "label": "Performance payments billing frequency",
-                          "description": "Required.",
-                          "required": true,
-                          "disabled": true,
                           "value": "performance-payments",
                           "subfields": [
                             {
