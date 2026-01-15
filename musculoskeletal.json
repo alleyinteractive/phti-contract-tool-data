@@ -84,7 +84,7 @@
     },
     {
       "id": "section-eligibility-criteria",
-      "heading": "Eligiblity Criteria",
+      "heading": "Eligibility Criteria",
       "tooltipDrawer": {
         "label": "Understand more about eligibility criteria.",
         "text": "<p><strong>About Eligibility Criteria</strong></p><p>Eligibility criteria determine which plan members may engage with the solution and have their outcomes measured. Eligibility typically includes clinical criteria, demographics, or utilization history.</p><p>The <strong>inclusion and exclusion criteria</strong> define the total population of eligible members who may engage with the solution. Narrowing the eligibility will limit the number of individuals who may be included in the denominator and the numerator.</p><p><strong>Contracting tip:</strong></p><ul><li>Include clause allowing digital health solution vendor to update the exclusion criteria based on medical contraindications.</li><li>Specify timing for when exclusion criteria adjustments can be made to the contract.</li><li>Consider tiered pricing for lower acuity patients being treated with lower intensity intervention. Add data sharing commitments to ensure transparency of triage process.</li></ul>"
