@@ -182,7 +182,7 @@
       "id": "section-meaningful-engagement-criteria",
       "heading": "Meaningful Engagement Criteria",
       "tooltipDrawer": {
-        "label": "About Meaningful Engagement Criteria",
+        "label": "About meaningful engagement criteria",
         "text": "<p>Clear, meaningful engagement thresholds help limit payment to members who are meaningfully engaged with the solution and most likely to experience a clinical impact. While there are many common engagement metrics, not all are considered <em>meaningful</em>.</p><p>In the two-payment stream model, the definition of meaningful engagement directly impacts the size of the payments made to the vendor. A looser definition of engagement will create a larger PEMPM payment and will increase the number of individuals whose clinical outcomes are considered for the performance payment.</p><p><strong>Contracting tip:</strong></p><ul><li>At least one of the above interactions must be member-initiated (e.g., scheduling appointment, messaging, starting a module); however, consider excluding therapy sessions from member-initiated requirement to allow provider to follow up with appointment scheduling without penalty.</li><li>Define the maximum days (e.g., 15) for capturing baseline clinical measures, considering operational workflows.</li></ul>"
       },
       "steps": [
@@ -329,7 +329,7 @@
       "id": "section-performance-metrics",
       "heading": "Performance Metrics",
       "tooltipDrawer": {
-        "label": "About Performance Metrics",
+        "label": "About performance metrics",
         "text": "<p>Select validated, feasible measures—favoring biomarker-based outcomes and clinically accepted instruments—and determine the time horizon for impact.</p><p><strong>Contracting tip:</strong></p><ul><li>Define appropriate administration pathway for assessment (e.g., administered by a trained clinician or, when self-reported, completed independently by patients using a validated survey tool) and establish data collection standards to maintain inter-rater reliability.</li></ul>"
       },
       "steps": [
@@ -393,13 +393,13 @@
       "id": "section-engagement-approach",
       "heading": "Engagement Approach",
       "tooltipDrawer": {
-        "label": "About Engagement Approaches",
+        "label": "About engagement approaches",
         "text": "<p>Engagement approaches establish clear parameters for how vendors may contact and interact with members to promote engagement with the solution.</p><p>Purchasers may seek to limit outreach frequency, require member consent or opt-in, and specify permissible channels (e.g., text, phone, mailer) to protect member trust and prevent over communication. Vendors value flexibility to reach members through multiple touch points and may need to tailor outreach strategies to different populations. This repeated, multimodal contact can be important to drive engagement and outcomes for some solutions.</p>"
       },
       "steps": [
         {
           "id": "step-engagement-approach",
-          "heading": "Select allowable engagement approaches to include.",
+          "heading": "Select Your Engagement Approach.",
           "description": "<p>The following section details the operational components of the contract that are critical to successful implementation of performance-based contracts.</p><p><strong><em>Recommended values are pre-filled.</em></strong></p>",
           "fields": [
             {
@@ -467,7 +467,7 @@
       "id": "section-data-sharing-commitments",
       "heading": "Data Sharing Commitments",
       "tooltipDrawer": {
-        "label": "About Data Sharing Commitments",
+        "label": "About data sharing commitments",
         "text": "<p>Reliable performance measurement is foundational to performance-based contracting. To assess whether a solution is driving clinical or financial impact, purchasers and vendors need access to timely, high-quality data and the analytic capacity to interpret them in a timely manner.</p><p><strong>Contracting tip:</strong></p><ul><li>For all data file sharing, determine cadence and format for sharing prior to contracting. Consider including template reports in the contract to ensure file readability.</li><li>Purchasers commit to active list management, including monthly deletions, corrections, and additions.</li><li>Purchaser submits monthly list in machine readable format with members that meet eligibility criteria. Eligibility file should include full population to avoid claims lag post-diagnosis. Pre-determine select data fields to include in the file (e.g., plan ID, name, address, demographics).</li><li>Include purchaser audit rights for vendor data in contract.</li></ul>"
       },
       "steps": [
@@ -595,7 +595,7 @@
                           "label": "Other",
                           "value": "other",
                           "tooltip": {
-                            "text": "E.g., Access metrics stratified by preferred language (time to first appointment for Spanish speakers vs. English speakers)"
+                            "text": "Such as access metrics stratified by preferred language (time to first appointment for Spanish speakers vs. English speakers)"
                           },
                           "subfields": [
                             {
@@ -615,7 +615,7 @@
                   "label": "Initial and final clinical measurements",
                   "value": "clinical-measurements",
                   "tooltip": {
-                    "text": " e.g., measures proximate to enrollment and last measurement of the performance period such as PHQ-9/GAD-7"
+                    "text": "Such as measures proximate to enrollment and last measurement of the performance period such as PHQ-9/GAD-7"
                   }
                 },
                 {
@@ -628,7 +628,7 @@
                 },
                 {
                   "id": "option-data-sharing-commitments-data",
-                  "label": "Data required to feed into data warehouse/3rd party data management resource",
+                  "label": "Data required to feed into data warehouse/third party data management resource",
                   "value": "data"
                 },
                 {
@@ -654,13 +654,13 @@
       "id": "section-administrative-terms",
       "heading": "Administrative Terms",
       "tooltipDrawer": {
-        "label": "About Administrative Terms",
+        "label": "About administrative terms",
         "text": "<p><strong>Contracting tip:</strong></p><ul><li>Require a minimum number of meaningfully engaged patients to trigger performance payment. If minimum is not met, suggest no performance payment.</li></ul>"
       },
       "steps": [
         {
           "id": "step-administrative-terms-reconciliation",
-          "heading": "Reconciliation",
+          "heading": "Select Administrative Terms: Reconciliation",
           "description": "<p>The timeline required to observe meaningful improvements in clinical outcomes or reductions in total cost of care frequently exceeds the duration of most purchaser-vendor contracts.</p><p>Purchasers should consider availability of resources required to calculate performance payments prior to establishing bonus determination deadline.</p><p><strong><em>Recommended values are pre-filled.</em></strong></p>",
           "fields": [
             {
@@ -733,8 +733,8 @@
         },
         {
           "id": "step-administrative-terms-term-and-renewal",
-          "heading": "Term and Renewal",
-          "description": "<p>Most purchasers will elect quarterly PEMPM and utilization payments and annual performance payments. In cases where high churn exists among members, purchasers may prefer to reconcile performance payments on a quarterly basis.</p><p><strong><em>Recommended values are pre-filled.</em></strong></p>",
+          "heading": "Select Administrative Terms: Duration and Renewal",
+          "description": "<p><strong><em>Recommended values are pre-filled.</em></strong></p>",
           "fields": [
             {
               "id": "field-administrative-terms-term-and-renewal",
@@ -779,6 +779,7 @@
                   "id": "option-administrative-terms-term-and-renewal-billing-frequency",
                   "label": "Billing Frequency",
                   "value": "billing-frequency",
+                  "note": "<p>Most purchasers will elect quarterly PEMPM and utilization payments and annual performance payments. In cases where high churn exists among members, purchasers may prefer to reconcile performance payments on a quarterly basis.</p>",
                   "subfields": [
                     {
                       "id": "subfield-administrative-terms-term-and-renewal-billing-frequency-options",
