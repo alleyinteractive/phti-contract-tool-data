@@ -72,9 +72,8 @@
                   "label": "Pharmacy shared savings",
                   "value": "shared-savings",
                   "tooltip": {
-                    "text": "Shared savings represent a portion of avoided pharmacy spending on diabetes medications for the engaged population, as expected to be incurred if the solution were not implemented."
-                  },
-                  "note": "Should only be pursued by purchasers who are able to analyze and validate statistically valid cost savings results, either in-house or through a third-party vendor."
+                    "text": "<p>Shared savings represent a portion of avoided pharmacy spending on diabetes medications for the engaged population, as expected to be incurred if the solution were not implemented.</p><p>Should only be pursued by purchasers who are able to analyze and validate statistically valid cost savings results, either in-house or through a third-party vendor.</p>"
+                  }
                 }
               ],
               "default": ["pempm", "performance-payment"]
@@ -131,7 +130,7 @@
                       "options": [
                         {
                           "id": "option-eligibility-criteria-hba1c-greater-than-7",
-                          "label": "Those with A1C > 9",
+                          "label": "Those with HbA1C > 9",
                           "value": "hba1c-greater-than-9"
                         },
                         {
@@ -257,7 +256,7 @@
                   "options": [
                     {
                       "id": "option-meaningful-engagement-criteria-2",
-                      "label": "(Criteria 2) Baseline A1C captured within __ days before or after program start, as defined above",
+                      "label": "(Criteria 2) Baseline HbA1C captured within __ days before or after program start, as defined above",
                       "description": "Required.",
                       "required": true,
                       "value": "criteria-2",
@@ -321,7 +320,7 @@
         {
           "id": "step-performance-metrics-performance-payment",
           "heading": "Select which performance metric(s) should be tied to the performance payment.",
-          "description": "<p>In clinical practice, there are many ways to measure glycemic control. They include directly measuring the quantity of glucose in the blood at a single point in time, which can fluctuate depending on what a patient ate, the time of day, or the equipment used. Given these variations, HbA1c is the most widely used measurement for both clinicians and patients because it serves as a superior measurement of glycemic control over time.</p><p><strong><em>Recommended values are pre-filled. Percentages must sum to 100%.</em></strong></p><p>If focusing on glycemic control as measured by HbA1c, set to 100%. If incorporating weight loss, select the percentage of the total performance payment that will be tied to each.</p>",
+          "description": "<p>In clinical practice, there are many ways to measure glycemic control. They include directly measuring the quantity of glucose in the blood at a single point in time, which can fluctuate depending on what a patient ate, the time of day, or the equipment used. Given these variations, HbA1c is the most widely used measurement for both clinicians and patients because it serves as a superior measurement of glycemic control over time.</p><p><strong><em>Recommended values are pre-filled. Percentages must sum to 100%.</em></strong></p><p>If focusing on glycemic control as measured by HbA1c, set to 100%. If incorporating weight loss, select the percentage of the total performance payment that will be tied to each measure.</p>",
           "fields": [
             {
               "id": "field-performance-metrics-performance-payment",
@@ -331,6 +330,9 @@
                 {
                   "id": "option-performance-metrics-hba1c",
                   "label": "Laboratory reported HbA1C",
+				  "tooltip": {
+					"text": "If focusing on glycemic control as measured by HbA1c, set to 100%. If incorporating weight loss, select the percentage of the total performance payment that will be tied to each."
+				  },
                   "value": "hba1c",
                   "subfields": [
                     {
@@ -344,7 +346,7 @@
                 },
                 {
                   "id": "option-performance-metrics-weight-loss",
-                  "label": "Weight Loss Percent",
+                  "label": "Weight loss percent",
                   "tooltip": {
                     "text": "Clinical guidelines identify weight management as a core component of type 2 diabetes care, given its role in improving insulin sensitivity and cardiometabolic risk. <a href='https://phti.org/assessment/digital-diabetes-management-tools/' target='_blank' rel='noopener noreferrer'>PHTI’s Digital Diabetes Management Solutions Assessment</a> found that interventions show more consistent and durable improvements in secondary outcomes including weight loss alongside large HbA1c reductions."
                   },
@@ -503,7 +505,7 @@
                           "label": "Medical and/or pharmacy claims files",
                           "value": "claims",
                           "tooltip": {
-                            "text": "<p>Supports identification of eligible population, and attribution. Purchasers may consider summary data in lieu of raw claims files.</p><p>May be pre-selected based on previous field.</p>"
+                            "text": "<p>Supports identification of eligible population, and attribution. Purchasers may consider summary data in lieu of raw claims files.</p>"
                           },
                           "subfields": [
                             {
@@ -525,7 +527,7 @@
                         },
                         {
                           "id": "option-data-sharing-commitments-eligibility-file-feeds",
-                          "label": "Inpatient admission and/or ED visit data from Admission, Discharge, Transfer (ADT) data feeds",
+                          "label": "Inpatient admission and/or emergency department visit data from admission, discharge, transfer (ADT) data feeds",
                           "value": "feeds",
                           "tooltip": {
                             "text": "Individuals may be more primed for behavior change after an acute event, supporting the need for real-time data for risk stratification and high-risk member identification"
@@ -605,7 +607,7 @@
                         },
                         {
                           "id": "option-data-sharing-commitments-enrollment-file-baseline-a1c-for-each-member",
-                          "label": "Baseline A1C for each member",
+                          "label": "Baseline HbA1C for each member",
                           "value": "baseline-a1c-for-each-member"
                         },
                         {
@@ -642,7 +644,7 @@
                       "options": [
                         {
                           "id": "option-data-sharing-commitments-summary-statistics-population-average-a1c-change",
-                          "label": "Population average A1C change",
+                          "label": "Population average HbA1C change",
                           "value": "population-average-a1c-change"
                         },
                         {
@@ -677,7 +679,7 @@
                   "label": "Final clinical measurements",
                   "value": "clinical-measurements",
                   "tooltip": {
-                    "text": "e.g., measures proximate to enrollment and last measurement of the performance period"
+                    "text": "Such as measures proximate to enrollment and last measurement of the performance period"
                   },
                   "subfields": [
                     {
@@ -687,7 +689,7 @@
                       "options": [
                         {
                           "id": "option-data-sharing-commitments-clinical-measurements-a1c",
-                          "label": "A1C measurement for each member",
+                          "label": "HbA1C measurement for each member",
                           "value": "a1c"
                         },
                         {
