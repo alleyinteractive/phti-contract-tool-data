@@ -465,7 +465,6 @@
             {
               "id": "field-data-sharing-commitments-purchaser-to-vendor-format",
               "label": "<strong>From Purchaser to Vendor:</strong> Data sharing format",
-              "description": "Required.",
               "required": true,
               "type": "radio",
               "options": [
@@ -480,7 +479,6 @@
             {
               "id": "field-data-sharing-commitments-purchaser-to-vendor-files",
               "label": "<strong>From Purchaser to Vendor:</strong> Data files",
-              "description": "Required.",
               "required": true,
               "type": "radio",
               "options": [
@@ -495,7 +493,7 @@
             {
               "id": "field-data-sharing-commitments-vendor-to-purchaser-format",
               "label": "<strong>From Vendor to Purchaser:</strong> Data sharing format",
-              "description": "Required. Select an option.",
+              "description": "Required.",
               "required": true,
               "type": "radio",
               "options": [
