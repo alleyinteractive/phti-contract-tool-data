@@ -8,7 +8,7 @@
       "steps": [
         {
           "id": "step-introduction-welcome",
-          "description": "<p>This toolkit focuses on virtual musculoskeletal (MSK) solutions, drawing on findings from <a href='https://phti.org/assessment/virtual-msk-solutions/'>PHTI's Virtual Musculoskeletal Solutions Health Technology Assessment</a> and <a href='' target='_blank' rel='noopener noreferrer'>PHTI's Performance-Based Contracting Playbook</a>.</p><p><strong>What this toolkit does:</strong></p><p>Helps purchasers and vendors establish clear, evidence-based contract terms that align payment with improvements in pain and function and related outcomes.</p><p>First, you will select the type of <strong><em>payment model</em></strong>. Next, you will determine the <em>inputs for <strong>outcome measures</strong></em>, which include eligibility criteria, meaningful engagement criteria, and performance metrics. Finally, you will select <strong><em>operational components</em></strong>, which include engagement approach, data sharing commitments, and administrative terms, to include in your contracts.</p><p><strong>A few notes before you continue:</strong></p><ul><li>This toolkit helps you navigate key contracting decisions for performance-based contracts. It does not create a binding legal contract.</li><li>These contracts do not address pricing—a critical lever for driving impact in performance-based contracts. Purchasers and vendors are encouraged to consult <a href='https://phti.org/assessments/' target='_blank' rel='noopener noreferrer'>PHTI’s assessment reports</a> and budget impact models as resources to guide pricing conversations.</li><li>Toolkit responses are anonymous. We do not gather or store any data about you, your organization, or your selections. </li></ul><p><strong>Prefer to skip the interactive toolkit? <a href='#' id='generatePdfLink'>Download the virtual MSK solutions toolkit</a> with PHTI's recommended selections.</strong></p><p><em>The content of this playbook/report and its associated toolkits has been prepared by PHTI for informational purposes and does not constitute legal, medical, clinical or other professional advice. PHTI cannot make any guarantees or warranties regarding results from the use of such content. The content is not intended to replace thoughtful customization and drafting addressing an organization’s specific objectives and circumstances. All companies, specific products or case studies mentioned are for explanatory purposes only.</em></p>",
+          "description": "<p>This toolkit focuses on virtual musculoskeletal (MSK) solutions, drawing on findings from <a href='https://phti.org/assessment/virtual-msk-solutions/'>PHTI's Virtual Musculoskeletal Solutions Health Technology Assessment</a> and <a href='' target='_blank' rel='noopener noreferrer'>PHTI's Performance-Based Contracting Playbook</a>.</p><p><strong>What this toolkit does:</strong></p><p>Helps purchasers and digital health vendors establish clear, evidence-based contract terms that align payment with improvements in pain and function and related outcomes.</p><p>First, you will determine the design of the <strong>payment model</strong>. Next, you will determine the inputs for <strong>outcome measures</strong>, which include eligibility criteria, meaningful engagement criteria, and performance metrics. Finally, you will select <strong>operational components</strong>, which include engagement approach, data sharing commitments, and administrative terms, to include in your contracts.</p><p><strong>A few notes before you continue:</strong></p><ul><li>This toolkit helps you navigate key contracting decisions for performance-based contracts. It does not create a binding legal contract.</li><li>These contracts do not address pricing—a critical lever for driving impact in performance-based contracts. Purchasers and vendors are encouraged to consult <a href='https://phti.org/assessments/' target='_blank' rel='noopener noreferrer'>PHTI’s assessment reports</a> and budget impact models as resources to guide pricing conversations.</li><li>Toolkit responses are anonymous. We do not gather or store any data about you, your organization, or your selections. </li></ul><p><em>The content of this playbook/report and its associated toolkits has been prepared by PHTI for informational purposes and does not constitute legal, medical, clinical or other professional advice. PHTI cannot make any guarantees or warranties regarding results from the use of such content. The content is not intended to replace thoughtful customization and drafting addressing an organization’s specific objectives and circumstances. All companies, specific products or case studies mentioned are for explanatory purposes only.</em></p><p><strong>Prefer to skip the interactive toolkit? <a href='#' id='generatePdfLink'>Download the virtual MSK solutions toolkit</a> with PHTI's recommended selections.</strong></p>",
           "descriptionPdf": "<p>PHTI’s performance-based contracting toolkits help purchasers and vendors negotiate contracts that link payment to verified outcomes, based on PHTI's independent evaluation and research.</p><p>This toolkit focuses on virtual musculoskeletal (MSK) solutions, drawing on findings from <a href='https://phti.org/assessment/virtual-msk-solutions/'>PHTI's Virtual Musculoskeletal Solutions Health Technology Assessment</a> and <a href='' target='_blank' rel='noopener noreferrer'>PHTI's Performance-Based Contracting Playbook</a>. It is meant to help purchasers and vendors establish clear, evidence-based contract terms that align payment with improvements in pain and function and related outcomes.</p><p><em>The content of this playbook/report and its associated toolkits has been prepared by PHTI for informational purposes and does not constitute legal, medical, clinical or other professional advice. PHTI cannot make any guarantees or warranties regarding results from the use of such content. The content is not intended to replace thoughtful customization and drafting addressing an organization’s specific objectives and circumstances. All companies, specific products or case studies mentioned are for explanatory purposes only.</em></p>"
         }
       ]
@@ -18,7 +18,7 @@
       "heading": "Payment Model",
       "tooltipDrawer": {
         "label": "Learn more about payment models.",
-        "text": "<p><strong>About Payment Models</strong></p><p>A performance-based contract structures your payments to reward outcomes while minimizing administrative burden, avoiding perverse incentives, and balancing accountability with budget predictability.</p>"
+        "text": "<p><strong>About Payment Models</strong></p><p>A performance-based contract structures your payments to reward outcomes while minimizing administrative burden, avoiding perverse incentives, and balancing accountability with budget predictability.</p><p><strong>Contracting tip:</strong></p><ul><li>Due to the episodic nature of MSK care, define the maximum amount of time that can elapse between interactions to meet each engagement milestone threshold and trigger associated payment.</li></ul>"
       },
       "steps": [
         {
@@ -54,7 +54,7 @@
                   "label": "Performance payment",
                   "value": "performance-payment",
                   "tooltip": {
-                    "text": "Additional payment based on achievement of selected performance measure(s) (see section 4)"
+                    "text": "<em>Additional payment based on achievement of selected performance measure(s) (see section 4 - Performance metrics)</em>"
                   },
                   "subfields": [
                     {
@@ -71,9 +71,9 @@
                   "label": "Shared surgical savings",
                   "value": "shared-surgical-savings",
                   "tooltip": {
-                    "text": "Shared Savings calculate the difference between actual healthcare spending for the engaged population compared to their expected spending and split those avoided costs between the purchaser and vendor. "
+                    "text": "Shared savings is the calculation of the difference between actual healthcare spending for the engaged population compared to their expected spending. The savings of the avoided costs are then split between the purchaser and vendor."
                   },
-                  "note": "PHTI does not recommend utilizing an estimate surgical cost avoidance measure or self-reported surgical intent for performance payment. Surgical cost savings should only be pursued by purchasers who are able to analyze and validate statistically valid cost savings results, either in-house or through a third-party vendor."
+                  "note": "PHTI does not recommend utilizing an estimated surgical cost avoidance measure or self-reported surgical intent for performance payment. Surgical cost savings should only be pursued by purchasers who are able to analyze and validate statistically valid cost savings results, either in-house or through a third-party vendor."
                 }
               ],
               "default": ["engagement-milestone-payment", "performance-payment"]
@@ -92,7 +92,7 @@
       "steps": [
         {
           "id": "step-introduction",
-          "description": "<p>The following section details the inputs required to define the eligible population and calculate outcomes measures. The selections for each of these components will impact the threshold for PEMPM payments as well as the equation for calculating performance withholds.</p><p><strong>Performance Payment Calculation:</strong></p><ul><li><strong>Numerator:</strong> For cohort in the denominator, number of <strong>eligible members</strong> who meet <strong>the performance threshold for the measure of interest.</strong></li><li><strong>Denominator:</strong> Total <strong>eligible members</strong> who meet the <strong>meaningful engagement definition</strong> for duration of <strong>program tenure requirement.</strong></li></ul><p><strong>Definitions:</strong></p><ul><li><strong>The inclusion and exclusion criteria (question 2)</strong> define the total population of eligible members who may engage with the solution. Narrowing the eligibility will limit the number of individuals who may be included in the denominator and the numerator.</li><li><strong>The performance threshold for the measure of interest (question 4a)</strong> defines the target clinical improvement. Raising the target will shrink the number of individuals in the numerator, decreasing the overall performance payment.</li><li><strong>The meaningful engagement definition (question 3)</strong> defines what level of engagement is required for an individual to be included in the calculations. Increasing the requirements will shrink the number of individuals in the denominator and the numerator.</li><li><strong>The program tenure requirement (question 4b)</strong> defines the minimum amount of time an individual must engage with the solution to be included in the calculations. Increasing the tenure requirement will shrink the number of individuals in the denominator and the numerator.</li></ul>",
+          "description": "<p>The following section details the inputs required to define the eligible population and calculate outcomes measures. The selections for each of these components will impact the threshold for PEMPM payments as well as the equation for calculating performance withholds.</p><p><strong>Performance Payment Calculation:</strong></p><ul><li><strong>Numerator:</strong> For cohort in the denominator, number of <strong>eligible members</strong> who meet <strong>the performance threshold for the measure of interest.</strong></li><li><strong>Denominator:</strong> Total <strong>eligible members</strong> who meet the <strong>meaningful engagement definition</strong> for duration of <strong>program tenure requirement.</strong></li></ul>",
           "imgSrc": "eligibility-criteria-intro.png",
           "imgAlt": "PBC Outcome Measure Calculation Graphic"
         },
@@ -134,15 +134,8 @@
               "options": [
                 {
                   "id": "option-eligibility-criteria-exclusion-criteria-prior-musculoskeletal-surgery",
-                  "label": "Prior musculoskeletal surgery within __ months",
-                  "value": "prior-musculoskeletal-surgery",
-                  "subfields": [
-                    {
-                      "id": "subfield-eligibility-criteria-exclusion-criteria-prior-msk-surgery-num-months",
-                      "label": "Number of months",
-                      "type": "number"
-                    }
-                  ]
+                  "label": "Prior musculoskeletal surgery within a specified timeframe",
+                  "value": "prior-musculoskeletal-surgery"
                 },
                 {
                     "id": "option-eligibility-criteria-exclusion-criteria-active-and-malignant-cancer",
@@ -217,14 +210,14 @@
       "id": "section-meaningful-engagement-criteria",
       "heading": "Meaningful Engagement Criteria",
       "tooltipDrawer": {
-        "label": "About Meaningful Engagement Criteria",
+        "label": "About meaningful engagement criteria",
         "text": "<p>Clear, meaningful engagement thresholds help limit payment to members who are meaningfully engaged with the solution and most likely to experience a clinical impact. While there are many common engagement metrics, not all are considered <em>meaningful</em>.</p><p>In the two-payment stream model, the definition of meaningful engagement directly impacts the size of the payments made to the vendor. A looser definition of engagement will create a larger PEMPM payment and will increase the number of individuals whose clinical outcomes are considered for the performance payment.</p><p><strong>Contracting tip:</strong></p><ul><li>Explicitly define what constitutes a visit (e.g., documentation required)</li><li>For inclusion in the performance payment, define the maximum days (e.g., 15) for capturing baseline pain/function score, considering operational workflows.</li></ul>"
       },
       "steps": [
         {
           "id": "step-meaningful-engagement",
           "heading": "Define engagement criteria for the contract.",
-          "description": "<p>There are other definitions of engagement in use today, including: app logins, email opens, and an engagement index. Purchasers increasingly indicate that they prefer more meaningful engagement metrics, especially as these metrics serve as the basis for PEMPM payments and performance payment calculations. PHTI’s recommended definitions focus on engagement milestones that are correlated with clinical impact.</p><p><strong><em>Recommended values are pre-filled. Unselect any you would not like to include in your definition.</em></strong></p>",
+          "description": "<p>Currently the main definitions of engagement in use today include metrics such as app logins, email opens, and an engagement index. Purchasers increasingly indicate that they prefer more meaningful engagement metrics, especially as these metrics serve as the basis for PEMPM payments and performance payment calculations. PHTI’s recommended definitions focus on engagement milestones that are correlated with clinical impact.</p><p><strong><em>Recommended values are pre-filled. Unselect any you would not like to include in your definition.</em></strong></p>",
           "fields": [
             {
               "id": "option-meaningful-engagement-based",
@@ -235,7 +228,7 @@
               "options": [
                 {
                   "id": "option-meaningful-engagement-based-milestones-initial",
-                  "label": "Payment Milestone 1: Initial Engagement",
+                  "label": "Payment Milestone 1: Initial engagement",
                   "value": "initial-engagement"
                 },
                 {
@@ -331,7 +324,7 @@
       "id": "section-performance-metrics",
       "heading": "Performance Metrics",
       "tooltipDrawer": {
-        "label": "About Performance Metrics",
+        "label": "About performance metrics",
         "text": "<p>Select validated, feasible measures–favoring biomarker-based outcomes and clinically accepted instruments–and determine the time horizon for impact.</p><p><strong>Contracting tip:</strong></p><ul><li>Define the appropriate administration pathway for each assessment (e.g., administered by a trained clinician or, when self-reported, completed independently by patients using a validated survey tool) and establish data collection standards to maintain inter-rater reliability.</li><li>Define the maximum allowable number of months between initial assessment and visit milestone for performance payment.</li></ul>"
       },
       "steps": [
@@ -346,7 +339,7 @@
               "options": [
                 {
                   "id": "option-performance-metrics-mcid-attainment",
-                  "label": "MCID attainment (or other agreed upon improvement target) on Pain/Functional measurement scale with industry validated scale.",
+                  "label": "MCID attainment (or other agreed upon improvement target) on pain/function measurement scale with industry validated scale.",
                   "tooltip": {
                     "text": "Validated pain/function scales include NPRS, VAS, PROMIS-PI, KOOS-PS, ODI, PROMIS-PF, QuickDASH, HFAQ, LCAT. Refer to <a href='https://phti.org/assessment/virtual-msk-solutions/' target='_blank' rel='noopener noreferrer'>PHTI’s Virtual Musculoskeletal Solutions Assessment</a> to understand the MCID for each scale."
                   },
@@ -386,13 +379,13 @@
       "id": "section-engagement-approach",
       "heading": "Engagement Approach",
       "tooltipDrawer": {
-        "label": "About Engagement Approaches",
+        "label": "About engagement approaches",
         "text": "<p>Engagement approaches establish clear parameters for how vendors may contact and interact with members to promote engagement with the solution.</p><p>Purchasers may seek to limit outreach frequency, require member consent or opt-in, and specify permissible channels (e.g., text, phone, mailer) to protect member trust and prevent over communication. Vendors value flexibility to reach members through multiple touch points and may need to tailor outreach strategies to different populations. This repeated, multimodal contact can be important to drive engagement and outcomes for some solutions.</p>"
       },
       "steps": [
         {
           "id": "step-engagement-approach",
-          "heading": "Select allowable engagement approaches to include.",
+          "heading": "Select Your Engagement Approach",
           "description": "<p>This section details the operational components of the contract that are critical to successful implementation of performance-based contracts.</p><p><strong><em>Recommended values are pre-filled.</em></strong></p>",
           "fields": [
             {
@@ -460,7 +453,7 @@
       "id": "section-data-sharing-commitments",
       "heading": "Data Sharing Commitments",
       "tooltipDrawer": {
-        "label": "About Data Sharing Commitments",
+        "label": "About data sharing commitments",
         "text": "<p>Reliable performance measurement is foundational to performance-based contracting. To assess whether a solution is driving clinical or financial impact, purchasers and vendors need access to timely, high-quality data and the analytic capacity to interpret them in a timely manner.</p><p><strong>Contracting tip:</strong></p><ul><li>For all data file sharing, determine cadence and format for sharing prior to contracting. Consider including template reports in the contract to ensure file readability.</li><li>Purchasers commit to active list management, including monthly deletions, corrections, and additions.</li><li>Purchaser submits monthly list in machine readable format with members that meet eligibility criteria. Eligibility file should include full population to avoid claims lag post-diagnosis. Pre-determine select data fields to include in the file (e.g., plan ID, name, address, demographics).</li><li>Include purchaser audit rights for vendor data in contract.</li></ul>"
       },
       "steps": [
@@ -472,7 +465,6 @@
             {
               "id": "field-data-sharing-commitments-purchaser-to-vendor-format",
               "label": "From Purchaser to Vendor: Data sharing format",
-              "description": "Required.",
               "required": true,
               "type": "radio",
               "options": [
@@ -542,7 +534,7 @@
                         },
                         {
                           "id": "option-data-sharing-commitments-eligibility-file-feeds",
-                          "label": "Inpatient admission and/or ED visit data from Admission, Discharge, Transfer (ADT) data feeds",
+                          "label": "Inpatient admission and/or emergency department visit data from admission, discharge, transfer (ADT) data feeds",
                           "value": "feeds",
                           "tooltip": {
                             "text": "Individuals may be more primed for behavior change after an acute event, supporting the need for real-time data for risk stratification and high-risk member identification"
@@ -581,7 +573,7 @@
             {
               "id": "field-data-sharing-commitments-vendor-to-purchaser-format",
               "label": "From Vendor to Purchaser: Data sharing format",
-              "description": "Required. Select an option.",
+              "description": "Required.",
               "required": true,
               "type": "radio",
               "options": [
@@ -624,7 +616,7 @@
                         },
                         {
                           "id": "option-data-sharing-commitments-enrollment-file-baseline-pain-function-scores",
-                          "label": "Baseline Pain/Function Scores",
+                          "label": "Baseline pain/function scores",
                           "value": "baseline-pain-function-scores"
                         },
                         {
@@ -668,7 +660,7 @@
                           "label": "Days between participant consenting to participate and when they received a virtual PT session",
                           "value": "days-between-session",
                           "tooltip": {
-                            "text": "i.e., Eligibility to engagement elapsed time distribution"
+                            "text": "i.e., eligibility to engagement elapsed time distribution"
                           }
                         },
                         {
@@ -678,7 +670,7 @@
                         },
                         {
                           "id": "option-data-sharing-commitments-summary-statistics-self-reported-pain-scores",
-                          "label": "Self-Reported Pain/Function Scores",
+                          "label": "Self-Reported pain/function scores",
                           "value": "self-reported-pain-scores"
                         },
                         {
@@ -686,7 +678,7 @@
                           "label": "App interaction profile",
                           "value": "app-interaction-profile",
                           "tooltip": {
-                            "text": "average and mean member-initiated interactions with solution"
+                            "text": "Average and mean member-initiated interactions with solution"
                           }
                         },
                         {
@@ -694,7 +686,7 @@
                           "label": "Health care services utilization for selected categories of service",
                           "value": "health-care-services-utilization",
                           "tooltip": {
-                            "text": "e.g. surgeries, injections, advanced imaging, Orthopedics evals"
+                            "text": "Such as surgeries, injections, advanced imaging, Orthopedics evals"
                           }
                         },
                         {
@@ -744,7 +736,7 @@
                           "label": "Days between participant consenting to participate and when they received a virtual PT session",
                           "value": "days-between-session",
                           "tooltip": {
-                            "text": "i.e., Eligibility to engagement elapsed time distribution"
+                            "text": "i.e., eligibility to engagement elapsed time distribution"
                           }
                         },
                         {
@@ -754,7 +746,7 @@
                         },
                         {
                           "id": "option-data-sharing-commitments-clinical-measurements-self-reported-pain-scores",
-                          "label": "Self-Reported Pain/Function Scores",
+                          "label": "Self-Reported pain/function scores",
                           "value": "self-reported-pain-scores"
                         },
                         {
@@ -762,7 +754,7 @@
                           "label": "Summary statistics on application use",
                           "value": "summary-stats-on-app-use",
                           "tooltip": {
-                            "text": "e.g., # of application interactions per week"
+                            "text": "Such as # of application interactions per week"
                           }
                         },
                         {
@@ -770,7 +762,7 @@
                           "label": "Health care services utilization for selected categories of service",
                           "value": "health-care-services-utilization",
                           "tooltip": {
-                            "text": "e.g. surgeries, injections, advanced imaging, Orthopedics evals"
+                            "text": "Such as surgeries, injections, advanced imaging, Orthopedics evals"
                           }
                         },
                         {
@@ -807,7 +799,7 @@
                 },
                 {
                   "id": "option-data-sharing-commitments-data",
-                  "label": "Data required to feed into data warehouse/3<sup>rd</sup> party data management resource",
+                  "label": "Data required to feed into data warehouse/third party data management resource",
                   "value": "data"
                 },
                 {
@@ -838,7 +830,7 @@
       "id": "section-administrative-terms",
       "heading": "Administrative Terms",
       "tooltipDrawer": {
-        "label": "About Administrative Terms",
+        "label": "About administrative terms",
         "text": "<p><strong>Contracting tip:</strong></p><ul><li>Require a minimum number of meaningfully engaged patients to trigger performance payment. If minimum is not met, suggest no performance payment.</li></ul>"
       },
       "steps": [
@@ -848,7 +840,7 @@
           "fields": [
             {
               "id": "field-administrative-terms-reconciliation",
-              "label": "Reconciliation",
+              "label": "Select Administrative Terms: Reconciliation",
               "type": "checkbox",
               "options": [
                 {
@@ -862,9 +854,12 @@
                     {
                       "id": "subfield-administrative-terms-reconciliation-one-year-post-measurement-num-visits",
                       "label": "Number of visits",
-                      "description": "Populated based on previous field.",
+                      "description": "<em>Populated based on previous field.</em>",
                       "type": "number",
-                      "defaultFrom": "subfield-performance-metrics-program-tenure-num-sessions"
+                      "defaultFrom": "subfield-performance-metrics-program-tenure-num-sessions",
+                      "tooltip": {
+                        "text": "Populated based on minimum program engagement seletion in Decision 4: Performance Metrics."
+                      }
                     }
                   ]
                 },
@@ -895,7 +890,7 @@
                 },
                 {
                   "id": "option-administrative-terms-reconciliation-prorating-bonuses",
-                  "label": "Incorporate terms around pro-rating bonuses if contract is terminated early or not-renewed.",
+                  "label": "Incorporate terms around pro-rating bonuses if contract is terminated early or not renewed.",
                   "value": "prorating-bonuses"
                 },
                 {
@@ -917,11 +912,11 @@
         },
         {
           "id": "step-administrative-terms-term-and-renewal",
-          "description": "<p>Most purchasers will elect quarterly engagement milestone payments and annual performance payments. In cases where high churn exists among members, purchasers may prefer to reconcile performance payments on a quarterly basis.</p><p><strong><em>Recommended values are pre-filled.</em></strong></p>",
+          "description": "<strong><em>Recommended values are pre-filled.</em></strong>",
           "fields": [
             {
               "id": "field-administrative-terms-term-and-renewal",
-              "label": "Term and Renewal",
+              "label": "Select Administrative Terms: Duration and Renewal",
               "type": "checkbox",
               "options": [
                 {
@@ -971,6 +966,7 @@
                   "required": true,
                   "disabled": true,
                   "value": "billing-frequency",
+                  "note": "Most purchasers will elect quarterly engagement milestone payments and annual performance payments. In cases where high churn exists among members, purchasers may prefer to reconcile performance payments on a quarterly basis.",
                   "subfields": [
                     {
                       "id": "subfield-administrative-terms-term-and-renewal-billing-frequency-options",
