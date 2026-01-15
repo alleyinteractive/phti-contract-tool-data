@@ -672,7 +672,7 @@
                         {
                           "id": "option-data-sharing-commitments-summary-statistics-average-member-initiated-interactions",
                           "label": "Average and mean member-initiated interactions with solution",
-                          "value": "average-member-initiated-interactions"
+                          "value": "Average-member-initiated-interactions"
                         },
                         {
                           "id": "option-data-sharing-commitments-summary-statistics-other",
