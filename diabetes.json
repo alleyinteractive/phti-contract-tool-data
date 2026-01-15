@@ -893,9 +893,7 @@
                   "required": true,
                   "disabled": true,
                   "value": "billing-frequency",
-				  "tooltip": {
-					"text": "<p>Most purchasers will elect quarterly PEMPM payments and annual performance payments. In cases where high churn exists among members, purchasers may prefer to reconcile performance payments on a quarterly basis.</p>"
-				  },
+				  "note": "Most purchasers will elect quarterly PEMPM payments and annual performance payments. In cases where high churn exists among members, purchasers may prefer to reconcile performance payments on a quarterly basis.",
                   "subfields": [
                     {
                       "id": "subfield-administrative-terms-term-and-renewal-billing-frequency-options",
