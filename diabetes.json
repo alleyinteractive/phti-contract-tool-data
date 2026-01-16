@@ -226,20 +226,28 @@
           "description": "<p>Currently the main definitions of engagement in use today include metrics such as app logins, email opens, and an engagement index. Purchasers increasingly indicate that they prefer more meaningful engagement metrics, especially as these metrics serve as the basis for PEMPM payments and performance payment calculations. PHTI’s recommended definitions focus on engagement milestones that are correlated with clinical impact.</p><p><strong>PHTI recommends members meet 3 criteria to be considered meaningfully engaged. Criteria 1 and 2 are required.</strong></p><p><strong><em>Recommended values are pre-filled.</em></strong></p>",
           "fields": [
             {
-              "id": "field-meaningful-engagement-criteria-1",
-              "label": "",
-              "type": "checkbox",
-              "disabled": true,
-              "options": [
+              "id": "field-meaningful-engagement-program-start",
+              "label": "Program Start",
+              "subfields": [
                 {
-                  "id": "option-meaningful-engagement-criteria-1",
-                  "label": "(Criteria 1) Program start: Member executed engagement agreement",
-                  "description": "Required.",
-                  "required": true,
-                  "value": "criteria-1"
+                  "id": "field-meaningful-engagement-criteria-1",
+                  "label": "",
+                  "type": "checkbox",
+                  "disabled": true,
+                  "options": [
+                    {
+                      "id": "option-meaningful-engagement-criteria-1",
+                      "label": "Criteria 1: Member executed engagement agreement",
+                      "description": "Required.",
+                      "required": true,
+                      "value": "criteria-1"
+                    }
+                  ],
+                  "default": [
+                      "criteria-1"
+                  ]
                 }
-              ],
-              "default": ["criteria-1"]
+              ]
             },
             {
               "id": "field-meaningful-engagement-clinical-utilization",
@@ -256,7 +264,7 @@
                   "options": [
                     {
                       "id": "option-meaningful-engagement-criteria-2",
-                      "label": "(Criteria 2) Baseline HbA1C captured within __ days before or after program start, as defined above",
+                      "label": "Criteria 2: Baseline HbA1C captured within __ days before or after program start, as defined above",
                       "description": "Required.",
                       "required": true,
                       "value": "criteria-2",
@@ -280,7 +288,7 @@
                   "options": [
                     {
                       "id": "option-meaningful-engagement-criteria-3",
-                      "label": "(Criteria 3) At least __ member-initiated transactions with program per __ months",
+                      "label": "Criteria 3: At least __ member-initiated transactions with program per __ months",
                       "value": "criteria-3",
                       "tooltip": {
                         "text": "Clearly define “transaction” in contract, prioritizing member-initiated and clinically meaningful interactions."
@@ -330,9 +338,9 @@
                 {
                   "id": "option-performance-metrics-hba1c",
                   "label": "Laboratory reported HbA1C",
-				  "tooltip": {
-					"text": "If focusing on glycemic control as measured by HbA1c, set to 100%. If incorporating weight loss, select the percentage of the total performance payment that will be tied to each."
-				  },
+                  "tooltip": {
+                    "text": "If focusing on glycemic control as measured by HbA1c, set to 100%. If incorporating weight loss, select the percentage of the total performance payment that will be tied to each."
+                  },
                   "value": "hba1c",
                   "subfields": [
                     {
@@ -893,7 +901,7 @@
                   "required": true,
                   "disabled": true,
                   "value": "billing-frequency",
-				  "note": "Most purchasers will elect quarterly PEMPM payments and annual performance payments. In cases where high churn exists among members, purchasers may prefer to reconcile performance payments on a quarterly basis.",
+                  "note": "Most purchasers will elect quarterly PEMPM payments and annual performance payments. In cases where high churn exists among members, purchasers may prefer to reconcile performance payments on a quarterly basis.",
                   "subfields": [
                     {
                       "id": "subfield-administrative-terms-term-and-renewal-billing-frequency-options",
