@@ -194,20 +194,28 @@
           "description": "<p>Currently the main definitions of engagement in use today include metrics such as app logins, email opens, and an engagement index. Purchasers increasingly indicate that they prefer more meaningful engagement metrics, especially as these metrics serve as the basis for PEMPM payments and performance payment calculations. PHTI’s recommended definitions focus on engagement milestones that are correlated with clinical impact.</p><p><strong>PHTI recommends members meet 3 criteria to be considered meaningfully engaged. Criteria 1 and 2 are required.</strong></p><p><strong><em>Recommended values are pre-filled.</em></strong></p>",
           "fields": [
             {
-              "id": "field-meaningful-engagement-criteria-1",
-              "label": "",
-              "type": "checkbox",
-              "disabled": true,
-              "options": [
+              "id": "field-meaningful-engagement-program-start",
+              "label": "Program Start",
+              "subfields": [
                 {
-                  "id": "option-meaningful-engagement-criteria-1",
-                  "label": "(Criteria 1) Program start: member completes onboarding, initial assessment, or first visit",
-                  "description": "Required.",
-                  "required": true,
-                  "value": "criteria-1"
+                  "id": "field-meaningful-engagement-criteria-1",
+                  "label": "",
+                  "type": "checkbox",
+                  "disabled": true,
+                  "options": [
+                    {
+                      "id": "option-meaningful-engagement-criteria-1",
+                      "label": "Criteria 1: Member completes onboarding, initial assessment, or first visit",
+                      "description": "Required.",
+                      "required": true,
+                      "value": "criteria-1"
+                    }
+                  ],
+                  "default": [
+                    "criteria-1"
+                  ]
                 }
-              ],
-              "default": ["criteria-1"]
+              ]
             },
             {
               "id": "field-meaningful-engagement-clinical-utilization",
@@ -224,7 +232,7 @@
                   "options": [
                     {
                       "id": "option-meaningful-engagement-criteria-2",
-                      "label": "(Criteria 2) Baseline clinical assessment <em>(first month only)</em>",
+                      "label": "Criteria 2: Baseline clinical assessment <em>(first month only)</em>",
                       "description": "Required.",
                       "required": true,
                       "value": "criteria-2",
@@ -263,7 +271,7 @@
                   "options": [
                     {
                       "id": "option-meaningful-engagement-criteria-3",
-                      "label": "(Criteria 3) Member must meet at least <u>one</u> of the following interaction thresholds each month",
+                      "label": "Criteria 3: Member must meet at least <u>one</u> of the following interaction thresholds each month",
                       "value": "criteria-3",
                       "tooltip": {
                         "text": "Meaningful Engagement Criteria informed by <a href='https://phti.org/assessment/virtual-solutions-anxiety-depression/' target='_blank' rel='noopener noreferrer'>PHTI 2024 Virtual Solutions for Depression and Anxiety Health Technology Assessment</a> based on the various care models studied"
