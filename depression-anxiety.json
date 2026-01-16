@@ -274,7 +274,7 @@
                       "label": "Criteria 3: Member must meet at least <u>one</u> of the following interaction thresholds each month",
                       "value": "criteria-3",
                       "tooltip": {
-                        "text": "Meaningful Engagement Criteria informed by <a href='https://phti.org/assessment/virtual-solutions-anxiety-depression/' target='_blank' rel='noopener noreferrer'>PHTI 2024 Virtual Solutions for Depression and Anxiety Health Technology Assessment</a> based on the various care models studied"
+                        "text": "Meaningful Engagement Criteria informed by <a href='https://phti.org/assessment/virtual-solutions-anxiety-depression/' target='_blank' rel='noopener noreferrer'>PHTI Virtual Solutions for Depression and Anxiety Health Technology Assessment</a> based on the various care models studied"
                       },
                       "subfields": [
                         {
@@ -376,7 +376,7 @@
         {
           "id": "step-performance-metrics-program-tenure",
           "heading": "Confirm desired program tenure for inclusion in the performance payment.",
-          "description": "<p>Improvement in PHQ-9 and GAD-7 can be expected to yield results within 6-12 weeks as demonstrated in <a href='https://phti.org/assessment/virtual-solutions-anxiety-depression/' target='_blank'>PHTI's 2024 Virtual Solutions for Depression and Anxiety Health Technology Assessment</a>. PHTI recommends 16 weeks (4 months) to account for potential scheduling delays.</p><p><strong><em>Recommended values are pre-filled.</em></strong></p>",
+          "description": "<p>Improvement in PHQ-9 and GAD-7 can be expected to yield results within 6-12 weeks as demonstrated in <a href='https://phti.org/assessment/virtual-solutions-anxiety-depression/' target='_blank'>PHTI's Virtual Solutions for Depression and Anxiety Health Technology Assessment</a>. PHTI recommends 16 weeks (4 months) to account for potential scheduling delays.</p><p><strong><em>Recommended values are pre-filled.</em></strong></p>",
           "fields": [
             {
               "id": "field-performance-metrics-program-tenure",
@@ -675,7 +675,7 @@
                   "disabled": true,
                   "value": "one-year-measurement-period",
                   "tooltip": {
-                    "text": "Improvement in PHQ-9 and GAD-7 can be expected to yield results within 6-12 weeks as demonstrated in <a href='https://phti.org/assessment/virtual-solutions-anxiety-depression/' target='_blank'>PHTI's 2024 Virtual Solutions for Depression and Anxiety Health Technology Assessment</a>. PHTI recommends 16 weeks (4 months) to account for potential scheduling delays."
+                    "text": "Improvement in PHQ-9 and GAD-7 can be expected to yield results within 6-12 weeks as demonstrated in <a href='https://phti.org/assessment/virtual-solutions-anxiety-depression/' target='_blank'>PHTI's Virtual Solutions for Depression and Anxiety Health Technology Assessment</a>. PHTI recommends 16 weeks (4 months) to account for potential scheduling delays."
                   },
                   "subfields": [
                     {
