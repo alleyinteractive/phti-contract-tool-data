@@ -113,7 +113,7 @@
     },
     {
       "id": "section-eligibility-criteria",
-      "heading": "Eligibility Criteria",
+      "heading": "Eligible Population",
       "tooltipDrawer": {
         "label": "Understand more about eligibility criteria.",
         "text": "<p><strong>About Eligibility Criteria</strong></p><p>Eligibility criteria determine which plan members may engage with the solution and have their outcomes measured. Eligibility typically includes clinical criteria, demographics, or utilization history.</p><p>The <strong>inclusion and exclusion criteria</strong> define the total population of eligible members who may engage with the solution. Narrowing the eligibility will limit the number of individuals who may be included in the denominator and the numerator.</p><p><strong>Contracting tip:</strong></p><ul><li>Include clause allowing digital health solution vendor to update the exclusion criteria based on medical contraindications. (e.g., Serious Mental Illness (SMI) and associated medications).</li><li>Specify timing for when exclusion criteria adjustments can be made to the contract.</li><li>Consider tiered pricing for lower acuity patients being treated with lower intensity intervention. Add data sharing commitments to ensure transparency of triage process.</li></ul>"
@@ -182,9 +182,9 @@
     },
     {
       "id": "section-meaningful-engagement-criteria",
-      "heading": "Meaningful Engagement Criteria",
+      "heading": "Engagement Criteria",
       "tooltipDrawer": {
-        "label": "About meaningful engagement criteria",
+        "label": "About meaningful engagement criteria.",
         "text": "<p>Clear, meaningful engagement thresholds help limit payment to members who are meaningfully engaged with the solution and most likely to experience a clinical impact. While there are many common engagement metrics, not all are considered <em>meaningful</em>.</p><p>In the two-payment stream model, the definition of meaningful engagement directly impacts the size of the payments made to the vendor. A looser definition of engagement will create a larger PEMPM payment and will increase the number of individuals whose clinical outcomes are considered for the performance payment.</p><p><strong>Contracting tip:</strong></p><ul><li>At least one of the above interactions must be member-initiated (e.g., scheduling appointment, messaging, starting a module); however, consider excluding therapy sessions from member-initiated requirement to allow provider to follow up with appointment scheduling without penalty.</li><li>Define the maximum days (e.g., 15) for capturing baseline clinical measures, considering operational workflows.</li></ul>"
       },
       "steps": [
@@ -331,7 +331,7 @@
       "id": "section-performance-metrics",
       "heading": "Performance Metrics",
       "tooltipDrawer": {
-        "label": "About performance metrics",
+        "label": "About performance metrics.",
         "text": "<p>Select validated, feasible measures—favoring biomarker-based outcomes and clinically accepted instruments—and determine the time horizon for impact.</p><p><strong>Contracting tip:</strong></p><ul><li>Define appropriate administration pathway for assessment (e.g., administered by a trained clinician or, when self-reported, completed independently by patients using a validated survey tool) and establish data collection standards to maintain inter-rater reliability.</li></ul>"
       },
       "steps": [
@@ -381,7 +381,7 @@
       "id": "section-engagement-approach",
       "heading": "Engagement Approach",
       "tooltipDrawer": {
-        "label": "About engagement approaches",
+        "label": "About engagement approaches.",
         "text": "<p>Engagement approaches establish clear parameters for how vendors may contact and interact with members to promote engagement with the solution.</p><p>Purchasers may seek to limit outreach frequency, require member consent or opt-in, and specify permissible channels (e.g., text, phone, mailer) to protect member trust and prevent over communication. Vendors value flexibility to reach members through multiple touch points and may need to tailor outreach strategies to different populations. This repeated, multimodal contact can be important to drive engagement and outcomes for some solutions.</p>"
       },
       "steps": [
@@ -455,7 +455,7 @@
       "id": "section-data-sharing-commitments",
       "heading": "Data Sharing Commitments",
       "tooltipDrawer": {
-        "label": "About data sharing commitments",
+        "label": "About data sharing commitments.",
         "text": "<p>Reliable performance measurement is foundational to performance-based contracting. To assess whether a solution is driving clinical or financial impact, purchasers and vendors need access to timely, high-quality data and the analytic capacity to interpret them in a timely manner.</p><p><strong>Contracting tip:</strong></p><ul><li>For all data file sharing, determine cadence and format for sharing prior to contracting. Consider including template reports in the contract to ensure file readability.</li><li>Purchasers commit to active list management, including monthly deletions, corrections, and additions.</li><li>Purchaser submits monthly list in machine readable format with members that meet eligibility criteria. Eligibility file should include full population to avoid claims lag post-diagnosis. Pre-determine select data fields to include in the file (e.g., plan ID, name, address, demographics).</li><li>Include purchaser audit rights for vendor data in contract.</li></ul>"
       },
       "steps": [
@@ -640,7 +640,7 @@
       "id": "section-administrative-terms",
       "heading": "Administrative Terms",
       "tooltipDrawer": {
-        "label": "About administrative terms",
+        "label": "About administrative terms.",
         "text": "<p><strong>Contracting tip:</strong></p><ul><li>Require a minimum number of meaningfully engaged patients to trigger performance payment. If minimum is not met, suggest no performance payment.</li></ul>"
       },
       "steps": [
