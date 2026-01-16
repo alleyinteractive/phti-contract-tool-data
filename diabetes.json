@@ -84,7 +84,7 @@
     },
     {
       "id": "section-eligibility-criteria",
-      "heading": "Eligibility Criteria",
+      "heading": "Eligible Population",
       "tooltipDrawer": {
         "label": "Understand more about eligibility criteria.",
         "text": "<p><strong>About Eligibility Criteria</strong></p><p>Eligibility criteria determine which plan members may engage with the solution and have their outcomes measured. Eligibility typically includes clinical criteria, demographics, or utilization history.</p><p>The <strong>inclusion and exclusion criteria</strong> define the total population of eligible members who may engage with the solution. Narrowing the eligibility will limit the number of individuals who may be included in the denominator and the numerator.</p><p><strong>Contracting tip:</strong></p><ul><li>Include clause allowing digital health solution vendor to update the exclusion criteria based on medical contraindications.</li><li>Specify timing for when exclusion criteria adjustments can be made to the contract.</li></ul>"
@@ -214,9 +214,9 @@
     },
     {
       "id": "section-meaningful-engagement-criteria",
-      "heading": "Meaningful Engagement Criteria",
+      "heading": "Engagement Criteria",
       "tooltipDrawer": {
-        "label": "About meaningful engagement criteria",
+        "label": "About meaningful engagement criteria.",
         "text": "<p>Clear, meaningful engagement thresholds help limit payment to members who are meaningfully engaged with the solution and most likely to experience a clinical impact. While there are many common engagement metrics, not all are considered <em>meaningful</em>.</p><p>In the two-payment stream model, the definition of meaningful engagement directly impacts the size of the payments made to the vendor. A looser definition of engagement will create a larger PEMPM payment and will increase the number of individuals whose clinical outcomes are considered for the performance payment.</p><p><strong>Contracting tip:</strong></p><ul><li>Explicitly define ‘transaction’ (e.g., HbA1C measurement) and prioritize member-initiated and clinically significant interactions.</li><li>Define the maximum days (e.g., 15) for capturing baseline HbA1C reading, considering operational workflows.</li></ul>"
       },
       "steps": [
@@ -226,20 +226,28 @@
           "description": "<p>Currently the main definitions of engagement in use today include metrics such as app logins, email opens, and an engagement index. Purchasers increasingly indicate that they prefer more meaningful engagement metrics, especially as these metrics serve as the basis for PEMPM payments and performance payment calculations. PHTI’s recommended definitions focus on engagement milestones that are correlated with clinical impact.</p><p><strong>PHTI recommends members meet 3 criteria to be considered meaningfully engaged. Criteria 1 and 2 are required.</strong></p><p><strong><em>Recommended values are pre-filled.</em></strong></p>",
           "fields": [
             {
-              "id": "field-meaningful-engagement-criteria-1",
-              "label": "",
-              "type": "checkbox",
-              "disabled": true,
-              "options": [
+              "id": "field-meaningful-engagement-program-start",
+              "label": "Program Start",
+              "subfields": [
                 {
-                  "id": "option-meaningful-engagement-criteria-1",
-                  "label": "(Criteria 1) Program start: Member executed engagement agreement",
-                  "description": "Required.",
-                  "required": true,
-                  "value": "criteria-1"
+                  "id": "field-meaningful-engagement-criteria-1",
+                  "label": "",
+                  "type": "checkbox",
+                  "disabled": true,
+                  "options": [
+                    {
+                      "id": "option-meaningful-engagement-criteria-1",
+                      "label": "Criteria 1: Member executed engagement agreement",
+                      "description": "Required.",
+                      "required": true,
+                      "value": "criteria-1"
+                    }
+                  ],
+                  "default": [
+                      "criteria-1"
+                  ]
                 }
-              ],
-              "default": ["criteria-1"]
+              ]
             },
             {
               "id": "field-meaningful-engagement-clinical-utilization",
@@ -256,7 +264,7 @@
                   "options": [
                     {
                       "id": "option-meaningful-engagement-criteria-2",
-                      "label": "(Criteria 2) Baseline HbA1C captured within __ days before or after program start, as defined above",
+                      "label": "Criteria 2: Baseline HbA1C captured within __ days before or after program start, as defined above",
                       "description": "Required.",
                       "required": true,
                       "value": "criteria-2",
@@ -280,7 +288,7 @@
                   "options": [
                     {
                       "id": "option-meaningful-engagement-criteria-3",
-                      "label": "(Criteria 3) At least __ member-initiated transactions with program per __ months",
+                      "label": "Criteria 3: At least __ member-initiated transactions with program per __ months",
                       "value": "criteria-3",
                       "tooltip": {
                         "text": "Clearly define “transaction” in contract, prioritizing member-initiated and clinically meaningful interactions."
@@ -313,7 +321,7 @@
       "id": "section-performance-metrics",
       "heading": "Performance Metrics",
       "tooltipDrawer": {
-        "label": "About performance metrics",
+        "label": "About performance metrics.",
         "text": "<p>Select validated, feasible measures—favoring biomarker-based outcomes and clinically accepted instruments—and determine the time horizon for impact.</p><p><strong>Contracting tip:</strong></p><ul><li>HbA1C<ul><li>Specify the allowable time frame for collecting a member’s final measurement that is used to calculate the change as compared to baseline, in order to be included in the performance payment calculation.</li></ul></li><li>Weight Loss Percent<ul><li>Measure average % body weight reduction relative to weight reduction target. Readings based on connected smart scale reading, not self-reported.</li></ul></li></ul>"
       },
       "steps": [
@@ -330,9 +338,9 @@
                 {
                   "id": "option-performance-metrics-hba1c",
                   "label": "Laboratory reported HbA1C",
-				  "tooltip": {
-					"text": "If focusing on glycemic control as measured by HbA1c, set to 100%. If incorporating weight loss, select the percentage of the total performance payment that will be tied to each."
-				  },
+                  "tooltip": {
+                    "text": "If focusing on glycemic control as measured by HbA1c, set to 100%. If incorporating weight loss, select the percentage of the total performance payment that will be tied to each."
+                  },
                   "value": "hba1c",
                   "subfields": [
                     {
@@ -385,7 +393,7 @@
       "id": "section-engagement-approach",
       "heading": "Engagement Approach",
       "tooltipDrawer": {
-        "label": "About engagement approaches",
+        "label": "About engagement approaches.",
         "text": "<p>Engagement approaches establish clear parameters for how vendors may contact and interact with members to promote engagement with the solution.</p><p>Purchasers may seek to limit outreach frequency, require member consent or opt-in, and specify permissible channels (e.g., text, phone, mailer) to protect member trust and prevent over communication. Vendors value flexibility to reach members through multiple touch points and may need to tailor outreach strategies to different populations. This repeated, multimodal contact can be important to drive engagement and outcomes for some solutions.</p>"
       },
       "steps": [
@@ -459,7 +467,7 @@
       "id": "section-data-sharing-commitments",
       "heading": "Data Sharing Commitments",
       "tooltipDrawer": {
-        "label": "About data sharing commitments",
+        "label": "About data sharing commitments.",
         "text": "<p>Reliable performance measurement is foundational to performance-based contracting. To assess whether a solution is driving clinical or financial impact, purchasers and vendors need access to timely, high-quality data and the analytic capacity to interpret them in a timely manner.</p><p><strong>Contracting tip:</strong></p><ul><li>For all data file sharing, determine cadence and format for sharing prior to contracting. Consider including template reports in the contract to ensure file readability.</li><li>Purchasers commit to active list management, including monthly deletions, corrections, and additions.</li><li>Purchaser submits monthly list in machine readable format with members that meet eligibility criteria. Eligibility file should include full population to avoid claims lag post-diagnosis. Pre-determine select data fields to include in the file (e.g., plan ID, name, address, demographics).</li><li>Include purchaser audit rights for vendor data in contract.</li><li>For pharmacy shared savings payments, pharmacy claims file may be required to determine performance metrics. Detail necessary data from pharmacy benefit managers (PBMs) and incorporate any data sharing agreements prior to contracting.</li></ul>"
       },
       "steps": [
@@ -749,7 +757,7 @@
       "id": "section-administrative-terms",
       "heading": "Administrative Terms",
       "tooltipDrawer": {
-        "label": "About administrative terms",
+        "label": "About administrative terms.",
         "text": "<p><strong>Contracting tip:</strong></p><ul><li>Require a minimum number of meaningfully engaged patients to trigger performance payment. If minimum is not met, suggest no performance payment.</li><li>Incorporate terms around pro-rating bonuses if contract is terminated early or not renewed.</li></ul>"
       },
       "steps": [
@@ -893,7 +901,7 @@
                   "required": true,
                   "disabled": true,
                   "value": "billing-frequency",
-				  "note": "Most purchasers will elect quarterly PEMPM payments and annual performance payments. In cases where high churn exists among members, purchasers may prefer to reconcile performance payments on a quarterly basis.",
+                  "note": "Most purchasers will elect quarterly PEMPM payments and annual performance payments. In cases where high churn exists among members, purchasers may prefer to reconcile performance payments on a quarterly basis.",
                   "subfields": [
                     {
                       "id": "subfield-administrative-terms-term-and-renewal-billing-frequency-options",
