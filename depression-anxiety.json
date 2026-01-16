@@ -37,7 +37,7 @@
                   "label": "Per-engaged-member-per-month (PEMPM)",
                   "value": "pempm",
                   "tooltip": {
-                    "text": "Monthly payment for each member meeting “Meaningful Engagement” <em>(see section 3 - Meaningful Engagement Criteria)</em>. PEMPM pricing includes access to self-guided digital content."
+                    "text": "Monthly payment for each member meeting “Meaningful Engagement” <em>(see section 3 - Engagement Criteria)</em>. PEMPM pricing includes access to self-guided digital content."
                   },
                   "subfields": [
                     {
@@ -92,7 +92,7 @@
                   "label": "Performance payment",
                   "value": "performance-payment",
                   "tooltip": {
-                    "text": "Additional payment based on achievement of selected clinical performance measure(s); often used selectively in depression and anxiety contracts alongside engagement-based payments. <em>(see section 4 - Performance metrics)</em>"
+                    "text": "Additional payment based on achievement of selected clinical performance measure(s); often used selectively in depression and anxiety contracts alongside engagement-based payments <em>(see section 4 - Performance metrics)</em>."
                   },
                   "subfields": [
                     {
@@ -320,6 +320,11 @@
                                   "default": 2
                                 }
                               ]
+                            },
+                            {
+                              "id": "option-meaningful-engagement-criteria-3-other",
+                              "label": "Other",
+                              "value": "other"
                             }
                           ],
                           "default": ["live-therapy-sessions", "digital-cbt-modules", "asynchronous-messaging"]
@@ -589,7 +594,7 @@
                           "label": "Other",
                           "value": "other",
                           "tooltip": {
-                            "text": "Such as access metrics stratified by preferred language (time to first appointment for Spanish speakers vs. English speakers)"
+                            "text": "Such as access metrics stratified by preferred language (time to first appointment for Spanish speakers vs. English speakers)."
                           },
                           "subfields": [
                             {
@@ -609,7 +614,7 @@
                   "label": "Initial and final clinical measurements",
                   "value": "clinical-measurements",
                   "tooltip": {
-                    "text": "Such as measures proximate to enrollment and last measurement of the performance period such as PHQ-9/GAD-7"
+                    "text": "Such as measures proximate to enrollment and last measurement of the performance period such as PHQ-9/GAD-7."
                   }
                 },
                 {
@@ -617,7 +622,7 @@
                   "label": "Exclusion report",
                   "value": "exclusion-report",
                   "tooltip": {
-                    "text": "For members excluded for clinical reasons, share report of documented reasons"
+                    "text": "For members excluded for clinical reasons, share report of documented reasons."
                   }
                 },
                 {
@@ -711,7 +716,7 @@
                 },
                 {
                   "id": "option-administrative-terms-reconciliation-prorating-bonuses",
-                  "label": "Incorporate terms around pro-rating bonuses if contract is terminated early or not-renewed.",
+                  "label": "Incorporate terms around pro-rating bonuses if contract is terminated early or not renewed",
                   "value": "prorating-bonuses"
                 },
                 {
