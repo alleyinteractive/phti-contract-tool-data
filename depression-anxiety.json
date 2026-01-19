@@ -8,7 +8,7 @@
       "steps": [
         {
           "id": "step-introduction-welcome",
-          "description": "<p>This toolkit focuses on virtual solutions for depression and anxiety, drawing on findings from <a href='https://phti.org/assessment/virtual-solutions-anxiety-depression/' target='_blank' rel='noopener noreferrer'>PHTI's Virtual Solutions for Depression and Anxiety Health Technology Assessment</a> and <a href='https://phti.org/research-insight/performance-based-contracting' target='_blank' rel='noopener noreferrer'>PHTI's Performance-Based Contracting Playbook</a>.</p><p><strong>What this toolkit does:</strong></p><p>Helps purchasers and digital health vendors establish clear, evidence-based contract terms that align payment with improvements in access to behavioral health services and related outcomes.</p><p>First, you will determine the design of the <strong>payment model</strong>. Next, you will determine the inputs for <strong>outcome measures</strong>, which include eligibility criteria, meaningful engagement criteria, and performance metrics. Finally, you will select <strong>operational components</strong>, which include engagement approach, data sharing commitments, and administrative terms, to include in your contracts.</p><p><strong>A few notes before you continue:</strong></p><ul><li>This toolkit helps you navigate key contracting decisions for performance-based contracts. It does not create a binding legal contract.</li><li>These toolkits do not address pricing—a critical lever for driving impact in performance-based contracts. Purchasers and vendors are encouraged to consult <a href='https://phti.org/assessments/' target='_blank' rel='noopener noreferrer'>PHTI’s assessment reports</a> and budget impact models as resources to guide pricing conversations.</li><li>Toolkit responses are anonymous. We do not gather or store any data about you, your organization, or your selections.</li></ul><p><em>The content of this playbook/report and its associated toolkits has been prepared by PHTI for informational purposes and does not constitute legal, medical, clinical or other professional advice. PHTI cannot make any guarantees or warranties regarding results from the use of such content. The content is not intended to replace thoughtful customization and drafting addressing an organization’s specific objectives and circumstances. All companies, specific products or case studies mentioned are for explanatory purposes only.</em></p><p><strong>Prefer to skip the interactive toolkit? <a href='#' id='generatePdfLink'>Download the virtual solutions for depression and anxiety toolkit</a> with PHTI's recommended selections.</strong></p>",
+          "description": "<p>This toolkit focuses on virtual solutions for depression and anxiety, drawing on findings from PHTI's <a href='https://phti.org/assessment/virtual-solutions-anxiety-depression/' target='_blank' rel='noopener noreferrer'>Virtual Solutions for Depression and Anxiety</a> Health Technology Assessment and <a href='https://phti.org/research-insight/performance-based-contracting' target='_blank' rel='noopener noreferrer'>PHTI's Performance-Based Contracting Playbook</a>.</p><p><strong>What this toolkit does:</strong></p><p>Helps purchasers and digital health vendors establish clear, evidence-based contract terms that align payment with improvements in access to behavioral health services and related outcomes.</p><p>First, you will determine the design of the <strong>payment model</strong>. Next, you will determine the inputs for <strong>outcome measures</strong>, which include eligibility criteria, meaningful engagement criteria, and performance metrics. Finally, you will select <strong>operational components</strong>, which include engagement approach, data sharing commitments, and administrative terms, to include in your contracts.</p><p><strong>A few notes before you continue:</strong></p><ul><li>This toolkit helps you navigate key contracting decisions for performance-based contracts. It does not create a binding legal contract.</li><li>These toolkits do not address pricing—a critical lever for driving impact in performance-based contracts. Purchasers and vendors are encouraged to consult <a href='https://phti.org/assessments/' target='_blank' rel='noopener noreferrer'>PHTI’s assessment reports</a> and budget impact models as resources to guide pricing conversations.</li><li>Toolkit responses are anonymous. We do not gather or store any data about you, your organization, or your selections.</li></ul><p><em>The content of this playbook/report and its associated toolkits has been prepared by PHTI for informational purposes and does not constitute legal, medical, clinical or other professional advice. PHTI cannot make any guarantees or warranties regarding results from the use of such content. The content is not intended to replace thoughtful customization and drafting addressing an organization’s specific objectives and circumstances. All companies, specific products or case studies mentioned are for explanatory purposes only.</em></p><p><strong>Prefer to skip the interactive toolkit? <a href='#' id='generatePdfLink'>Download the virtual solutions for depression and anxiety toolkit</a> with PHTI's recommended selections.</strong></p>",
           "descriptionPdf": "<p>PHTI’s performance-based contracting toolkits help purchasers and vendors negotiate contracts that link payment to verified outcomes, based on PHTI's independent evaluation and research.</p><p>This toolkit focuses on virtual solutions for depression and anxiety, drawing on findings from <a href='https://phti.org/assessment/virtual-solutions-anxiety-depression/' target='_blank' rel='noopener noreferrer'>PHTI's Virtual Solutions for Depression and Anxiety Health Technology Assessment</a> and <a href='https://phti.org/research-insight/performance-based-contracting' target='_blank' rel='noopener noreferrer'>PHTI's Performance-Based Contracting Playbook</a>. It is meant to help purchasers and vendors establish clear, evidence-based contract terms that align payment with improvements in access to behavioral health services and related outcomes.</p><p><em>The content of this playbook/report and its associated toolkits has been prepared by PHTI for informational purposes and does not constitute legal, medical, clinical or other professional advice. PHTI cannot make any guarantees or warranties regarding results from the use of such content. The content is not intended to replace thoughtful customization and drafting addressing an organization’s specific objectives and circumstances. All companies, specific products or case studies mentioned are for explanatory purposes only.</em></p>"
         }
       ]
@@ -37,7 +37,7 @@
                   "label": "Per-engaged-member-per-month (PEMPM)",
                   "value": "pempm",
                   "tooltip": {
-                    "text": "Monthly payment for each member meeting “Meaningful Engagement” <em>(see section 3 - Meaningful Engagement Criteria)</em>. PEMPM pricing includes access to self-guided digital content."
+                    "text": "Monthly payment for each member meeting “Meaningful Engagement” <em>(see section 3 - Engagement Criteria)</em>. PEMPM pricing includes access to self-guided digital content."
                   },
                   "subfields": [
                     {
@@ -92,7 +92,7 @@
                   "label": "Performance payment",
                   "value": "performance-payment",
                   "tooltip": {
-                    "text": "Additional payment based on achievement of selected clinical performance measure(s); often used selectively in depression and anxiety contracts alongside engagement-based payments. <em>(see section 4 - Performance metrics)</em>"
+                    "text": "Additional payment based on achievement of selected clinical performance measure(s); often used selectively in depression and anxiety contracts alongside engagement-based payments <em>(see section 4 - Performance metrics)</em>."
                   },
                   "subfields": [
                     {
@@ -115,7 +115,7 @@
       "id": "section-eligibility-criteria",
       "heading": "Eligible Population",
       "tooltipDrawer": {
-        "label": "Understand more about eligibility population.",
+        "label": "About eligible population.",
         "text": "<p><strong>About Eligibility Population</strong></p><p>Eligibility criteria determine which plan members may engage with the solution and have their outcomes measured. Eligibility typically includes clinical criteria, demographics, or utilization history.</p><p>The <strong>inclusion and exclusion criteria</strong> define the total population of eligible members who may engage with the solution. Narrowing the eligibility will limit the number of individuals who may be included in the denominator and the numerator.</p><p><strong>Contracting tip:</strong></p><ul><li>Include clause allowing digital health solution vendor to update the exclusion criteria based on medical contraindications. (e.g., Serious Mental Illness (SMI) and associated medications).</li><li>Specify timing for when exclusion criteria adjustments can be made to the contract.</li><li>Consider tiered pricing for lower acuity patients being treated with lower intensity intervention. Add data sharing commitments to ensure transparency of triage process.</li></ul>"
       },
       "steps": [
@@ -128,7 +128,7 @@
         },
         {
           "id": "step-eligibility-criteria",
-          "heading": "Select the plan members eligible to use the solution.",
+          "heading": "Select the members eligible to use the solution.",
           "description": "<strong><em>Recommended values are pre-filled.</em></strong>",
           "fields": [
             {
@@ -205,7 +205,7 @@
                   "options": [
                     {
                       "id": "option-meaningful-engagement-criteria-1",
-                      "label": "Criteria 1: Member completes onboarding, initial assessment, or first visit",
+                      "label": "Criteria 1: Member completes onboarding, initial assessment, or first visit.",
                       "description": "Required.",
                       "required": true,
                       "value": "criteria-1"
@@ -232,7 +232,7 @@
                   "options": [
                     {
                       "id": "option-meaningful-engagement-criteria-2",
-                      "label": "Criteria 2: Baseline clinical assessment <em>(first month only)</em>",
+                      "label": "Criteria 2: Baseline clinical assessment <em>(first month only)</em>.",
                       "description": "Required.",
                       "required": true,
                       "value": "criteria-2",
@@ -271,10 +271,10 @@
                   "options": [
                     {
                       "id": "option-meaningful-engagement-criteria-3",
-                      "label": "Criteria 3: Member must meet at least <u>one</u> of the following interaction thresholds each month",
+                      "label": "Criteria 3: Member must meet at least <u>one</u> of the following interaction thresholds each month.",
                       "value": "criteria-3",
                       "tooltip": {
-                        "text": "Meaningful Engagement Criteria informed by <a href='https://phti.org/assessment/virtual-solutions-anxiety-depression/' target='_blank' rel='noopener noreferrer'>PHTI 2024 Virtual Solutions for Depression and Anxiety Health Technology Assessment</a> based on the various care models studied"
+                        "text": "Meaningful Engagement Criteria informed by <a href='https://phti.org/assessment/virtual-solutions-anxiety-depression/' target='_blank' rel='noopener noreferrer'>PHTI Virtual Solutions for Depression and Anxiety Health Technology Assessment</a> based on the various care models studied."
                       },
                       "subfields": [
                         {
@@ -320,6 +320,11 @@
                                   "default": 2
                                 }
                               ]
+                            },
+                            {
+                              "id": "option-meaningful-engagement-criteria-3-other",
+                              "label": "Other",
+                              "value": "other"
                             }
                           ],
                           "default": ["live-therapy-sessions", "digital-cbt-modules", "asynchronous-messaging"]
@@ -371,7 +376,7 @@
         {
           "id": "step-performance-metrics-program-tenure",
           "heading": "Confirm desired program tenure for inclusion in the performance payment.",
-          "description": "<p>Improvement in PHQ-9 and GAD-7 can be expected to yield results within 6-12 weeks as demonstrated in <a href='https://phti.org/assessment/virtual-solutions-anxiety-depression/' target='_blank'>PHTI's 2024 Virtual Solutions for Depression and Anxiety Health Technology Assessment</a>. PHTI recommends 16 weeks (4 months) to account for potential scheduling delays.</p><p><strong><em>Recommended values are pre-filled.</em></strong></p>",
+          "description": "<p>Improvement in PHQ-9 and GAD-7 can be expected to yield results within 6-12 weeks as demonstrated in <a href='https://phti.org/assessment/virtual-solutions-anxiety-depression/' target='_blank'>PHTI's Virtual Solutions for Depression and Anxiety Health Technology Assessment</a>. PHTI recommends 16 weeks (4 months) to account for potential scheduling delays.</p><p><strong><em>Recommended values are pre-filled.</em></strong></p>",
           "fields": [
             {
               "id": "field-performance-metrics-program-tenure",
@@ -395,7 +400,7 @@
       "steps": [
         {
           "id": "step-engagement-approach",
-          "heading": "Select Your Engagement Approach.",
+          "heading": "Select your engagement approach.",
           "description": "<p>The following section details the operational components of the contract that are critical to successful implementation of performance-based contracts.</p><p><strong><em>Recommended values are pre-filled.</em></strong></p>",
           "fields": [
             {
@@ -589,7 +594,7 @@
                           "label": "Other",
                           "value": "other",
                           "tooltip": {
-                            "text": "Such as access metrics stratified by preferred language (time to first appointment for Spanish speakers vs. English speakers)"
+                            "text": "Such as access metrics stratified by preferred language (time to first appointment for Spanish speakers vs. English speakers)."
                           },
                           "subfields": [
                             {
@@ -609,7 +614,7 @@
                   "label": "Initial and final clinical measurements",
                   "value": "clinical-measurements",
                   "tooltip": {
-                    "text": "Such as measures proximate to enrollment and last measurement of the performance period such as PHQ-9/GAD-7"
+                    "text": "Such as measures proximate to enrollment and last measurement of the performance period such as PHQ-9/GAD-7."
                   }
                 },
                 {
@@ -617,7 +622,7 @@
                   "label": "Exclusion report",
                   "value": "exclusion-report",
                   "tooltip": {
-                    "text": "For members excluded for clinical reasons, share report of documented reasons"
+                    "text": "For members excluded for clinical reasons, share report of documented reasons."
                   }
                 },
                 {
@@ -670,14 +675,14 @@
                   "disabled": true,
                   "value": "one-year-measurement-period",
                   "tooltip": {
-                    "text": "Improvement in PHQ-9 and GAD-7 can be expected to yield results within 6-12 weeks as demonstrated in <a href='https://phti.org/assessment/virtual-solutions-anxiety-depression/' target='_blank'>PHTI's 2024 Virtual Solutions for Depression and Anxiety Health Technology Assessment</a>. PHTI recommends 16 weeks (4 months) to account for potential scheduling delays."
+                    "text": "Improvement in PHQ-9 and GAD-7 can be expected to yield results within 6-12 weeks as demonstrated in <a href='https://phti.org/assessment/virtual-solutions-anxiety-depression/' target='_blank'>PHTI's Virtual Solutions for Depression and Anxiety Health Technology Assessment</a>. PHTI recommends 16 weeks (4 months) to account for potential scheduling delays."
                   },
                   "subfields": [
                     {
                       "id": "subfield-administrative-terms-reconciliation-one-year-post-measurement-num-months",
                       "label": "Number of months",
                       "type": "number",
-                      "defaultFrom": "subfield-performance-metrics-program-tenure-num-months",
+                      "defaultFrom": "field-performance-metrics-program-tenure",
                       "tooltip": {
                         "text": "Populated based on minimum program tenure selection in Decision 4: Performance Metrics."
                       }
@@ -708,11 +713,6 @@
                       "default": 3
                     }
                   ]
-                },
-                {
-                  "id": "option-administrative-terms-reconciliation-prorating-bonuses",
-                  "label": "Incorporate terms around pro-rating bonuses if contract is terminated early or not-renewed.",
-                  "value": "prorating-bonuses"
                 },
                 {
                   "id": "option-administrative-terms-reconciliation-other",
@@ -778,7 +778,7 @@
                   "label": "Termination for cause provisions",
                   "value": "termination-for-cause-provisions",
                   "tooltip": {
-                    "text": "<p>Cause for termination may include:</p><ul><li>Lack of critical mass of members meeting meaningful engagement criteria</li><li>Lack of critical mass of members meeting program tenure for performance payment eligibility</li></ul>"
+                    "text": "<p>Cause for termination may include:</p><ul><li>Lack of critical mass of members meeting meaningful engagement criteria.</li><li>Lack of critical mass of members meeting program tenure for performance payment eligibility.</li></ul>"
                   }
                 },
                 {
@@ -900,7 +900,7 @@
                   ]
                 }
               ],
-              "default": ["initial-term", "annual-renewal", "billing-frequency"]
+              "default": ["initial-term", "annual-renewal", "termination-for-cause-provisions", "billing-frequency"]
             }
           ]
         }
