@@ -438,7 +438,7 @@
       "steps": [
         {
           "id": "step-engagement-approach",
-          "heading": "Select your engagement approach..",
+          "heading": "Select your engagement approach.",
           "description": "<strong><em>Recommended values are pre-filled.</em></strong>",
           "fields": [
             {

@@ -400,7 +400,7 @@
       "steps": [
         {
           "id": "step-engagement-approach",
-          "heading": "Select your engagement approach..",
+          "heading": "Select your engagement approach.",
           "description": "<p>The following section details the operational components of the contract that are critical to successful implementation of performance-based contracts.</p><p><strong><em>Recommended values are pre-filled.</em></strong></p>",
           "fields": [
             {
