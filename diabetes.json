@@ -8,7 +8,7 @@
       "steps": [
         {
           "id": "step-introduction-welcome",
-          "description": "<p>This toolkit focuses on digital diabetes management solutions, drawing on findings from <a href='https://phti.org/assessment/digital-diabetes-management-tools/' target='_blank' rel='noopener noreferrer'>PHTI's Digital Diabetes Management Solutions Health Technology Assessment</a> and <a href='https://phti.org/research-insight/performance-based-contracting' target='_blank' rel='noopener noreferrer'>PHTI's Performance-Based Contracting Playbook</a>.</p><p><strong>What this toolkit does:</strong></p><p>Helps purchasers and digital health vendors establish clear, evidence-based contract terms that align payment with improvements in glycemic control and related outcomes.</p><p>First, you will  determine the design of the <strong>payment model</strong>. Next, you will determine the inputs for <strong>outcome measures</strong>, which include eligibility criteria, meaningful engagement criteria, and performance metrics. Finally, you will select <strong>operational components</strong>, which include engagement approach, data sharing commitments, and administrative terms, to include in your contracts.</p><p><strong>A few notes before you continue:</strong></p><ul><li>This toolkit helps you navigate key contracting decisions for performance-based contracts. It does not create a binding legal contract.</li><li>These toolkits do not address pricing—a critical lever for driving impact in performance-based contracts. Purchasers and vendors are encouraged to consult <a href='https://phti.org/assessments/' target='_blank' rel='noopener noreferrer'>PHTI’s assessment reports</a> and budget impact models as resources to guide pricing conversations.</li><li>Toolkit responses are anonymous. We do not gather or store any data about you, your organization, or your selections.</li></ul><p><em>The content of this playbook/report and its associated toolkits has been prepared by PHTI for informational purposes and does not constitute legal, medical, clinical or other professional advice. PHTI cannot make any guarantees or warranties regarding results from the use of such content. The content is not intended to replace thoughtful customization and drafting addressing an organization’s specific objectives and circumstances. All companies, specific products or case studies mentioned are for explanatory purposes only.</em></p><p><strong>Prefer to skip the interactive toolkit? <a href='#' id='generatePdfLink'>Download the digital diabetes management solutions toolkit</a> with PHTI's recommended selections.</strong></p>",
+          "description": "<p>This toolkit focuses on digital diabetes management solutions, drawing on findings from PHTI's <a href='https://phti.org/assessment/digital-diabetes-management-tools/' target='_blank' rel='noopener noreferrer'>Digital Diabetes Management Solutions</a> Health Technology Assessment and <a href='https://phti.org/research-insight/performance-based-contracting' target='_blank' rel='noopener noreferrer'>PHTI's Performance-Based Contracting Playbook</a>.</p><p><strong>What this toolkit does:</strong></p><p>Helps purchasers and digital health vendors establish clear, evidence-based contract terms that align payment with improvements in glycemic control and related outcomes.</p><p>First, you will  determine the design of the <strong>payment model</strong>. Next, you will determine the inputs for <strong>outcome measures</strong>, which include eligibility criteria, meaningful engagement criteria, and performance metrics. Finally, you will select <strong>operational components</strong>, which include engagement approach, data sharing commitments, and administrative terms, to include in your contracts.</p><p><strong>A few notes before you continue:</strong></p><ul><li>This toolkit helps you navigate key contracting decisions for performance-based contracts. It does not create a binding legal contract.</li><li>These toolkits do not address pricing—a critical lever for driving impact in performance-based contracts. Purchasers and vendors are encouraged to consult <a href='https://phti.org/assessments/' target='_blank' rel='noopener noreferrer'>PHTI’s assessment reports</a> and budget impact models as resources to guide pricing conversations.</li><li>Toolkit responses are anonymous. We do not gather or store any data about you, your organization, or your selections.</li></ul><p><em>The content of this playbook/report and its associated toolkits has been prepared by PHTI for informational purposes and does not constitute legal, medical, clinical or other professional advice. PHTI cannot make any guarantees or warranties regarding results from the use of such content. The content is not intended to replace thoughtful customization and drafting addressing an organization’s specific objectives and circumstances. All companies, specific products or case studies mentioned are for explanatory purposes only.</em></p><p><strong>Prefer to skip the interactive toolkit? <a href='#' id='generatePdfLink'>Download the digital diabetes management solutions toolkit</a> with PHTI's recommended selections.</strong></p>",
           "descriptionPdf": "<p>PHTI’s performance-based contracting toolkits help purchasers and vendors negotiate contracts that link payment to verified outcomes, based on PHTI's independent evaluation and research.</p><p>This toolkit focuses on digital diabetes management solutions, drawing on findings from <a href='https://phti.org/assessment/digital-diabetes-management-tools/' target='_blank' rel='noopener noreferrer'>PHTI's Digital Diabetes Management Solutions Health Technology Assessment</a> and <a href='https://phti.org/research-insight/performance-based-contracting' target='_blank' rel='noopener noreferrer'>PHTI's Performance-Based Contracting Playbook</a>. It is meant to help purchasers and vendors establish clear, evidence-based contract terms that align payment with improvements in glycemic control and related outcomes.</p><p><em>The content of this playbook/report and its associated toolkits has been prepared by PHTI for informational purposes and does not constitute legal, medical, clinical or other professional advice. PHTI cannot make any guarantees or warranties regarding results from the use of such content. The content is not intended to replace thoughtful customization and drafting addressing an organization’s specific objectives and circumstances. All companies, specific products or case studies mentioned are for explanatory purposes only.</em></p>"
         }
       ]
@@ -38,7 +38,7 @@
                   "label": "Per-engaged-member-per-month (PEMPM)",
                   "value": "pempm",
                   "tooltip": {
-                    "text": "PEMPM: Monthly payment for each member meeting meaningful engagement criteria <em>(see section 3 - Meaningful Engagement Criteria)</em>"
+                    "text": "PEMPM: Monthly payment for each member meeting meaningful engagement criteria <em>(see section 3 - Engagement Criteria)</em>."
                   },
                   "subfields": [
                     {
@@ -55,7 +55,7 @@
                   "label": "Performance payment",
                   "value": "performance-payment",
                   "tooltip": {
-                    "text": "Additional payment based on achievement of selected performance measure(s) <em>(see section 4 - Performance metrics)</em>"
+                    "text": "Additional payment based on achievement of selected performance measure(s) <em>(see section 4 - Performance metrics)</em>."
                   },
                   "subfields": [
                     {
@@ -86,14 +86,14 @@
       "id": "section-eligibility-criteria",
       "heading": "Eligible Population",
       "tooltipDrawer": {
-        "label": "Understand more about eligibility population.",
+        "label": "About eligible population.",
         "text": "<p><strong>About Eligibility Population</strong></p><p>Eligibility criteria determine which plan members may engage with the solution and have their outcomes measured. Eligibility typically includes clinical criteria, demographics, or utilization history.</p><p>The <strong>inclusion and exclusion criteria</strong> define the total population of eligible members who may engage with the solution. Narrowing the eligibility will limit the number of individuals who may be included in the denominator and the numerator.</p><p><strong>Contracting tip:</strong></p><ul><li>Include clause allowing digital health solution vendor to update the exclusion criteria based on medical contraindications.</li><li>Specify timing for when exclusion criteria adjustments can be made to the contract.</li></ul>"
       },
       "steps": [
         {
           "id": "step-introduction",
           "heading": "Payment Model Inputs",
-          "description": "<p>The following section details the inputs required to define the eligible population and calculate outcomes measures. The selections for each of these components will impact the threshold for PEMPM payments as well as the equation for calculating performance withholds.</p><p><strong>Performance Payment Calculation:</strong></p><ul><li><strong>Numerator:</strong> For cohort in the denominator, number of <strong>eligible members</strong> who meet <strong>the performance threshold for the measure of interest.</strong></li><li><strong>Denominator:</strong> Total <strong>eligible members</strong> who meet the <strong>meaningful engagement definition</strong> for duration of <strong>program tenure requirement.</strong></li></ul><p><strong>Definitions:</strong></p><ul><li><strong>The inclusion and exclusion criteria (question 2)</strong> define the total population of eligible members who may engage with the solution. Narrowing the eligibility will limit the number of individuals who may be included in the denominator and the numerator.</li><li><strong>The performance threshold for the measure of interest (question 4a)</strong> defines the target clinical improvement. Raising the target will shrink the number of individuals in the numerator, decreasing the overall performance payment.</li><li><strong>The meaningful engagement definition (question 3)</strong> defines what level of engagement is required for an individual to be included in the calculations. Increasing the requirements will shrink the number of individuals in the denominator and the numerator.</li><li><strong>The program tenure requirement (question 4b)</strong> defines the minimum amount of time an individual must engage with the solution to be included in the calculations. Increasing the tenure requirement will shrink the number of individuals in the denominator and the numerator.</li></ul>",
+          "description": "<p>The following section details the inputs required to define the eligible population and calculate outcomes measures. The selections for each of these components will impact the threshold for PEMPM payments as well as the equation for calculating performance withholds.</p><p><strong>Performance Payment Calculation:</strong></p><ul><li><strong>Numerator:</strong> For cohort in the denominator, number of <strong>eligible members</strong> who meet <strong>the performance threshold for the measure of interest.</strong></li><li><strong>Denominator:</strong> Total <strong>eligible members</strong> who meet the <strong>meaningful engagement definition</strong> for duration of <strong>program tenure requirement.</strong></li></ul>",
           "imgSrc": "eligibility-criteria-intro.png",
           "imgAlt": "PBC Outcome Measure Calculation Graphic"
         },
@@ -237,7 +237,7 @@
                   "options": [
                     {
                       "id": "option-meaningful-engagement-criteria-1",
-                      "label": "Criteria 1: Member executed engagement agreement",
+                      "label": "Criteria 1: Member executed engagement agreement.",
                       "description": "Required.",
                       "required": true,
                       "value": "criteria-1"
@@ -264,7 +264,7 @@
                   "options": [
                     {
                       "id": "option-meaningful-engagement-criteria-2",
-                      "label": "Criteria 2: Baseline HbA1C captured within __ days before or after program start, as defined above",
+                      "label": "Criteria 2: Baseline HbA1C captured within __ days before or after program start, as defined above.",
                       "description": "Required.",
                       "required": true,
                       "value": "criteria-2",
@@ -288,7 +288,7 @@
                   "options": [
                     {
                       "id": "option-meaningful-engagement-criteria-3",
-                      "label": "Criteria 3: At least __ member-initiated transactions with program per __ months",
+                      "label": "Criteria 3: At least __ member-initiated transactions with program per __ months.",
                       "value": "criteria-3",
                       "tooltip": {
                         "text": "Clearly define “transaction” in contract, prioritizing member-initiated and clinically meaningful interactions."
@@ -399,8 +399,8 @@
       "steps": [
         {
           "id": "step-engagement-approach",
-          "heading": "Select Your Engagement Approach",
-          "description": "<p>This section details the operational components of the contract that are critical to successful implementation of performance-based contracts.</p><p><strong><em>Recommended values are pre-filled.</em></strong></p>",
+          "heading": "Select your engagement approach.",
+          "description": "<strong><em>Recommended values are pre-filled.</em></strong>",
           "fields": [
             {
               "id": "field-engagement-approach",
@@ -512,7 +512,7 @@
                           "label": "Medical and/or pharmacy claims files",
                           "value": "claims",
                           "tooltip": {
-                            "text": "<p>Supports identification of eligible population, and attribution. Purchasers may consider summary data in lieu of raw claims files.</p>"
+                            "text": "Supports identification of eligible population, and attribution. Purchasers may consider summary data in lieu of raw claims files."
                           },
                           "subfields": [
                             {
@@ -525,7 +525,7 @@
                                   "label": "New insulin starts",
                                   "value": "new-insulin-starts",
                                   "tooltip": {
-                                    "text": "Consider a dedicated report on new insulin starts to aid with member targeting"
+                                    "text": "Consider a dedicated report on new insulin starts to aid with member targeting."
                                   }
                                 }
                               ]
@@ -537,7 +537,7 @@
                           "label": "Inpatient admission and/or emergency department visit data from admission, discharge, transfer (ADT) data feeds",
                           "value": "feeds",
                           "tooltip": {
-                            "text": "Individuals may be more primed for behavior change after an acute event, supporting the need for real-time data for risk stratification and high-risk member identification"
+                            "text": "Individuals may be more primed for behavior change after an acute event, supporting the need for real-time data for risk stratification and high-risk member identification."
                           }
                         },
                         {
@@ -545,7 +545,7 @@
                           "label": "Lab results",
                           "value": "lab-results",
                           "tooltip": {
-                            "text": "Supports clinical baselines and ending measures"
+                            "text": "Supports clinical baselines and ending measures."
                           }
                         },
                         {
@@ -661,8 +661,8 @@
                         },
                         {
                           "id": "option-data-sharing-commitments-summary-statistics-average-member-initiated-interactions",
-                          "label": "Average and mean member-initiated interactions with solution",
-                          "value": "Average-member-initiated-interactions"
+                          "label": "Average member-initiated interactions with solution",
+                          "value": "average-member-initiated-interactions"
                         },
                         {
                           "id": "option-data-sharing-commitments-summary-statistics-other",
@@ -686,7 +686,7 @@
                   "label": "Final clinical measurements",
                   "value": "clinical-measurements",
                   "tooltip": {
-                    "text": "Such as measures proximate to enrollment and last measurement of the performance period"
+                    "text": "Such as measures proximate to enrollment and last measurement of the performance period."
                   },
                   "subfields": [
                     {
@@ -726,7 +726,7 @@
                   "label": "Exclusion report",
                   "value": "exclusion-report",
                   "tooltip": {
-                    "text": "For members excluded for clinical reasons, share report of documented reasons"
+                    "text": "For members excluded for clinical reasons, share report of documented reasons."
                   }
                 },
                 {
@@ -779,17 +779,16 @@
                   "disabled": true,
                   "value": "one-year-measurement-period",
                   "tooltip": {
-                    "text": "Usual care of diabetes including prescription medications can be expected to yield results within 4 months, as reported in <a href='https://phti.org/assessment/digital-diabetes-management-tools/' target='_blank' rel='noopener noreferrer'>PHTI’s Digital Diabetes Management Solutions Assessment</a>"
+                    "text": "Usual care of diabetes including prescription medications can be expected to yield results within 4 months, as reported in <a href='https://phti.org/assessment/digital-diabetes-management-tools/' target='_blank' rel='noopener noreferrer'>PHTI’s Digital Diabetes Management Solutions Assessment</a>."
                   },
                   "subfields": [
                     {
                       "id": "subfield-administrative-terms-reconciliation-one-year-post-measurement-num-months",
                       "label": "Number of months",
                       "type": "number",
-                      "default": 6,
-                      "defaultFrom": "subfield-performance-metrics-program-tenure-num-months",
+                      "defaultFrom": "field-performance-metrics-program-tenure",
                       "tooltip": {
-                        "text": "Populated based on previous field."
+                        "text": "Populated based on minimum program tenure selection in Decision 4: Performance Metrics."
                       }
                     }
                   ]
@@ -802,7 +801,7 @@
                   "disabled": true,
                   "value": "bonuses",
                   "tooltip": {
-                    "text": "3 months is recommended for claims data lag"
+                    "text": "3 months is recommended for claims data lag."
                   },
                   "subfields": [
                     {
@@ -818,14 +817,6 @@
                       "default": 3
                     }
                   ]
-                },
-                {
-                  "id": "option-administrative-terms-reconciliation-prorating-bonuses",
-                  "label": "Incorporate terms around pro-rating bonuses if contract is terminated early or not renewed.",
-                  "description": "Required.",
-                  "required": true,
-                  "disabled": true,
-                  "value": "prorating-bonuses"
                 },
                 {
                   "id": "option-administrative-terms-reconciliation-other",
@@ -980,7 +971,7 @@
                   ]
                 }
               ],
-              "default": ["initial-term", "annual-renewal", "billing-frequency"]
+              "default": ["initial-term", "annual-renewal", "termination-for-cause-provisions", "billing-frequency"]
             }
           ]
         }
