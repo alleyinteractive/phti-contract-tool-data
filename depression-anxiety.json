@@ -272,6 +272,7 @@
                     {
                       "id": "option-meaningful-engagement-criteria-3",
                       "label": "Criteria 3: Member must meet at least <u>one</u> of the following interaction thresholds each month.",
+                      "description": "If Criteria 3 is selected, select at least one interaction threshold below.",
                       "value": "criteria-3",
                       "tooltip": {
                         "text": "Meaningful Engagement Criteria informed by <a href='https://phti.org/assessment/virtual-solutions-anxiety-depression/' target='_blank' rel='noopener noreferrer'>PHTI Virtual Solutions for Depression and Anxiety Health Technology Assessment</a> based on the various care models studied."
