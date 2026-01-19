@@ -509,11 +509,16 @@
                           "value": "claims",
                           "tooltip": {
                             "text": "Supports identification of eligible population, and attribution. Purchasers may consider summary data in lieu of raw claims files."
-                          },
+                          }
+                        },
+                        {
+                          "id": "option-data-sharing-commitments-eligibility-file-claims-categories",
+                          "label": "Health care services utilization for selected categories of service",
+                          "value": "claims-categories",
                           "subfields": [
                             {
                               "id": "subfield-data-sharing-commitments-eligibility-file-claims-categories",
-                              "label": "Health care services utilization for selected categories of service",
+                              "label": "",
                               "type": "checkbox",
                               "options": [
                                 {

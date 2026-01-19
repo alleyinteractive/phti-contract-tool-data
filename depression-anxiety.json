@@ -25,7 +25,6 @@
           "id": "step-payment-model-selection",
           "heading": "Select the payment model(s) for the contract.",
           "description": "<p>While PHTI generally recommends tying performance payments to validated clinical outcomes in most clinical areas, purchasers of depression and anxiety solutions often prioritize expanding access to care and driving sustained engagement. Interviews indicate that purchasers view engagement as a critical early indicator of performance and a necessary precursor to downstream clinical improvement and cost impact. As a result, many purchasers structure payment models that emphasize engagement-based payments—moving away from flat PMPM arrangements that pay regardless of utilization—while selectively incorporating clinical outcome–based performance payments as programs mature and measurement infrastructure strengthens.</p><p><strong>Review details of each payment model.</strong> PHTI recommends tying a majority of contract value to engagement-based payments to incentivize broad access.</p><p><strong><em>Recommended values are pre-filled. Percentages must sum to 100%.</em></strong></p>",
-          "note": "<strong>Contracting tip:</strong><ul><li>If including a cap on sessions, specify patient options once cap is reached, e.g., transitioning to other network care or out of pocket payment.</li><li>Purchasers may select a monthly or quarterly case rate model as opposed to a per visit fee.</li></ul>",
           "fields": [
             {
               "id": "field-payment-model-selection",
@@ -94,6 +93,7 @@
                   "tooltip": {
                     "text": "Additional payment based on achievement of selected clinical performance measure(s); often used selectively in depression and anxiety contracts alongside engagement-based payments <em>(see section 4 - Performance metrics)</em>."
                   },
+                  "note": "<strong>Contracting tip:</strong><ul><li>If including a cap on sessions, specify patient options once cap is reached, e.g., transitioning to other network care or out of pocket payment.</li><li>Purchasers may select a monthly or quarterly case rate model as opposed to a per visit fee.</li></ul>",
                   "subfields": [
                     {
                       "id": "subfield-payment-model-selection-performance-payment-percentage",
@@ -185,7 +185,7 @@
       "heading": "Engagement Criteria",
       "tooltipDrawer": {
         "label": "About engagement criteria.",
-        "text": "<p>Clear, meaningful engagement thresholds help limit payment to members who are meaningfully engaged with the solution and most likely to experience a clinical impact. While there are many common engagement metrics, not all are considered <em>meaningful</em>.</p><p>In the two-payment stream model, the definition of meaningful engagement directly impacts the size of the payments made to the vendor. A looser definition of engagement will create a larger PEMPM payment and will increase the number of individuals whose clinical outcomes are considered for the performance payment.</p><p><strong>Contracting tip:</strong></p><ul><li>At least one of the above interactions must be member-initiated (e.g., scheduling appointment, messaging, starting a module); however, consider excluding therapy sessions from member-initiated requirement to allow provider to follow up with appointment scheduling without penalty.</li><li>Define the maximum days (e.g., 15) for capturing baseline clinical measures, considering operational workflows.</li></ul>"
+        "text": "<p>Clear, meaningful engagement thresholds help limit payment to members who are meaningfully engaged with the solution and most likely to experience a clinical impact. While there are many common engagement metrics, not all are considered <em>meaningful</em>.</p><p>In the two-payment stream model, the definition of meaningful engagement directly impacts the size of the payments made to the vendor. A looser definition of engagement will create a larger PEMPM payment and will increase the number of individuals whose clinical outcomes are considered for the performance payment.</p>"
       },
       "steps": [
         {
@@ -276,6 +276,7 @@
                       "tooltip": {
                         "text": "Meaningful Engagement Criteria informed by <a href='https://phti.org/assessment/virtual-solutions-anxiety-depression/' target='_blank' rel='noopener noreferrer'>PHTI Virtual Solutions for Depression and Anxiety Health Technology Assessment</a> based on the various care models studied."
                       },
+                      "note": "<p><strong>Contracting tip:</strong></p><ul><li>At least one of the above interactions must be member-initiated (e.g., scheduling appointment, messaging, starting a module); however, consider excluding therapy sessions from member-initiated requirement to allow provider to follow up with appointment scheduling without penalty.</li><li>Define the maximum days (e.g., 15) for capturing baseline clinical measures, considering operational workflows.</li><li>Consider defining a maintenance-model specific set of engagement criteria which reflects a maintenance-specific care model.</li></ul>",
                       "subfields": [
                         {
                           "id": "subfield-meaningful-engagement-criteria-3-interaction-thresholds",
