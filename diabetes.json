@@ -25,7 +25,7 @@
           "id": "step-payment-model-selection",
           "heading": "Select the payment model(s) for the contract.",
           "description": "<p>There are multiple ways to structure your payment. Many performance-based contracts today use a clawback model, in which vendors are paid up front, with the understanding that funds will be returned if previously agreed-upon performance guarantees are missed. In practice, though, clawbacks are rarely enforced as written. Purchasers report that this undermines accountability and creates friction with vendors, particularly at the end of a contract.</p><p>A stronger alternative is a two-stream payment model that separates fees for engaged members from performance payments—vendors receive a lower base fee tied to meaningful engagement, with the performance component withheld until outcomes are achieved. This approach maintains some vendor cash flow while withholding part of the fees for demonstrated results.</p><p><strong>PHTI recommends tying a majority of contract value to performance payment.</strong></p>",
-          "note": "<p>PHTI recognizes that performance-based contracts include maintenance or follow-on periods to support sustained clinical outcomes when the evidence base supports it and at an appropriate cost. These periods should be contracted at a lower price point, with performance expectations tailored to member status at the maintenance period baseline. For members that remain above clinical thresholds at the beginning of the maintenance period, performance payment should be tied to improvement and achievement of control. For members already in control, performance payment should be tied to sustaining status and preventing regression.</p><p><strong>Contracting tips:</strong></p><p><strong>Per engaged member per month (PEMPM)</strong></p><ul><li>Consider adding a time limit for PEMPM payments for a given individual (e.g., until 3 quarters of stable HbA1C control).</li><li>Consider structuring PEMPM payments as a fixed, upfront fee that is tiered by the number of eligible members to simplify administration.</li></ul><p><strong>Performance payment</strong></p><ul><li>To define the maximum possible performance payment, utilize the anticipated total PEMPM payment for members who exceed agreed-upon program tenure.</li></ul><p><strong>Pharmacy shared savings</strong></p><ul><li>Define the time frame for calculating shared savings. This will typically be longer than the annual reconciliation for the performance payment (e.g., 3 years).</li><li>Subtract the payments made for PEMPM and performance payments during the shared savings measurement period to calculate the total savings as this reflects savings already shared with the vendor.</li></ul>",
+          "note": "<p>PHTI recognizes that performance-based contracts include maintenance or follow-on periods to support sustained clinical outcomes when the evidence base supports it and at an appropriate cost. These periods should be contracted at a lower price point, with performance expectations tailored to member status at the maintenance period baseline. For members that remain above clinical thresholds at the beginning of the maintenance period, performance payment should be tied to improvement and achievement of control. For members already in control, performance payment should be tied to sustaining status and preventing regression.</p><p><strong>Contracting tips:</strong></p><p><strong>Per engaged member per month (PEMPM)</strong></p><ul><li>Consider adding a time limit for PEMPM payments for a given individual (e.g., until 3 quarters of stable HbA1c control).</li><li>Consider structuring PEMPM payments as a fixed, upfront fee that is tiered by the number of eligible members to simplify administration.</li></ul><p><strong>Performance payment</strong></p><ul><li>To define the maximum possible performance payment, utilize the anticipated total PEMPM payment for members who exceed agreed-upon program tenure.</li></ul><p><strong>Pharmacy shared savings</strong></p><ul><li>Define the time frame for calculating shared savings. This will typically be longer than the annual reconciliation for the performance payment (e.g., 3 years).</li><li>Subtract the payments made for PEMPM and performance payments during the shared savings measurement period to calculate the total savings as this reflects savings already shared with the vendor.</li></ul>",
           "instructions": "<p><strong><em>Recommended values are pre-filled. Percentages must sum to 100%.</em></strong></p>",
           "fields": [
             {
@@ -130,7 +130,7 @@
                       "options": [
                         {
                           "id": "option-eligibility-criteria-hba1c-greater-than-7",
-                          "label": "Those with HbA1C > 9",
+                          "label": "Those with HbA1c > 9",
                           "value": "hba1c-greater-than-9"
                         },
                         {
@@ -217,7 +217,7 @@
       "heading": "Engagement Criteria",
       "tooltipDrawer": {
         "label": "About engagement criteria.",
-        "text": "<p>Clear, meaningful engagement thresholds help limit payment to members who are meaningfully engaged with the solution and most likely to experience a clinical impact. While there are many common engagement metrics, not all are considered <em>meaningful</em>.</p><p>In the two-payment stream model, the definition of meaningful engagement directly impacts the size of the payments made to the vendor. A looser definition of engagement will create a larger PEMPM payment and will increase the number of individuals whose clinical outcomes are considered for the performance payment.</p><p><strong>Contracting tip:</strong></p><ul><li>Explicitly define ‘transaction’ (e.g., HbA1C measurement) and prioritize member-initiated and clinically significant interactions.</li><li>Define the maximum days (e.g., 15) for capturing baseline HbA1C reading, considering operational workflows.</li></ul>"
+        "text": "<p>Clear, meaningful engagement thresholds help limit payment to members who are meaningfully engaged with the solution and most likely to experience a clinical impact. While there are many common engagement metrics, not all are considered <em>meaningful</em>.</p><p>In the two-payment stream model, the definition of meaningful engagement directly impacts the size of the payments made to the vendor. A looser definition of engagement will create a larger PEMPM payment and will increase the number of individuals whose clinical outcomes are considered for the performance payment.</p><p><strong>Contracting tip:</strong></p><ul><li>Explicitly define ‘transaction’ (e.g., HbA1c measurement) and prioritize member-initiated and clinically significant interactions.</li><li>Define the maximum days (e.g., 15) for capturing baseline HbA1c reading, considering operational workflows.</li></ul>"
       },
       "steps": [
         {
@@ -264,7 +264,7 @@
                   "options": [
                     {
                       "id": "option-meaningful-engagement-criteria-2",
-                      "label": "Criteria 2: Baseline HbA1C captured within __ days before or after program start, as defined above.",
+                      "label": "Criteria 2: Baseline HbA1c captured within __ days before or after program start, as defined above.",
                       "description": "Required.",
                       "required": true,
                       "value": "criteria-2",
@@ -322,13 +322,14 @@
       "heading": "Performance Metrics",
       "tooltipDrawer": {
         "label": "About performance metrics.",
-        "text": "<p>Select validated, feasible measures—favoring biomarker-based outcomes and clinically accepted instruments—and determine the time horizon for impact.</p><p><strong>Contracting tip:</strong></p><ul><li>HbA1C<ul><li>Specify the allowable time frame for collecting a member’s final measurement that is used to calculate the change as compared to baseline, in order to be included in the performance payment calculation.</li></ul></li><li>Weight Loss Percent<ul><li>Measure average % body weight reduction relative to weight reduction target. Readings based on connected smart scale reading, not self-reported.</li></ul></li></ul>"
+        "text": "Select validated, feasible measures—favoring biomarker-based outcomes and clinically accepted instruments—and determine the time horizon for impact."
       },
       "steps": [
         {
           "id": "step-performance-metrics-performance-payment",
           "heading": "Select which performance metric(s) should be tied to the performance payment.",
           "description": "<p>In clinical practice, there are many ways to measure glycemic control. They include directly measuring the quantity of glucose in the blood at a single point in time, which can fluctuate depending on what a patient ate, the time of day, or the equipment used. Given these variations, HbA1c is the most widely used measurement for both clinicians and patients because it serves as a superior measurement of glycemic control over time.</p><p><strong><em>Recommended values are pre-filled. Percentages must sum to 100%.</em></strong></p><p>If focusing on glycemic control as measured by HbA1c, set to 100%. If incorporating weight loss, select the percentage of the total performance payment that will be tied to each measure.</p>",
+          "note": "<p><strong>Contracting tip:</strong></p><ul><li>HbA1c<ul><li>Specify the allowable time frame for collecting a member’s final measurement that is used to calculate the change as compared to baseline, in order to be included in the performance payment calculation.</li></ul></li><li>Weight Loss Percent<ul><li>Measure average % body weight reduction relative to weight reduction target. Readings based on connected smart scale reading, not self-reported.</li></ul></li></ul>",
           "fields": [
             {
               "id": "field-performance-metrics-performance-payment",
@@ -337,7 +338,7 @@
               "options": [
                 {
                   "id": "option-performance-metrics-hba1c",
-                  "label": "Laboratory reported HbA1C",
+                  "label": "Laboratory reported HbA1c",
                   "tooltip": {
                     "text": "If focusing on glycemic control as measured by HbA1c, set to 100%. If incorporating weight loss, select the percentage of the total performance payment that will be tied to each."
                   },
@@ -614,7 +615,7 @@
                         },
                         {
                           "id": "option-data-sharing-commitments-enrollment-file-baseline-a1c-for-each-member",
-                          "label": "Baseline HbA1C for each member",
+                          "label": "Baseline HbA1c for each member",
                           "value": "baseline-a1c-for-each-member"
                         },
                         {
@@ -651,7 +652,7 @@
                       "options": [
                         {
                           "id": "option-data-sharing-commitments-summary-statistics-population-average-a1c-change",
-                          "label": "Population average HbA1C change",
+                          "label": "Population average HbA1c change",
                           "value": "population-average-a1c-change"
                         },
                         {
@@ -696,7 +697,7 @@
                       "options": [
                         {
                           "id": "option-data-sharing-commitments-clinical-measurements-a1c",
-                          "label": "HbA1C measurement for each member",
+                          "label": "HbA1c measurement for each member",
                           "value": "a1c"
                         },
                         {
