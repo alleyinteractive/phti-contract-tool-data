@@ -115,7 +115,7 @@
                 },
                 {
                   "id": "option-eligibility-criteria-subset-patients",
-                  "label": "A subset of patients with hypertension",
+                  "label": "A subset of patients",
                   "description": "Select one or more",
                   "value": "subset-patients",
                   "subfields": [
