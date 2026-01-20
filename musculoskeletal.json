@@ -574,7 +574,7 @@
                           ]
                         }
                       ],
-                      "default": ["claims"]
+                      "default": ["claims", "feeds", "lab-results"]
                     }
                   ]
                 }
@@ -849,11 +849,12 @@
       "steps": [
         {
           "id": "step-administrative-terms-reconciliation",
+          "heading": "Select Administrative Terms: Reconciliation",
           "description": "<p>The timeline required to observe meaningful improvements in clinical outcomes or reductions in total cost of care frequently exceeds the duration of most purchaser-vendor contracts.</p><p>Purchasers should consider availability of resources required to calculate performance payments prior to establishing bonus determination deadline.</p><p><strong><em>Recommended values are pre-filled.</em></strong></p>",
           "fields": [
             {
               "id": "field-administrative-terms-reconciliation",
-              "label": "Select Administrative Terms: Reconciliation",
+              "label": "",
               "type": "checkbox",
               "options": [
                 {
@@ -920,11 +921,12 @@
         },
         {
           "id": "step-administrative-terms-term-and-renewal",
+          "heading": "Select Administrative Terms: Duration and Renewal",
           "description": "<strong><em>Recommended values are pre-filled.</em></strong>",
           "fields": [
             {
               "id": "field-administrative-terms-term-and-renewal",
-              "label": "Select Administrative Terms: Duration and Renewal",
+              "label": "",
               "type": "checkbox",
               "options": [
                 {
