@@ -266,12 +266,12 @@
                       "label": "Criteria 3: At least one of the following member-initiated events each month.",
                       "value": "criteria-3",
                       "tooltip": {
-                        "text": "<em>Choose at least one interaction threshold from the options provided.</em> Clearly define \"transaction\" in contract, prioritizing member-initiated and clinically meaningful interactions. Meaningful engagement criteria are informed by PHTI’s <a href='https://phti.org/assessment/virtual-solutions-gi-conditions/' target='_blank' rel='noopener noreferrer'>Virtual Gastrointestinal Care Solutions</a> Health Technology Assessment on the basis of various care models studied."
+                        "text": "Clearly define \"transaction\" in contract, prioritizing member-initiated and clinically meaningful interactions. Meaningful engagement criteria are informed by PHTI’s <a href='https://phti.org/assessment/virtual-solutions-gi-conditions/' target='_blank' rel='noopener noreferrer'>Virtual Gastrointestinal Care Solutions</a> Health Technology Assessment on the basis of various care models studied."
                       },
                       "subfields": [
                         {
                           "id": "subfield-meaningful-engagement-criteria-3-options",
-                          "label": "Select all that apply.",
+                          "label": "Choose at least one interaction threshold from the options provided.",
                           "type": "checkbox",
                           "options": [
                             {
