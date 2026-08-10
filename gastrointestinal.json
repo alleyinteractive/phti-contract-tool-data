@@ -346,7 +346,7 @@
                     "text": "Reduction in HCRU—which can include ED visits, inpatient hospitalizations, imaging, lab tests and surgical expenses—may take longer to meaningfully assess and attribute, and, therefore, may require 12 months of sustained enrollment to yield results."
                   },
                   "value": "hcru",
-                  "note": "<p><strong>Contracting tips:</strong></p><ul><li>Define how symptom severity surveys will be administered (e.g., by a trained clinician or patient self-report) and establish data collection standards to maintain inter-rater reliability.</li><li>Clearly define which spending categories are in scope when calculating HCRU impact (e.g., ED visits, inpatient hospitalizations, imaging, lab tests, surgical expenses).</li><li>Clearly define the methodology for measuring HCRU impact. A propensity-matched comparison between the enrolled member cohort and a non-enrolled control group is recommended, though purchasers should ensure the enrolled population is large enough to generate statistically meaningful results.</li><li>If vendors are offering ROI guarantees, require matched cohort methodology using claims data, jointly agreed upon data sources, and a pre-specified savings threshold that reflects a meaningful return—not one structured to be easily met or difficult to independently verify.</li><li>For IBD populations, ask vendors how they approach biologic and biosimilar use. Biologics represent a significant cost driver for populations managing IBD, and biosimilar adoption is an important lever for controlling that spend while maintaining clinical outcomes.</li></ul>",
+                  "note": "<p><strong>Contracting tips:</strong></p><ul><li>Define how symptom severity surveys will be administered (e.g., by a trained clinician or patient self-report) and establish data collection standards to maintain inter-rater reliability.</li><li>Clearly define which spending categories are in scope when calculating HCRU impact (e.g., ED visits, inpatient hospitalizations, imaging, lab tests, surgical expenses).</li><li>Clearly define the methodology for measuring HCRU impact. A propensity-matched comparison between the enrolled member cohort and a non-enrolled control group is recommended, though purchasers should ensure the enrolled population is large enough to generate statistically meaningful results.</li><li>If vendors are offering ROI guarantees, require matched cohort methodology using claims data, jointly agreed upon data sources, and a pre-specified savings threshold that reflects a meaningful return—not one structured to be easily met or difficult to independently verify.</li></ul>",
                   "subfields": [
                     {
                       "id": "subfield-performance-metrics-hcru-percentage",
@@ -365,7 +365,7 @@
         {
           "id": "step-performance-metrics-program-tenure",
           "heading": "Confirm desired program tenure for inclusion in the performance payment.",
-          "description": "<p>Improvement in symptom severity can be expected to yield results within 4–24 weeks as demonstrated in PHTI's <a href='https://phti.org/assessment/virtual-solutions-gi-conditions/' target='_blank' rel='noopener noreferrer'>Virtual Gastrointestinal Care Solutions Health Technology Assessment</a>. Reduction in HCRU may take longer to meaningfully assess and attribute, and therefore may require 12 months of sustained enrollment to yield results.</p><p><strong><em>Recommended values are pre-filled.</em></strong></p>",
+          "description": "<p>Improvement in symptom severity can be expected to yield results within 4–24 weeks, as demonstrated in PHTI's <a href='https://phti.org/assessment/virtual-solutions-gi-conditions/' target='_blank' rel='noopener noreferrer'>Virtual Gastrointestinal Care Solutions Health Technology Assessment</a>. Reduction in HCRU may take longer to meaningfully assess and attribute, and, therefore, may require 12 months of sustained enrollment to yield results.</p><p><strong><em>Recommended values are pre-filled.</em></strong></p>",
           "fields": [
             {
               "id": "field-performance-metrics-program-tenure",
@@ -407,12 +407,12 @@
                 },
                 {
                   "id": "option-engagement-approach-material-review-approval",
-                  "label": "<strong>Material Review & Approval:</strong> Vendor will submit all co-branded and company-branded outreach and education materials for purchaser approval prior to use. (Co-branded materials are generally preferred and shown to improve engagement.) Purchaser will approve or propose modifications within a predetermined number of days of submission.",
+                  "label": "<strong>Material Review and Approval:</strong> Vendor will submit all co-branded and company-branded outreach and education materials for purchaser approval prior to use. (Co-branded materials are generally preferred and shown to improve engagement.) Purchaser will approve or propose modifications within a predetermined number of days of submission.",
                   "value": "material-review-approval"
                 },
                 {
                   "id": "option-engagement-approach-revisions-updates",
-                  "label": "<strong>Revisions & Updates:</strong> Any revisions to previously approved materials (including templates, scripts, and digital content) must be resubmitted for purchaser review and approval within a predetermined number of days before deployment.",
+                  "label": "<strong>Revisions and Updates:</strong> Any revisions to previously approved materials (including templates, scripts, and digital content) must be resubmitted for purchaser review and approval within a predetermined number of days before deployment.",
                   "value": "revisions-updates"
                 },
                 {
@@ -422,7 +422,7 @@
                 },
                 {
                   "id": "option-engagement-approach-compliance-reporting",
-                  "label": "<strong>Compliance & Reporting:</strong> Vendor will track all member outreach against agreed guidelines and share reporting (e.g., frequency, channel, response rates, opt-outs) with the purchaser at agreed intervals.",
+                  "label": "<strong>Compliance and Reporting:</strong> Vendor will track all member outreach against agreed guidelines and share reporting (e.g., frequency, channel, response rates, opt-outs) with the purchaser at agreed intervals.",
                   "value": "compliance-reporting"
                 },
                 {
@@ -662,7 +662,7 @@
                   "label": "Final clinical measurements",
                   "value": "clinical-measurements",
                   "tooltip": {
-                    "text": "E.g., measures proximate to enrollment and last measurement of the performance period."
+                    "text": "For example, measures proximate to enrollment and last measurement of the performance period."
                   },
                   "subfields": [
                     {
@@ -709,7 +709,7 @@
                   "id": "option-data-sharing-commitments-other",
                   "label": "Other",
                   "value": "other",
-                  "note": "<p><strong>Contracting tips:</strong></p><ul><li>Determine cadence and format for sharing prior to contracting. Consider including template reports in the contract to ensure file readability.</li><li>Commit to active list management, including monthly deletions, corrections, and additions.</li><li>Submit monthly list in machine-readable format with members that meet eligibility criteria. Eligibility file should include full population to avoid claims lag post-diagnosis. Pre-determine select data fields to include in the file (e.g., plan ID, name, address, demographics).</li><li>Include purchaser audit rights for vendor data in contract.</li></ul>",
+                  "note": "<p><strong>Contracting tips:</strong></p><ul><li>Determine cadence and format for sharing prior to contracting. Consider including template reports in the contract to ensure file readability.</li><li>Commit to active list management, including monthly deletions, corrections, and additions.</li><li>Submit monthly list in machine-readable format with members that meet eligibility criteria. Eligibility file should include full population to avoid claims lag postdiagnosis. Predetermine select data fields to include in the file (e.g., plan ID, name, address, demographics).</li><li>Include purchaser audit rights for vendor data in contract.</li></ul>",
                   "subfields": [
                     {
                       "id": "subfield-data-sharing-commitments-other-text",
@@ -766,7 +766,7 @@
                   "disabled": true,
                   "value": "bonuses",
                   "tooltip": {
-                    "text": "Suggest 3 months to ensure time for claims run-out."
+                    "text": "Suggest three months to ensure time for claims run-out."
                   },
                   "subfields": [
                     {
@@ -848,7 +848,7 @@
                   "label": "Termination for cause provisions",
                   "value": "termination-for-cause-provisions",
                   "tooltip": {
-                    "text": "<p>Cause for termination may include:</p><ul><li>Lack of critical mass of members meeting meaningful engagement criteria</li><li>Lack of critical mass of members meeting program tenure for performance payment eligibility</li></ul>"
+                    "text": "Cause for termination may include lack of critical mass of members meeting meaningful engagement criteria, and lack of critical mass of members meeting program tenure for performance payment eligibility."
                   }
                 },
                 {
