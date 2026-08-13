@@ -8,8 +8,8 @@
       "steps": [
         {
           "id": "step-introduction-welcome",
-          "description": "<p>This toolkit focuses on Virtual Gastrointestinal Care Solutions, drawing on findings from PHTI's <a href='https://phti.org/assessment/virtual-solutions-gi-conditions/' target='_blank' rel='noopener noreferrer'>Virtual Gastrointestinal Care Solutions Health Technology Assessment</a> and <a href='https://phti.org/research-insight/performance-based-contracting' target='_blank' rel='noopener noreferrer'>PHTI's Performance-Based Contracting Playbook</a>.</p><p><strong>What this toolkit does:</strong></p><p>Helps purchasers and vendors establish clear, evidence-based contract terms that align payment with improvements in access to gastrointestinal (GI) specialists and wraparound services and related outcomes.</p><p>First, you will determine the design of the <strong><em>payment model</em></strong>. Next, you will determine the inputs for <strong><em>outcome measures</em></strong>, which include eligibility criteria, meaningful engagement criteria, and performance metrics. Finally, you will select <strong><em>operational components</em></strong>, which include engagement approach, data sharing commitments, and administrative terms, to include in your contracts.</p><p><strong>A few notes before you continue:</strong></p><ul><li>This toolkit helps you navigate key contracting decisions for performance-based contracts. It does not create a binding legal contract.</li><li>These toolkits do not address pricing—a critical lever for driving impact in performance-based contracts. Purchasers and vendors are encouraged to consult <a href='https://phti.org/assessments/' target='_blank' rel='noopener noreferrer'>PHTI's assessment reports</a> and budget impact models as resources to guide pricing conversations.</li><li>Toolkit responses are anonymous. We do not gather or store any data about you, your organization, or your selections.</li></ul><p><em>The content of this playbook/report and its associated toolkits have been prepared by PHTI for informational purposes and does not constitute legal, medical, clinical or other professional advice. PHTI cannot make any guarantees or warranties regarding results from the use of such content. The content is not intended to replace thoughtful customization and drafting addressing an organization's specific objectives and circumstances. All companies, specific products, or case studies mentioned are for explanatory purposes only.</em></p><p><strong>Prefer to skip the interactive toolkit? <a href='#' id='downloadPdfLink'>Download the virtual gastrointestinal care solutions toolkit</a> with PHTI's recommended selections.</strong></p>",
-          "descriptionPdf": "<p>PHTI's performance-based contracting toolkits help purchasers and vendors negotiate contracts that link payment to verified outcomes, based on PHTI's independent evaluation and research.</p><p>This toolkit focuses on Virtual Gastrointestinal Care Solutions, drawing on findings from <a href='https://phti.org/assessment/virtual-solutions-gi-conditions/' target='_blank' rel='noopener noreferrer'>PHTI's Virtual Gastrointestinal Care Solutions Health Technology Assessment</a> and <a href='https://phti.org/research-insight/performance-based-contracting' target='_blank' rel='noopener noreferrer'>PHTI's Performance-Based Contracting Playbook</a>. It is meant to help purchasers and vendors establish clear, evidence-based contract terms that align payment with improvements in access to gastrointestinal (GI) specialists and wraparound services and related outcomes.</p><p><em>The content of this playbook/report and its associated toolkits have been prepared by PHTI for informational purposes and does not constitute legal, medical, clinical or other professional advice. PHTI cannot make any guarantees or warranties regarding results from the use of such content. The content is not intended to replace thoughtful customization and drafting addressing an organization's specific objectives and circumstances. All companies, specific products, or case studies mentioned are for explanatory purposes only.</em></p>"
+          "description": "<p>This toolkit focuses on Virtual Gastrointestinal Care Solutions, drawing on findings from PHTI's Virtual Gastrointestinal Care Solutions Health Technology Assessment and <a href='https://phti.org/research-insight/performance-based-contracting' target='_blank' rel='noopener noreferrer'>PHTI's Performance-Based Contracting Playbook</a>.</p><p><strong>What this toolkit does:</strong></p><p>Helps purchasers and vendors establish clear, evidence-based contract terms that align payment with improvements in access to gastrointestinal (GI) specialists and wraparound services and related outcomes.</p><p><strong>A few notes before you continue:</strong></p><ul><li>This toolkit helps you navigate key contracting decisions for performance-based contracts. It does not create a binding legal contract.</li><li>These toolkits do not address pricing—a critical lever for driving impact in performance-based contracts. Purchasers and vendors are encouraged to consult <a href='https://phti.org/assessments/' target='_blank' rel='noopener noreferrer'>PHTI's assessment reports</a> and budget impact models as resources to guide pricing conversations.</li><li>Toolkit responses are anonymous. We do not gather or store any data about you, your organization, or your selections.</li></ul><p><em>The content of this playbook/report and its associated toolkits has been prepared by PHTI for informational purposes and does not constitute legal, medical, clinical or other professional advice. PHTI cannot make any guarantees or warranties regarding results from the use of such content. The content is not intended to replace thoughtful customization and drafting addressing an organization's specific objectives and circumstances. All companies, specific products, or case studies mentioned are for explanatory purposes only.</em></p><p><strong>Prefer to skip the interactive toolkit? <a href='#' id='downloadPdfLink'>Download the virtual gastrointestinal care solutions toolkit</a> with PHTI's recommended selections.</strong></p>",
+          "descriptionPdf": "<p>PHTI's performance-based contracting toolkits help purchasers and vendors negotiate contracts that link payment to verified outcomes, based on PHTI's independent evaluation and research.</p><p>This toolkit focuses on Virtual Gastrointestinal Care Solutions, drawing on findings from PHTI's Virtual Gastrointestinal Care Solutions Health Technology Assessment and <a href='https://phti.org/research-insight/performance-based-contracting' target='_blank' rel='noopener noreferrer'>PHTI's Performance-Based Contracting Playbook</a>. It is meant to help purchasers and vendors establish clear, evidence-based contract terms that align payment with improvements in access to gastrointestinal (GI) specialists and wraparound services and related outcomes.</p><p><em>The content of this playbook/report and its associated toolkits has been prepared by PHTI for informational purposes and does not constitute legal, medical, clinical or other professional advice. PHTI cannot make any guarantees or warranties regarding results from the use of such content. The content is not intended to replace thoughtful customization and drafting addressing an organization's specific objectives and circumstances. All companies, specific products, or case studies mentioned are for explanatory purposes only.</em></p>"
         }
       ]
     },
@@ -18,14 +18,13 @@
       "heading": "Payment Model",
       "tooltipDrawer": {
         "label": "Learn more about payment models.",
-        "text": "<strong>About Payment Models</strong><p>A performance-based contract structures your payments to reward outcomes while minimizing administrative burden, avoiding perverse incentives, and balancing accountability with budget predictability."
+        "text": "<p>A performance-based contract structures your payments to reward outcomes while minimizing administrative burden, avoiding perverse incentives, and balancing accountability with budget predictability.</p>"
       },
       "steps": [
         {
           "id": "step-payment-model-selection",
           "heading": "Select the payment model(s) for the contract.",
           "description": "<p>There are multiple ways to structure your payment.</p>",
-          "note": "<p><strong>Contracting tips:</strong></p><p>Purchasers should structure payment models that emphasize engagement-based payments—moving away from flat PMPM arrangements that pay regardless of utilization—while selectively incorporating outcome-based performance payments as programs mature and measurement infrastructure strengthens.</p><p><strong>Case-rate model</strong></p><ul><li>Purchasers may select a monthly or quarterly case-rate model.</li><li>Clearly define which services are included in the case rate (e.g., care team visits, behavioral health consultations, nutrition counseling).</li><li>Specify what triggers the start of the episode (e.g., completion of an intake assessment or first clinical interaction).</li></ul>",
           "instructions": "<p><strong><em>Recommended values are pre-filled. Percentages must sum to 100%.</em></strong></p>",
           "fields": [
             {
@@ -57,7 +56,7 @@
                   "tooltip": {
                     "text": "Additional payment based on achievement of selected performance measure(s) <em>(see section 4: Performance Metrics)</em>."
                   },
-                  "note": "Performance-based contracts should include maintenance or follow-on periods to support sustained clinical outcomes when the evidence base supports it and at an appropriate cost. These periods should be contracted at a lower price point, with performance expectations tailored to members' maintenance goals.",
+                  "note": "<p>Performance-based contracts should include maintenance or follow-on periods to support sustained clinical outcomes when the evidence base supports it and at an appropriate cost. These periods should be contracted at a lower price point, with performance expectations tailored to members' maintenance goals.</p><p><strong>Contracting tips:</strong></p><p><strong>Case-rate model</strong></p><ul><li>Purchasers may select a monthly or quarterly case-rate model.</li><li>Clearly define which services are included in the case rate (e.g., care team visits, behavioral health consultations, nutrition counseling).</li><li>Specify what triggers the start of the episode (e.g., completion of an intake assessment or first clinical interaction).</li></ul><p><strong>Performance Payment</strong></p><ul><li>Consider tying bonus payments to defined engagement targets. One option is to conduct an annual retrospective claims analysis confirming enrolled members' historical spend exceeds average spend for patients with GI conditions, indicating vendors are engaging higher-cost, higher-need patients. Another option could be to generate a claims-based target list to identify and track engagement with members with moderate-to-severe IBD and IBS. Clearly define the criteria, data sources, and timing used to support either approach.</li></ul>",
                   "subfields": [
                     {
                       "id": "subfield-payment-model-selection-performance-payment-percentage",
@@ -80,7 +79,7 @@
       "heading": "Eligible Population",
       "tooltipDrawer": {
         "label": "About eligible population.",
-        "text": "<p><strong>About Eligible Population</strong></p><p>Eligibility criteria determine which plan members may engage with the solution and have their outcomes measured. Eligibility typically includes clinical criteria, demographics, or utilization history.</p><p>Narrowing the eligibility will limit the number of individuals who may be included in the denominator and the numerator of the performance payment calculations.</p>"
+        "text": "<p>Eligibility criteria determine which plan members may engage with the solution and have their outcomes measured. Eligibility typically includes clinical criteria, demographics, or utilization history.</p><p>Narrowing the eligibility will limit the number of individuals who may be included in the denominator and the numerator of the performance payment calculations.</p>"
       },
       "steps": [
         {
@@ -94,7 +93,6 @@
           "id": "step-eligibility-criteria",
           "heading": "Select the members eligible to use the solution.",
           "description": "<strong><em>Recommended values are pre-filled.</em></strong>",
-          "note": "<p><strong>Contracting tip:</strong></p><ul><li>Include clause(s) allowing digital health solution vendor to update the exclusion criteria on the basis of medical contraindications.</li><li>Specify timing for when exclusion criteria adjustments can be made to the contract.</li></ul>",
           "fields": [
             {
               "id": "field-eligibility-criteria-inclusion-criteria",
@@ -165,6 +163,7 @@
                   "id": "option-eligibility-criteria-exclusion-criteria-other",
                   "label": "Other",
                   "value": "other",
+                  "note": "<p><strong>Contracting tip:</strong></p><ul><li>Include clause(s) allowing digital health solution vendor to update the exclusion criteria on the basis of medical contraindications.</li><li>Specify timing for when exclusion criteria adjustments can be made to the contract.</li></ul>",
                   "subfields": [
                     {
                       "id": "subfield-eligibility-criteria-exclusion-criteria-other-text",
@@ -188,14 +187,13 @@
       "heading": "Engagement Criteria",
       "tooltipDrawer": {
         "label": "About engagement criteria.",
-        "text": "<p>Clear, meaningful engagement thresholds help limit payment to members who are actively using the solution and most likely to experience a clinical impact. While there are many common engagement metrics, not all are considered <em>meaningful</em>.</p><p>In a case-rate model, the definition of meaningful engagement determines which members trigger a case-rate payment. To ensure accountability, contracts should specify a clearly defined event that initiates the episode and require evidence of meaningful engagement within the first month of that episode before a case-rate payment is issued. A looser definition of engagement risks paying for members who initiate but do not meaningfully participate in GI services and are unlikely to derive clinical benefit.</p>"
+        "text": "<p>Clear, meaningful engagement thresholds help limit payment to members who are actively using the solution and most likely to experience a clinical impact. While there are many common engagement metrics, not all are considered <em>meaningful</em>.</p><p>In a case-rate model, the definition of meaningful engagement determines which members trigger a case-rate payment. To ensure accountability, contracts should specify a clearly defined event that initiates the episode and require evidence of meaningful engagement within the first month of that episode before a case-rate payment is issued. A looser definition of engagement risks paying for members who initiate but do not meaningfully participate in GI services and, thus, are unlikely to derive clinical benefit.</p>"
       },
       "steps": [
         {
           "id": "step-meaningful-engagement",
           "heading": "Define engagement criteria for the contract.",
           "description": "<p>Meaningful engagement criteria are informed by PHTI's Virtual Gastrointestinal Care Solutions Health Technology Assessment on the basis of various care models studied.</p><p><strong>PHTI recommends members meet all three criteria to be considered meaningfully engaged and eligible for case-rate reimbursement. Deselect any criteria your organization does not wish to include.</strong></p><p><strong><em>Recommended values are pre-filled.</em></strong></p>",
-          "note": "<p><strong>Contracting tip:</strong></p><ul><li>Consider requiring vendors to refund a prorated portion of the case rate if a member does not improve and upon review it is determined that engagement did not extend beyond the triggering event.</li><li>Consider defining a maintenance model-specific set of engagement criteria, which reflects a maintenance-specific care model.</li></ul>",
           "fields": [
             {
               "id": "field-meaningful-engagement-program-start",
@@ -236,7 +234,7 @@
                   "options": [
                     {
                       "id": "option-meaningful-engagement-criteria-2",
-                      "label": "Criteria 2: Baseline validated symptom severity-level measurement captured by physician or member within __ days before or after program start, as defined above.",
+                      "label": "Criteria 2: Baseline-validated symptom severity-level measurement captured by physician or member within __ days before or after program start, as defined above.",
                       "description": "Required.",
                       "required": true,
                       "value": "criteria-2",
@@ -265,6 +263,7 @@
                       "tooltip": {
                         "text": "Clearly define \"transaction\" in contract, prioritizing member-initiated and clinically meaningful interactions. Meaningful engagement criteria are informed by PHTI’s <a href='https://phti.org/assessment/virtual-solutions-gi-conditions/' target='_blank' rel='noopener noreferrer'>Virtual Gastrointestinal Care Solutions</a> Health Technology Assessment on the basis of various care models studied."
                       },
+                      "note": "<p><strong>Contracting tip:</strong></p><ul><li>Consider requiring vendors to refund a prorated portion of the case rate if a member does not improve and, upon review, it is determined that engagement did not extend beyond the triggering event.</li><li>Consider defining a maintenance model-specific set of engagement criteria, which reflects a maintenance-specific care model.</li></ul>",
                       "subfields": [
                         {
                           "id": "subfield-meaningful-engagement-criteria-3-options",
@@ -310,14 +309,13 @@
       "heading": "Performance Metrics",
       "tooltipDrawer": {
         "label": "About performance metrics.",
-        "text": "Select validated, feasible measures—favoring biomarker-based outcomes and clinically accepted instruments—and determine the optimal time horizon for impact."
+        "text": "Select validated, feasible measures — favoring biomarker-based outcomes and clinically accepted instruments — and determine the optimal time horizon for impact."
       },
       "steps": [
         {
           "id": "step-performance-metrics-performance-payment",
           "heading": "Select which performance metric(s) should be tied to the performance payment.",
-          "description": "<p>Validated scales with a universally cited minimum clinically important difference (MCID)—such as the IBS-SSS—are the gold standard. Where these are not feasible given the vendor's solution or patient population, other condition-specific or proprietary scales may be used, though the absence of an established MCID will require purchasers and vendors to negotiate an improvement threshold. Nonvalidated proprietary scales offer the least transparency and make independent performance assessment difficult for purchasers.</p><p>Reduction in healthcare resource utilization including emergency department visits, inpatient hospitalizations, imaging, lab tests, and surgical expenses is another meaningful performance metric, reflecting the potential for effective GI management to reduce costly downstream care.</p><p><strong><em>Recommended values are pre-filled. Percentages must sum to 100%.</em></strong></p>",
-          "note": "<p><strong>Contracting tips:</strong></p><ul><li>Define how symptom severity surveys will be administered (e.g., by a trained clinician or patient self-report) and establish data collection standards to maintain inter-rater reliability.</li><li>Clearly define which spending categories are in scope when calculating HCRU impact (e.g., ED visits, inpatient hospitalizations, imaging, lab tests, surgical expenses).</li><li>Clearly define the methodology for measuring HCRU impact. A propensity-matched comparison between the enrolled member cohort and a non-enrolled control group is recommended, though purchasers should ensure the enrolled population is large enough to generate statistically meaningful results.</li><li>If vendors are offering ROI guarantees, require matched cohort methodology using claims data, jointly agreed upon data sources, and a pre-specified savings threshold that reflects a meaningful return—not one structured to be easily met or difficult to independently verify.</li><li>For IBD populations, ask vendors how they approach biologic and biosimilar use. Biologics represent a significant cost driver for populations managing IBD, and biosimilar adoption is an important lever for controlling that spend while maintaining clinical outcomes.</li></ul>",
+          "description": "<p>Validated scales with a universally cited minimum clinically important difference (MCID)—such as the IBS-SSS—are the gold standard. Where these are not feasible given the vendor's solution or patient population, other condition-specific or proprietary scales may be used, though the absence of an established MCID will require purchasers and vendors to negotiate an improvement threshold. Nonvalidated proprietary scales offer the least transparency and make independent performance assessment difficult for purchasers.</p><p>Reduction in healthcare resource utilization including emergency department (ED) visits, inpatient hospitalizations, imaging, lab tests, and surgical expenses is another meaningful performance metric, reflecting the potential for effective GI management to reduce costly downstream care.</p><p><strong><em>Recommended values are pre-filled. Percentages must sum to 100%.</em></strong></p>",
           "fields": [
             {
               "id": "field-performance-metrics-performance-payment",
@@ -345,9 +343,10 @@
                   "id": "option-performance-metrics-hcru",
                   "label": "Reduction in healthcare resource utilization (HCRU)",
                   "tooltip": {
-                    "text": "Reduction in HCRU — which can include emergency department visits, inpatient hospitalizations, imaging, lab tests and surgical expenses — may take longer to meaningfully assess and attribute, and therefore may require 12 months of sustained enrollment to yield results."
+                    "text": "Reduction in HCRU—which can include ED visits, inpatient hospitalizations, imaging, lab tests and surgical expenses—may take longer to meaningfully assess and attribute, and, therefore, may require 12 months of sustained enrollment to yield results."
                   },
                   "value": "hcru",
+                  "note": "<p><strong>Contracting tips:</strong></p><ul><li>Define how symptom severity surveys will be administered (e.g., by a trained clinician or patient self-report) and establish data collection standards to maintain inter-rater reliability.</li><li>Clearly define which spending categories are in scope when calculating HCRU impact (e.g., ED visits, inpatient hospitalizations, imaging, lab tests, surgical expenses).</li><li>Clearly define the methodology for measuring HCRU impact. A propensity-matched comparison between the enrolled member cohort and a non-enrolled control group is recommended, though purchasers should ensure the enrolled population is large enough to generate statistically meaningful results.</li><li>If vendors are offering ROI guarantees, require matched cohort methodology using claims data, jointly agreed upon data sources, and a pre-specified savings threshold that reflects a meaningful return—not one structured to be easily met or difficult to independently verify.</li></ul>",
                   "subfields": [
                     {
                       "id": "subfield-performance-metrics-hcru-percentage",
@@ -366,8 +365,7 @@
         {
           "id": "step-performance-metrics-program-tenure",
           "heading": "Confirm desired program tenure for inclusion in the performance payment.",
-          "description": "<p>Improvement in symptom severity can be expected to yield results within 4–24 weeks as demonstrated in PHTI's <a href='https://phti.org/assessment/virtual-solutions-gi-conditions/' target='_blank' rel='noopener noreferrer'>Virtual Gastrointestinal Care Solutions Health Technology Assessment</a>. Reduction in HCRU may take longer to meaningfully assess and attribute, and therefore may require 12 months of sustained enrollment to yield results.</p><p><strong><em>Recommended values are pre-filled.</em></strong></p>",
-          "note": "Members managing GI conditions vary considerably in how quickly they respond to treatment. Some members may achieve symptom control within weeks, while others require several months or ongoing enrollment to maintain control and manage flare ups. Purchasers should discuss with vendors what minimum enrollment thresholds are clinically appropriate and how those thresholds may affect the size and composition of the performance-eligible pool.",
+          "description": "<p>Improvement in symptom severity can be expected to yield results within 4–24 weeks, as demonstrated in PHTI's <a href='https://phti.org/assessment/virtual-solutions-gi-conditions/' target='_blank' rel='noopener noreferrer'>Virtual Gastrointestinal Care Solutions Health Technology Assessment</a>. Reduction in HCRU may take longer to meaningfully assess and attribute, and, therefore, may require 12 months of sustained enrollment to yield results.</p><p><strong><em>Recommended values are pre-filled.</em></strong></p>",
           "fields": [
             {
               "id": "field-performance-metrics-program-tenure",
@@ -375,6 +373,10 @@
               "description": "Number of months",
               "type": "number",
               "default": 3
+            },
+            {
+              "id": "field-performance-metrics-program-tenure-note",
+              "note": "Members managing GI conditions vary considerably in how quickly they respond to treatment. Some members may achieve symptom control within weeks, while others require several months or ongoing enrollment to maintain control and manage flare ups. Purchasers should discuss with vendors what minimum enrollment thresholds are clinically appropriate and how those thresholds may affect the size and composition of the performance-eligible pool."
             }
           ]
         }
@@ -405,12 +407,12 @@
                 },
                 {
                   "id": "option-engagement-approach-material-review-approval",
-                  "label": "<strong>Material Review & Approval:</strong> Vendor will submit all co-branded and company-branded outreach and education materials for purchaser approval prior to use. (Co-branded materials are generally preferred and shown to improve engagement.) Purchaser will approve or propose modifications within a predetermined number of days of submission.",
+                  "label": "<strong>Material Review and Approval:</strong> Vendor will submit all co-branded and company-branded outreach and education materials for purchaser approval prior to use. (Co-branded materials are generally preferred and shown to improve engagement.) Purchaser will approve or propose modifications within a predetermined number of days of submission.",
                   "value": "material-review-approval"
                 },
                 {
                   "id": "option-engagement-approach-revisions-updates",
-                  "label": "<strong>Revisions & Updates:</strong> Any revisions to previously approved materials (including templates, scripts, and digital content) must be resubmitted for purchaser review and approval within a predetermined number of days before deployment.",
+                  "label": "<strong>Revisions and Updates:</strong> Any revisions to previously approved materials (including templates, scripts, and digital content) must be resubmitted for purchaser review and approval within a predetermined number of days before deployment.",
                   "value": "revisions-updates"
                 },
                 {
@@ -420,7 +422,7 @@
                 },
                 {
                   "id": "option-engagement-approach-compliance-reporting",
-                  "label": "<strong>Compliance & Reporting:</strong> Vendor will track all member outreach against agreed guidelines and share reporting (e.g., frequency, channel, response rates, opt-outs) with the purchaser at agreed intervals.",
+                  "label": "<strong>Compliance and Reporting:</strong> Vendor will track all member outreach against agreed guidelines and share reporting (e.g., frequency, channel, response rates, opt-outs) with the purchaser at agreed intervals.",
                   "value": "compliance-reporting"
                 },
                 {
@@ -466,11 +468,10 @@
           "id": "step-data-sharing-commitments-purchaser-to-vendor",
           "heading": "Select which data sharing commitments should be included in the contract.",
           "description": "<strong><em>Recommended values are pre-filled.</em></strong>",
-          "note": "<p><strong>Contracting tips:</strong></p><ul><li>Determine cadence and format for sharing prior to contracting. Consider including template reports in the contract to ensure file readability.</li><li>Commit to active list management, including monthly deletions, corrections, and additions.</li><li>Submit monthly list in machine-readable format with members that meet eligibility criteria. Eligibility file should include full population to avoid claims lag post-diagnosis. Pre-determine select data fields to include in the file (e.g., plan ID, name, address, demographics).</li><li>Include purchaser audit rights for vendor data in contract.</li></ul>",
           "fields": [
             {
               "id": "field-data-sharing-commitments-purchaser-to-vendor-format",
-              "label": "<strong>From Purchaser to Vendor:</strong> Data sharing format",
+              "label": "Data sharing format (from purchaser to vendor)",
               "required": true,
               "type": "radio",
               "options": [
@@ -484,7 +485,7 @@
             },
             {
               "id": "field-data-sharing-commitments-purchaser-to-vendor-files",
-              "label": "<strong>From Purchaser to Vendor:</strong> Data files",
+              "label": "Data files (from purchaser to vendor)",
               "description": "Required.",
               "required": true,
               "type": "radio",
@@ -545,7 +546,7 @@
             },
             {
               "id": "field-data-sharing-commitments-vendor-to-purchaser-format",
-              "label": "<strong>From Vendor to Purchaser:</strong> Data sharing format",
+              "label": "Data sharing format (from vendor to purchaser)",
               "description": "Required.",
               "required": true,
               "type": "radio",
@@ -564,7 +565,7 @@
             },
             {
               "id": "field-data-sharing-commitments-vendor-to-purchaser-files",
-              "label": "<strong>From Vendor to Purchaser:</strong> Data files",
+              "label": "Data files (from vendor to purchaser)",
               "type": "checkbox",
               "options": [
                 {
@@ -661,7 +662,7 @@
                   "label": "Final clinical measurements",
                   "value": "clinical-measurements",
                   "tooltip": {
-                    "text": "E.g., measures proximate to enrollment and last measurement of the performance period."
+                    "text": "For example, measures proximate to enrollment and last measurement of the performance period."
                   },
                   "subfields": [
                     {
@@ -708,6 +709,7 @@
                   "id": "option-data-sharing-commitments-other",
                   "label": "Other",
                   "value": "other",
+                  "note": "<p><strong>Contracting tips:</strong></p><ul><li>Determine cadence and format for sharing prior to contracting. Consider including template reports in the contract to ensure file readability.</li><li>Commit to active list management, including monthly deletions, corrections, and additions.</li><li>Submit monthly list in machine-readable format with members that meet eligibility criteria. Eligibility file should include full population to avoid claims lag postdiagnosis. Predetermine select data fields to include in the file (e.g., plan ID, name, address, demographics).</li><li>Include purchaser audit rights for vendor data in contract.</li></ul>",
                   "subfields": [
                     {
                       "id": "subfield-data-sharing-commitments-other-text",
@@ -731,7 +733,6 @@
           "id": "step-administrative-terms-reconciliation",
           "heading": "Select Administrative Terms: Reconciliation",
           "description": "<p>The timeline required to observe meaningful improvements in clinical outcomes or reductions in total cost of care frequently exceeds the duration of most purchaser-vendor contracts.</p><p><strong><em>Recommended values are pre-filled.</em></strong></p>",
-          "note": "<p><strong>Contracting tips:</strong></p><ul><li>Consider availability of resources required to calculate performance payments prior to establishing bonus determination deadline.</li><li>Require a minimum number of meaningfully engaged patients to trigger performance payment. If minimum is not met, suggest no performance payment.</li><li>Incorporate terms around prorating bonuses if contract is terminated early or not renewed.</li></ul>",
           "fields": [
             {
               "id": "field-administrative-terms-reconciliation",
@@ -765,7 +766,7 @@
                   "disabled": true,
                   "value": "bonuses",
                   "tooltip": {
-                    "text": "Suggest 3 months to ensure time for claims run-out."
+                    "text": "Suggest three months to ensure time for claims run-out."
                   },
                   "subfields": [
                     {
@@ -786,6 +787,7 @@
                   "id": "option-administrative-terms-reconciliation-other",
                   "label": "Other",
                   "value": "other",
+                  "note": "<p><strong>Contracting tips:</strong></p><ul><li>Consider availability of resources required to calculate performance payments prior to establishing bonus determination deadline.</li><li>Require a minimum number of meaningfully engaged patients to trigger performance payment. If minimum is not met, suggest no performance payment.</li><li>Incorporate terms around prorating bonuses if contract is terminated early or not renewed.</li></ul>",
                   "subfields": [
                     {
                       "id": "subfield-administrative-terms-reconciliation-other-text",
@@ -846,7 +848,7 @@
                   "label": "Termination for cause provisions",
                   "value": "termination-for-cause-provisions",
                   "tooltip": {
-                    "text": "<p>Cause for termination may include:</p><ul><li>Lack of critical mass of members meeting meaningful engagement criteria</li><li>Lack of critical mass of members meeting program tenure for performance payment eligibility</li></ul>"
+                    "text": "Cause for termination may include lack of critical mass of members meeting meaningful engagement criteria, and lack of critical mass of members meeting program tenure for performance payment eligibility."
                   }
                 },
                 {
