@@ -8,8 +8,8 @@
       "steps": [
         {
           "id": "step-introduction-welcome",
-          "description": "<p>This toolkit focuses on Virtual Gastrointestinal Care Solutions, drawing on findings from PHTI's Virtual Gastrointestinal Care Solutions Health Technology Assessment and <a href='https://phti.org/research-insight/performance-based-contracting' target='_blank' rel='noopener noreferrer'>PHTI's Performance-Based Contracting Playbook</a>.</p><p><strong>What this toolkit does:</strong></p><p>Helps purchasers and vendors establish clear, evidence-based contract terms that align payment with improvements in access to gastrointestinal (GI) specialists and wraparound services and related outcomes.</p><p><strong>A few notes before you continue:</strong></p><ul><li>This toolkit helps you navigate key contracting decisions for performance-based contracts. It does not create a binding legal contract.</li><li>These toolkits do not address pricing—a critical lever for driving impact in performance-based contracts. Purchasers and vendors are encouraged to consult <a href='https://phti.org/assessments/' target='_blank' rel='noopener noreferrer'>PHTI's assessment reports</a> and budget impact models as resources to guide pricing conversations.</li><li>Toolkit responses are anonymous. We do not gather or store any data about you, your organization, or your selections.</li></ul><p><em>The content of this playbook/report and its associated toolkits has been prepared by PHTI for informational purposes and does not constitute legal, medical, clinical or other professional advice. PHTI cannot make any guarantees or warranties regarding results from the use of such content. The content is not intended to replace thoughtful customization and drafting addressing an organization's specific objectives and circumstances. All companies, specific products, or case studies mentioned are for explanatory purposes only.</em></p><p><strong>Prefer to skip the interactive toolkit? <a href='#' id='downloadPdfLink'>Download the virtual gastrointestinal care solutions toolkit</a> with PHTI's recommended selections.</strong></p>",
-          "descriptionPdf": "<p>PHTI's performance-based contracting toolkits help purchasers and vendors negotiate contracts that link payment to verified outcomes, based on PHTI's independent evaluation and research.</p><p>This toolkit focuses on Virtual Gastrointestinal Care Solutions, drawing on findings from PHTI's Virtual Gastrointestinal Care Solutions Health Technology Assessment and <a href='https://phti.org/research-insight/performance-based-contracting' target='_blank' rel='noopener noreferrer'>PHTI's Performance-Based Contracting Playbook</a>. It is meant to help purchasers and vendors establish clear, evidence-based contract terms that align payment with improvements in access to gastrointestinal (GI) specialists and wraparound services and related outcomes.</p><p><em>The content of this playbook/report and its associated toolkits has been prepared by PHTI for informational purposes and does not constitute legal, medical, clinical or other professional advice. PHTI cannot make any guarantees or warranties regarding results from the use of such content. The content is not intended to replace thoughtful customization and drafting addressing an organization's specific objectives and circumstances. All companies, specific products, or case studies mentioned are for explanatory purposes only.</em></p>"
+          "description": "<p>This toolkit focuses on Virtual Gastrointestinal Care Solutions, drawing on findings from PHTI's <a href='https://phti.org/assessment/virtual-solutions-gi-conditions/' target='_blank' rel='noopener noreferrer'>Virtual Gastrointestinal Care Solutions</a> Health Technology Assessment and <a href='https://phti.org/research-insight/performance-based-contracting' target='_blank' rel='noopener noreferrer'>PHTI's Performance-Based Contracting Playbook</a>.</p><p><strong>What this toolkit does:</strong></p><p>Helps purchasers and vendors establish clear, evidence-based contract terms that align payment with improvements in access to gastrointestinal (GI) specialists and wraparound services and related outcomes.</p><p><strong>A few notes before you continue:</strong></p><ul><li>This toolkit helps you navigate key contracting decisions for performance-based contracts. It does not create a binding legal contract.</li><li>These toolkits do not address pricing—a critical lever for driving impact in performance-based contracts. Purchasers and vendors are encouraged to consult <a href='https://phti.org/assessments/' target='_blank' rel='noopener noreferrer'>PHTI's assessment reports</a> and budget impact models as resources to guide pricing conversations.</li><li>Toolkit responses are anonymous. We do not gather or store any data about you, your organization, or your selections.</li></ul><p><em>The content of this playbook/report and its associated toolkits has been prepared by PHTI for informational purposes and does not constitute legal, medical, clinical or other professional advice. PHTI cannot make any guarantees or warranties regarding results from the use of such content. The content is not intended to replace thoughtful customization and drafting addressing an organization's specific objectives and circumstances. All companies, specific products, or case studies mentioned are for explanatory purposes only.</em></p><p><strong>Prefer to skip the interactive toolkit? <a href='#' id='downloadPdfLink'>Download the virtual gastrointestinal care solutions toolkit</a> with PHTI's recommended selections.</strong></p><p><strong>Interested in learning more? <a href='https://phti.org/assessment/virtual-solutions-gi-conditions/#purchasing-guide' target='_blank' rel='noopener noreferrer'>Review the virtual gastrointestinal care solutions purchaser guide</a>, which includes profiles of the solutions included in the Assessment.</strong></p>",
+          "descriptionPdf": "<p>PHTI's performance-based contracting toolkits help purchasers and vendors negotiate contracts that link payment to verified outcomes, based on PHTI's independent evaluation and research.</p><p>This toolkit focuses on Virtual Gastrointestinal Care Solutions, drawing on findings from PHTI's <a href='https://phti.org/assessment/virtual-solutions-gi-conditions/' target='_blank' rel='noopener noreferrer'>Virtual Gastrointestinal Care Solutions</a> Health Technology Assessment and <a href='https://phti.org/research-insight/performance-based-contracting' target='_blank' rel='noopener noreferrer'>PHTI's Performance-Based Contracting Playbook</a>. It is meant to help purchasers and vendors establish clear, evidence-based contract terms that align payment with improvements in access to gastrointestinal (GI) specialists and wraparound services and related outcomes.</p><p><em>The content of this playbook/report and its associated toolkits has been prepared by PHTI for informational purposes and does not constitute legal, medical, clinical or other professional advice. PHTI cannot make any guarantees or warranties regarding results from the use of such content. The content is not intended to replace thoughtful customization and drafting addressing an organization's specific objectives and circumstances. All companies, specific products, or case studies mentioned are for explanatory purposes only.</em></p>"
         }
       ]
     },
@@ -85,7 +85,7 @@
         {
           "id": "step-introduction",
           "heading": "Outcome Measure Inputs",
-          "description": "<p>The following section details the inputs required to define the eligible population and calculate outcomes measures. The selections for each of these components will impact the threshold for case-rate payments, as well as the equation for calculating performance withholds.</p><p><strong>Performance Payment Calculation:</strong></p><ul><li><strong>Numerator:</strong> For cohort in the denominator, number of <strong>members</strong> who meet <strong>the performance threshold for the measure of interest</strong>.</li><li><strong>Denominator:</strong> Total <strong>eligible members</strong> who meet the <strong>meaningful engagement definition</strong> for duration of <strong>program tenure requirement</strong>.</li></ul>",
+          "description": "<p>The following section details the inputs required to define the eligible population and calculate outcomes measures. The selections for each of these components will impact the threshold for case-rate payments, as well as the equation for calculating performance withholds.</p><p><strong>Performance Payment Calculation:</strong></p><ul><li><strong>Numerator:</strong> For cohort in the denominator, number of <strong>eligible members</strong> who meet <strong>the performance threshold for the measure of interest</strong>.</li><li><strong>Denominator:</strong> Total <strong>eligible members</strong> who meet the <strong>meaningful engagement definition</strong> for duration of <strong>program tenure requirement</strong>.</li></ul>",
           "imgSrc": "eligibility-criteria-intro.png",
           "imgAlt": "PBC Outcome Measure Calculation Graphic"
         },
@@ -193,7 +193,7 @@
         {
           "id": "step-meaningful-engagement",
           "heading": "Define engagement criteria for the contract.",
-          "description": "<p>Meaningful engagement criteria are informed by PHTI's Virtual Gastrointestinal Care Solutions Health Technology Assessment on the basis of various care models studied.</p><p><strong>PHTI recommends members meet all three criteria to be considered meaningfully engaged and eligible for case-rate reimbursement. Deselect any criteria your organization does not wish to include.</strong></p><p><strong><em>Recommended values are pre-filled.</em></strong></p>",
+          "description": "<p>Meaningful engagement criteria are informed by PHTI's <a href='https://phti.org/assessment/virtual-solutions-gi-conditions/' target='_blank' rel='noopener noreferrer'>Virtual Gastrointestinal Care Solutions</a> Health Technology Assessment on the basis of various care models studied.</p><p><strong>PHTI recommends members meet all three criteria to be considered meaningfully engaged and eligible for case-rate reimbursement. Deselect any criteria your organization does not wish to include.</strong></p><p><strong><em>Recommended values are pre-filled.</em></strong></p>",
           "fields": [
             {
               "id": "field-meaningful-engagement-program-start",
@@ -234,17 +234,32 @@
                   "options": [
                     {
                       "id": "option-meaningful-engagement-criteria-2",
-                      "label": "Criteria 2: Baseline-validated symptom severity-level measurement captured by physician or member within __ days before or after program start, as defined above.",
+                      "label": "Criteria 2: Baseline clinical assessment.",
                       "description": "Required.",
                       "required": true,
                       "value": "criteria-2",
                       "subfields": [
                         {
-                          "id": "field-meaningful-engagement-2-num-days",
-                          "label": "Number of days",
-                          "type": "number",
-                          "default": 15,
-                          "min": 1
+                          "id": "subfield-meaningful-engagement-criteria-2-baseline-measurement",
+                          "label": "",
+                          "type": "checkbox",
+                          "options": [
+                            {
+                              "id": "option-meaningful-engagement-criteria-2-baseline-measurement",
+                              "label": "Baseline-validated symptom severity-level measurement captured by physician or member within __ days before or after program start, as defined above.",
+                              "value": "baseline-measurement",
+                              "subfields": [
+                                {
+                                  "id": "field-meaningful-engagement-2-num-days",
+                                  "label": "Number of days",
+                                  "type": "number",
+                                  "default": 15,
+                                  "min": 1
+                                }
+                              ]
+                            }
+                          ],
+                          "default": ["baseline-measurement"]
                         }
                       ]
                     }
@@ -365,7 +380,7 @@
         {
           "id": "step-performance-metrics-program-tenure",
           "heading": "Confirm desired program tenure for inclusion in the performance payment.",
-          "description": "<p>Improvement in symptom severity can be expected to yield results within 4–24 weeks, as demonstrated in PHTI's <a href='https://phti.org/assessment/virtual-solutions-gi-conditions/' target='_blank' rel='noopener noreferrer'>Virtual Gastrointestinal Care Solutions Health Technology Assessment</a>. Reduction in HCRU may take longer to meaningfully assess and attribute, and, therefore, may require 12 months of sustained enrollment to yield results.</p><p><strong><em>Recommended values are pre-filled.</em></strong></p>",
+          "description": "<p>Improvement in symptom severity can be expected to yield results within 4–24 weeks, as demonstrated in PHTI's <a href='https://phti.org/assessment/virtual-solutions-gi-conditions/' target='_blank' rel='noopener noreferrer'>Virtual Gastrointestinal Care Solutions</a> Health Technology Assessment. Reduction in HCRU may take longer to meaningfully assess and attribute, and, therefore, may require 12 months of sustained enrollment to yield results.</p><p><strong><em>Recommended values are pre-filled.</em></strong></p>",
           "fields": [
             {
               "id": "field-performance-metrics-program-tenure",
@@ -471,7 +486,7 @@
           "fields": [
             {
               "id": "field-data-sharing-commitments-purchaser-to-vendor-format",
-              "label": "Data sharing format (from purchaser to vendor)",
+              "label": "<strong>From Purchaser to Vendor:</strong> Data sharing format",
               "required": true,
               "type": "radio",
               "options": [
@@ -485,7 +500,7 @@
             },
             {
               "id": "field-data-sharing-commitments-purchaser-to-vendor-files",
-              "label": "Data files (from purchaser to vendor)",
+              "label": "<strong>From Purchaser to Vendor:</strong> Data files",
               "description": "Required.",
               "required": true,
               "type": "radio",
@@ -546,7 +561,7 @@
             },
             {
               "id": "field-data-sharing-commitments-vendor-to-purchaser-format",
-              "label": "Data sharing format (from vendor to purchaser)",
+              "label": "<strong>From Vendor to Purchaser:</strong> Data sharing format",
               "description": "Required.",
               "required": true,
               "type": "radio",
@@ -565,7 +580,7 @@
             },
             {
               "id": "field-data-sharing-commitments-vendor-to-purchaser-files",
-              "label": "Data files (from vendor to purchaser)",
+              "label": "<strong>From Vendor to Purchaser:</strong> Data files",
               "type": "checkbox",
               "options": [
                 {
