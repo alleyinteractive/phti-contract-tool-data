@@ -34,7 +34,7 @@
               "options": [
                 {
                   "id": "option-payment-model-selection-case-rate",
-                  "label": "Case-rate model",
+                  "label": "Case-rate",
                   "value": "case-rate",
                   "tooltip": {
                     "text": "Episodic payment for each member who meets meaningful engagement criteria <em>(see section 3: Engagement Criteria)</em>."
@@ -56,7 +56,7 @@
                   "tooltip": {
                     "text": "Additional payment based on achievement of selected performance measure(s) <em>(see section 4: Performance Metrics)</em>."
                   },
-                  "note": "<p>Performance-based contracts should include maintenance or follow-on periods to support sustained clinical outcomes when the evidence base supports it and at an appropriate cost. These periods should be contracted at a lower price point, with performance expectations tailored to members' maintenance goals.</p><p><strong>Contracting tips:</strong></p><p><strong>Case-rate model</strong></p><ul><li>Purchasers may select a monthly or quarterly case-rate model.</li><li>Clearly define which services are included in the case rate (e.g., care team visits, behavioral health consultations, nutrition counseling).</li><li>Specify what triggers the start of the episode (e.g., completion of an intake assessment or first clinical interaction).</li></ul><p><strong>Performance Payment</strong></p><ul><li>Consider tying bonus payments to defined engagement targets. One option is to conduct an annual retrospective claims analysis confirming enrolled members' historical spend exceeds average spend for patients with GI conditions, indicating vendors are engaging higher-cost, higher-need patients. Another option could be to generate a claims-based target list to identify and track engagement with members with moderate-to-severe IBD and IBS. Clearly define the criteria, data sources, and timing used to support either approach.</li></ul>",
+                  "note": "<p>Performance-based contracts should include maintenance or follow-on periods to support sustained clinical outcomes when the evidence base supports it and at an appropriate cost. These periods should be contracted at a lower price point, with performance expectations tailored to members' maintenance goals.</p><p><strong>Contracting tips:</strong></p><p><strong>Case-rate</strong></p><ul><li>Purchasers may select a monthly or quarterly case-rate.</li><li>Clearly define which services are included in the case rate (e.g., care team visits, behavioral health consultations, nutrition counseling).</li><li>Specify what triggers the start of the episode (e.g., completion of an intake assessment or first clinical interaction).</li></ul><p><strong>Performance Payment</strong></p><ul><li>Consider tying bonus payments to defined engagement targets. One option is to conduct an annual retrospective claims analysis confirming enrolled members' historical spend exceeds average spend for patients with GI conditions, indicating vendors are engaging higher-cost, higher-need patients. Another option could be to generate a claims-based target list to identify and track engagement with members with moderate-to-severe IBD and IBS. Clearly define the criteria, data sources, and timing used to support either approach.</li></ul>",
                   "subfields": [
                     {
                       "id": "subfield-payment-model-selection-performance-payment-percentage",
@@ -384,7 +384,7 @@
           "fields": [
             {
               "id": "field-performance-metrics-program-tenure",
-              "label": "Members enrolled for __ consecutive months",
+              "label": "Members enrolled for a minimum of __ consecutive months",
               "description": "Number of months",
               "type": "number",
               "default": 3
@@ -422,12 +422,12 @@
                 },
                 {
                   "id": "option-engagement-approach-material-review-approval",
-                  "label": "<strong>Material Review and Approval:</strong> Vendor will submit all co-branded and company-branded outreach and education materials for purchaser approval prior to use. (Co-branded materials are generally preferred and shown to improve engagement.) Purchaser will approve or propose modifications within a predetermined number of days of submission.",
+                  "label": "<strong>Material Review & Approval:</strong> Vendor will submit all co-branded and company-branded outreach and education materials for purchaser approval prior to use. (Co-branded materials are generally preferred and shown to improve engagement.) Purchaser will approve or propose modifications within a predetermined number of days of submission.",
                   "value": "material-review-approval"
                 },
                 {
                   "id": "option-engagement-approach-revisions-updates",
-                  "label": "<strong>Revisions and Updates:</strong> Any revisions to previously approved materials (including templates, scripts, and digital content) must be resubmitted for purchaser review and approval within a predetermined number of days before deployment.",
+                  "label": "<strong>Revisions & Updates:</strong> Any revisions to previously approved materials (including templates, scripts, and digital content) must be resubmitted for purchaser review and approval within a predetermined number of days before deployment.",
                   "value": "revisions-updates"
                 },
                 {
@@ -437,7 +437,7 @@
                 },
                 {
                   "id": "option-engagement-approach-compliance-reporting",
-                  "label": "<strong>Compliance and Reporting:</strong> Vendor will track all member outreach against agreed guidelines and share reporting (e.g., frequency, channel, response rates, opt-outs) with the purchaser at agreed intervals.",
+                  "label": "<strong>Compliance & Reporting:</strong> Vendor will track all member outreach against agreed guidelines and share reporting (e.g., frequency, channel, response rates, opt-outs) with the purchaser at agreed intervals.",
                   "value": "compliance-reporting"
                 },
                 {
